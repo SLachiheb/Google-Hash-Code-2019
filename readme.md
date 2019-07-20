@@ -38,10 +38,9 @@ Veuillez saisir : **./exec \<Numéro de méthode souhaitée\> \<nom ficher(.t
 
 ### Fichiers :
 
-|Type de méthode | Type de méthode |
-|:------| :---------------|
-|Méthode gloutonnes| [click here](https://gitlab.com/ProjetLachiheb/google_hash_code_2019_photo_slidehow/blob/master/sources/PresentationSimple.cpp)|
-|Méta-heuristiques | [click here](https://gitlab.com/ProjetLachiheb/google_hash_code_2019_photo_slidehow/blob/master/sources/PresentationSimple.cpp)|
-|Formulations PLNE 1 | [click here](https://gitlab.com/ProjetLachiheb/google_hash_code_2019_photo_slidehow/blob/master/sources/PresentationExacte.cpp)|
-|Formulations PLNE 2 | [click here](https://gitlab.com/ProjetLachiheb/google_hash_code_2019_photo_slidehow/blob/master/sources/PresentationExacte.cpp)|
-|Heuristiques d'arrondi| [click here](https://gitlab.com/ProjetLachiheb/google_hash_code_2019_photo_slidehow/blob/master/sources/PresentationExacte.cpp)|
+|Type de méthode | 
+|:------| 
+|[Méthode gloutonnes](https://gitlab.com/ProjetLachiheb/google_hash_code_2019_photo_slidehow/blob/master/sources/PresentationSimple.cpp)|
+|[Méta-heuristiques](https://gitlab.com/ProjetLachiheb/google_hash_code_2019_photo_slidehow/blob/master/sources/PresentationSimple.cpp)|
+|[Formulations PLNE](https://gitlab.com/ProjetLachiheb/google_hash_code_2019_photo_slidehow/blob/master/sources/PresentationExacte.cpp)|
+|[Heuristiques d'arrondi](https://gitlab.com/ProjetLachiheb/google_hash_code_2019_photo_slidehow/blob/master/sources/PresentationExacte.cpp)|
