@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="Modeling assistance in CPLEX V12.7.0" />
+<meta name="abstract" content="Announces modeling assistance as a new feature of CPLEX V12.7.0." />
+<meta name="Description" content="Announces modeling assistance as a new feature of CPLEX V12.7.0." />
+<meta name="DC.subject" content="release notes CPLEX V12.7.0, modeling assistance" />
+<meta name="keywords" content="release notes CPLEX V12.7.0, modeling assistance" />
+<meta name="DC.Relation" scheme="URI" content="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/newIntro.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="NewFeaturesModelAsst127" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/newIntro.html" />
+<title>Modeling assistance in CPLEX V12.7.0</title>
+</head>
+<body id="NewFeaturesModelAsst127"><div role="main">
+<h1 class="title topictitle1">Modeling assistance in CPLEX V12.7.0</h1>
+<div class="body"><p class="shortdesc">Announces modeling assistance as a new feature of CPLEX V12.7.0.</p>
+<p class="p">CPLEX V12.7.0 offers assistance to help you to identify and to eliminate troublesome elements from
+your model. Turn on modeling assistance by setting the <a class="xref" href="../../../Parameters/topics/DataCheck.html" title="Turns on or off data consistency checking and modeling assistance.">data consistency checking and modeling assistance</a> parameter to the value CPX_DATACHECK_ASSIST (2).
+After this data-checking parameter is turned on at this level, CPLEX modeling assistance prints
+warnings (in the warning log or on the warning channel, depending on your settings for messages). 
+These warnings become available as CPLEX <strong class="ph b">solves</strong> your model; that is, they are not yet 
+available as CPLEX reads your model. 
+The warnings are about potential problems in your model. For example, modeling assistance will
+report bounds, coefficients, and righthand side (RHS) values that are inappropriately large or
+small. </p>
+<p class="p">For more detail about modeling assistance, see the new topic 
+<a class="xref" href="../../../UsrMan/topics/progr_consid/modelingAssistance/introModelingAssistance.html" title="CPLEX can assist you as you develop your model.">Modeling assistance in CPLEX</a> 
+in the <em class="ph i">CPLEX User's Manual</em>. That new topic also directs you to new modeling information 
+symbols that appear in reports of modeling assistance. </p>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/newIntro.html" title="Announces new features of CPLEX V12.7.0.">New features in CPLEX V12.7.0</a></div>
+</div>
+</div></div></body>
+</html>

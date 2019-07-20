@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="Parameters of CP Optimizer" />
+<meta name="abstract" content="Users can browse CP Optimizer parameters, organized by topics." />
+<meta name="Description" content="Users can browse CP Optimizer parameters, organized by topics." />
+<meta name="DC.subject" content="parameter" />
+<meta name="keywords" content="parameter" />
+<meta name="DC.Relation" scheme="URI" content="../../../CP_Optimizer/topics/cpoptimizer_splash.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="topic_mbz_5w1_ww" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../CP_Optimizer/topics/cpoptimizer_splash.html" />
+<title>Parameters of CP Optimizer</title>
+</head>
+<body id="topic_mbz_5w1_ww"><div role="main">
+<h1 class="title topictitle1">Parameters of CP Optimizer</h1>
+<div class="body"><p class="shortdesc">Users can browse CP Optimizer parameters, organized by topics.</p>
+<p class="p">In CP Optimizer, the parameters are represented by the enumerations
+<samp class="ph codeph">IntParam</samp> and <samp class="ph codeph">NumParam</samp>. In the C++ API, these enumerations are 
+<samp class="ph codeph"><a class="xref" href="../../../refcppcpoptimizer/html/enumerations/IloCP_IntParam.html">IloCP::IntParam</a></samp> and
+<samp class="ph codeph"><a class="xref" href="../../../refcppcpoptimizer/html/enumerations/IloCP_NumParam.html">IloCP::NumParam</a></samp>.</p>
+<div class="section"><h2 class="title sectiontitle">Display and output</h2>
+<ul class="ul"><li class="li"><strong class="ph b">LogVerbosity</strong>.  Possible values are <samp class="ph codeph">IloCP::Quiet</samp>, <samp class="ph codeph">IloCP::Terse</samp>, <samp class="ph codeph">IloCP::Normal</samp>, and 
+<samp class="ph codeph">IloCP::Verbose</samp>. </li>
+<li class="li"><strong class="ph b">LogPeriod</strong>. Possible values are positive integers.</li>
+<li class="li"><strong class="ph b">WarningLevel</strong>. Possible values are integers from 0 to 3.</li>
+<li class="li"><strong class="ph b">PrintModelDetailsInMessages</strong>. Possible values are <samp class="ph codeph">IloCP::On</samp> and
+<samp class="ph codeph">IloCP::Off</samp>.</li>
+<li class="li"><strong class="ph b">ModelAnonymizer</strong>. Possible values are <samp class="ph codeph">IloCP::On</samp> and
+<samp class="ph codeph">IloCP::Off</samp>.</li>
+<li class="li"><strong class="ph b">UseFileLocations</strong>. Possible values are <samp class="ph codeph">IloCP::On</samp> and
+<samp class="ph codeph">IloCP::Off</samp>.</li>
+</ul>
+</div>
+<div class="section"><h2 class="title sectiontitle">Presolve</h2>
+<ul class="ul"><li class="li"><strong class="ph b">Presolve</strong>. Possible values are <samp class="ph codeph">IloCP::On</samp> and
+<samp class="ph codeph">IloCP::Off</samp>.</li>
+</ul>
+</div>
+<div class="section"><h2 class="title sectiontitle">Optimality tolerances</h2>
+<ul class="ul"><li class="li"><strong class="ph b">OptimalityTolerance</strong>. Possible values are floating-point values from 0.0 to
+<samp class="ph codeph">IloInfinity</samp>.</li>
+<li class="li"><strong class="ph b">RelativeOptimalityTolerance</strong>. Possible values are floating-point values from 0.0 to
+<samp class="ph codeph">IloInfinity</samp>.</li>
+</ul>
+</div>
+<div class="section"><h2 class="title sectiontitle">Search control</h2>
+<ul class="ul"><li class="li"><strong class="ph b">Workers</strong>. Possible values are <samp class="ph codeph">IloCP::Auto</samp> and positive integers.</li>
+<li class="li"><strong class="ph b">SearchType</strong>. Possible values are <samp class="ph codeph">IloCP::Auto</samp>,
+<samp class="ph codeph">IloCP::DepthFirst</samp>, <samp class="ph codeph">IloCP::Restart</samp>, 
+and <samp class="ph codeph">IloCP::MultiPoint</samp>.</li>
+<li class="li"><strong class="ph b">RandomSeed</strong>. Possible values are integers from 0 to <samp class="ph codeph">IloIntMax</samp>.</li>
+<li class="li"><strong class="ph b">RestartFailLimit</strong>. Possible values are integers from 0 to <samp class="ph codeph">IloIntMax</samp>.</li>
+<li class="li"><strong class="ph b">RestartGrowthFactor</strong>. Possible values are floating-point values from 1.0 to
+<samp class="ph codeph">IloInfinity</samp>. </li>
+<li class="li"><strong class="ph b">DynamicProbing</strong>. Possible values are <samp class="ph codeph">IloCP::Auto</samp>, <samp class="ph codeph">IloCP::On</samp>, and
+<samp class="ph codeph">IloCP::Off</samp>.</li>
+<li class="li"><strong class="ph b">DynamicProbingStrength</strong>. Possible values for this parameter are floating-point values from 0.001 to 1000.</li>
+<li class="li"><strong class="ph b">MultiPointNumberOfSearchPoints</strong>. Possible values are integers from 0 to <samp class="ph codeph">IloIntMax</samp>.</li>
+<li class="li"><strong class="ph b">TemporalRelaxation</strong>. Possible values are <samp class="ph codeph">IloCP::On</samp> and
+<samp class="ph codeph">IloCP::Off</samp>.</li>
+<li class="li"><strong class="ph b">FailureDirectedSearch</strong>. Possible values are <samp class="ph codeph">IloCP::On</samp> and
+<samp class="ph codeph">IloCP::Off</samp>.</li>
+<li class="li"><strong class="ph b">FailureDirectedSearchEmphasis</strong>. Possible values are <samp class="ph codeph">IloCP::Auto</samp> and 
+floating-point values from 1.0 to <samp class="ph codeph">IloInfinity</samp>. </li>
+<li class="li"><strong class="ph b">FailureDirectedSearchMaxMemory</strong>. Possible values are integers from 0 to <samp class="ph codeph">IloIntMax</samp>.</li>
+<li class="li"><strong class="ph b">AutomaticReplay</strong>. Possible values are <samp class="ph codeph">IloCP::On</samp> and
+<samp class="ph codeph">IloCP::Off</samp>.</li>
+</ul>
+</div>
+<div class="section"><h2 class="title sectiontitle">Search limits</h2>
+<ul class="ul"><li class="li"><strong class="ph b">TimeLimit</strong>. Possible values are floating-point values from 0.0 to
+<samp class="ph codeph">IloInfinity</samp>.</li>
+<li class="li"><strong class="ph b">TimeMode</strong>. Possible values are <samp class="ph codeph">IloCP::ElapsedTime</samp> and
+<samp class="ph codeph">IloCP::CPUTime</samp>.</li>
+<li class="li"><strong class="ph b">FailLimit</strong>. Possible values are integers from 0 to <samp class="ph codeph">IloIntMax</samp>.</li>
+<li class="li"><strong class="ph b">ChoicePointLimit</strong>. Possible values are integers from 0 to <samp class="ph codeph">IloIntMax</samp>.</li>
+<li class="li"><strong class="ph b">BranchLimit</strong>. Possible values are integers from 0 to <samp class="ph codeph">IloIntMax</samp>.</li>
+<li class="li"><strong class="ph b">SolutionLimit</strong>. Possible values are integers from 0 to <samp class="ph codeph">IloIntMax</samp>.</li>
+</ul>
+</div>
+<div class="section"><h2 class="title sectiontitle">Inference levels for constraint propagation</h2>
+<ul class="ul"><li class="li"><strong class="ph b">DefaultInferenceLevel</strong>. Possible values are <samp class="ph codeph">IloCP::Low</samp>,
+<samp class="ph codeph">IloCP::Basic</samp>, <samp class="ph codeph">IloCP::Medium</samp>, and
+<samp class="ph codeph">IloCP::Extended</samp>.</li>
+<li class="li"><strong class="ph b">AllDiffInferenceLevel</strong>. Possible values are <samp class="ph codeph">IloCP::Default</samp>, <samp class="ph codeph">IloCP::Low</samp>,
+<samp class="ph codeph">IloCP::Basic</samp>, <samp class="ph codeph">IloCP::Medium</samp>, and
+<samp class="ph codeph">IloCP::Extended</samp>.</li>
+<li class="li"><strong class="ph b">DistributeInferenceLevel</strong>. Possible values are <samp class="ph codeph">IloCP::Default</samp>, <samp class="ph codeph">IloCP::Low</samp>,
+<samp class="ph codeph">IloCP::Basic</samp>, <samp class="ph codeph">IloCP::Medium</samp>, and
+<samp class="ph codeph">IloCP::Extended</samp>.</li>
+<li class="li"><strong class="ph b">CountInferenceLevel</strong>. Possible values are <samp class="ph codeph">IloCP::Default</samp>, <samp class="ph codeph">IloCP::Low</samp>,
+<samp class="ph codeph">IloCP::Basic</samp>, <samp class="ph codeph">IloCP::Medium</samp>, and
+<samp class="ph codeph">IloCP::Extended</samp>.</li>
+<li class="li"><strong class="ph b">CountDifferentInferenceLevel</strong>. Possible values are <samp class="ph codeph">IloCP::Default</samp>, <samp class="ph codeph">IloCP::Low</samp>,
+<samp class="ph codeph">IloCP::Basic</samp>, <samp class="ph codeph">IloCP::Medium</samp>, and
+<samp class="ph codeph">IloCP::Extended</samp>.</li>
+<li class="li"><strong class="ph b">SequenceInferenceLevel</strong>. Possible values are <samp class="ph codeph">IloCP::Default</samp>, <samp class="ph codeph">IloCP::Low</samp>,
+<samp class="ph codeph">IloCP::Basic</samp>, <samp class="ph codeph">IloCP::Medium</samp>, and
+<samp class="ph codeph">IloCP::Extended</samp>.</li>
+<li class="li"><strong class="ph b">AllMinDistanceInferenceLevel</strong>. Possible values are <samp class="ph codeph">IloCP::Default</samp>, <samp class="ph codeph">IloCP::Low</samp>,
+<samp class="ph codeph">IloCP::Basic</samp>, <samp class="ph codeph">IloCP::Medium</samp>, and
+<samp class="ph codeph">IloCP::Extended</samp>.</li>
+<li class="li"><strong class="ph b">ElementInferenceLevel</strong>. Possible values are <samp class="ph codeph">IloCP::Default</samp>, <samp class="ph codeph">IloCP::Low</samp>,
+<samp class="ph codeph">IloCP::Basic</samp>, <samp class="ph codeph">IloCP::Medium</samp>, and
+<samp class="ph codeph">IloCP::Extended</samp>.</li>
+<li class="li"><strong class="ph b">PrecedenceInferenceLevel</strong>. Possible values are <samp class="ph codeph">IloCP::Default</samp>, <samp class="ph codeph">IloCP::Low</samp>,
+<samp class="ph codeph">IloCP::Basic</samp>, <samp class="ph codeph">IloCP::Medium</samp>, and
+<samp class="ph codeph">IloCP::Extended</samp>.</li>
+<li class="li"><strong class="ph b">IntervalSequenceInferenceLevel</strong>. Possible values are <samp class="ph codeph">IloCP::Default</samp>, <samp class="ph codeph">IloCP::Low</samp>,
+<samp class="ph codeph">IloCP::Basic</samp>, <samp class="ph codeph">IloCP::Medium</samp>, and
+<samp class="ph codeph">IloCP::Extended</samp>.</li>
+<li class="li"><strong class="ph b">NoOverlapInferenceLevel</strong>. Possible values are <samp class="ph codeph">IloCP::Default</samp>, <samp class="ph codeph">IloCP::Low</samp>,
+<samp class="ph codeph">IloCP::Basic</samp>, <samp class="ph codeph">IloCP::Medium</samp>, and
+<samp class="ph codeph">IloCP::Extended</samp>.</li>
+<li class="li"><strong class="ph b">CumulFunctionInferenceLevel</strong>. Possible values are <samp class="ph codeph">IloCP::Default</samp>, <samp class="ph codeph">IloCP::Low</samp>,
+<samp class="ph codeph">IloCP::Basic</samp>, <samp class="ph codeph">IloCP::Medium</samp>, and
+<samp class="ph codeph">IloCP::Extended</samp>.</li>
+<li class="li"><strong class="ph b">StateFunctionInferenceLevel</strong>. Possible values are <samp class="ph codeph">IloCP::Default</samp>, <samp class="ph codeph">IloCP::Low</samp>,
+<samp class="ph codeph">IloCP::Basic</samp>, <samp class="ph codeph">IloCP::Medium</samp>, and
+<samp class="ph codeph">IloCP::Extended</samp>.</li>
+</ul>
+</div>
+<div class="section"><h2 class="title sectiontitle">Failure explanation</h2>
+<ul class="ul"><li class="li"><strong class="ph b">LogSearchTags</strong>. Possible values are <samp class="ph codeph">IloCP::On</samp> and
+<samp class="ph codeph">IloCP::Off</samp>.</li>
+</ul>
+</div>
+<div class="section"><h2 class="title sectiontitle">Conflict refiner</h2>
+<ul class="ul"><li class="li"><strong class="ph b">ConflictRefinerTimeLimit</strong>. Possible values are floating-point values from 0.0 to
+<samp class="ph codeph">IloInfinity</samp>.</li>
+<li class="li"><strong class="ph b">ConflictRefinerIterationLimit</strong>. Possible values are integers from 0 to <samp class="ph codeph">IloIntMax</samp>.</li>
+<li class="li"><strong class="ph b">ConflictRefinerBranchLimit</strong>. Possible values are integers from 0 to <samp class="ph codeph">IloIntMax</samp>.</li>
+<li class="li"><strong class="ph b">ConflictRefinerFailLimit</strong>. Possible values are integers from 0 to <samp class="ph codeph">IloIntMax</samp>.</li>
+<li class="li"><strong class="ph b">ConflictRefinerOnVariables</strong>. Possible values are <samp class="ph codeph">IloCP::On</samp> and
+<samp class="ph codeph">IloCP::Off</samp>.</li>
+</ul>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../CP_Optimizer/topics/cpoptimizer_splash.html">CP Optimizer</a></div>
+</div>
+</div></div></body>
+</html>

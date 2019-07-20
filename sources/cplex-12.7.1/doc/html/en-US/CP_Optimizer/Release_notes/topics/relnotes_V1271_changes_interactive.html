@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="New feature: Flags for interactive optimizer" />
+<meta name="abstract" content="Command-line flags for the interactive optimizer are now available." />
+<meta name="Description" content="Command-line flags for the interactive optimizer are now available." />
+<meta name="DC.subject" content="interactive" />
+<meta name="keywords" content="interactive" />
+<meta name="DC.Relation" scheme="URI" content="../../../CP_Optimizer/Release_notes/topics/relnotes_V1271_changes.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="featureinteractiveflags" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../CP_Optimizer/Release_notes/topics/relnotes_V1271_changes.html" />
+<title>New feature: Flags for interactive optimizer</title>
+</head>
+<body id="featureinteractiveflags"><div role="main">
+<h1 class="title topictitle1">New feature: Flags for interactive optimizer</h1>
+<div class="body"><p class="shortdesc">Command-line flags for the interactive optimizer are now available. </p>
+<div class="p">The command line flags for the interactive optimizer that are now available are <samp class="ph codeph">-h</samp> to display the usage, <samp class="ph codeph">-f</samp> to run commands from a specified file, 
+<samp class="ph codeph">-c</samp> to run specified commands, and <samp class="ph codeph">-i</samp> to start the 
+interactive shell.
+<pre class="pre codeblock"><code>Usage: ./cpoptimizer.bin [-h] [-i] [-f filename] [-c "cmd1" .. "cmdn"]
+    &lt;filename&gt; contains commands, one per line
+    "&lt;cmdi&gt;" is a single command enclosed in quotes
+Execution:
+    All commands specified via -f and -c are executed in order.
+    Then, if neither -f nor -c were specified, or -i was
+    specified, the interactive shell is started and additional
+    commands can be entered interactively.</code></pre>
+</div>
+<div class="p">For	example:
+<pre class="pre codeblock"><code> 
+cpoptimizer -c "read mymodel.cpo" -i</code></pre>
+
+starts the interactive optimizer after first loading <samp class="ph codeph">mymodel.cpo</samp>. The command
+<pre class="pre codeblock"><code> 
+cpoptimizer -f myfile.txt</code></pre>
+ 
+where <samp class="ph codeph">myfile.txt</samp> contains interactive optimizer commands such as:
+<pre class="pre codeblock"><code> 
+read mymodel.cpo
+set Workers 4
+set TimeLimit 60
+opt</code></pre>
+ 
+runs the commands in file <samp class="ph codeph">myfile.txt</samp> before exiting the interactive
+optimizer.</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../CP_Optimizer/Release_notes/topics/relnotes_V1271_changes.html" title="Describes the changes for the release of the CP Optimizer feature of CPLEX Optimization Studio V12.7.1.">Changes since CP Optimizer V12.7.0</a></div>
+</div>
+</div></div></body>
+</html>

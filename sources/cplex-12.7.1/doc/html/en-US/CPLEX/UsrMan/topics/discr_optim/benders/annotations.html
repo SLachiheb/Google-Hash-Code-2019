@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="Annotating a model for CPLEX" />
+<meta name="abstract" content="Annotation of a model specifies to CPLEX how to decompose your model." />
+<meta name="Description" content="Annotation of a model specifies to CPLEX how to decompose your model." />
+<meta name="DC.subject" content="annotating a model, annotations, for Benders algorithm, for decomposition of a model, definition" />
+<meta name="keywords" content="annotating a model, annotations, for Benders algorithm, for decomposition of a model, definition" />
+<meta name="DC.Relation" scheme="URI" content="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/introBenders.html" />
+<meta name="DC.Relation" scheme="URI" content="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/annotationsC.html" />
+<meta name="DC.Relation" scheme="URI" content="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/annotationsCpp.html" />
+<meta name="DC.Relation" scheme="URI" content="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/annotationsJava.html" />
+<meta name="DC.Relation" scheme="URI" content="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/annotationsDotNET.html" />
+<meta name="DC.Relation" scheme="URI" content="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/annotationsPython.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="annotationsBenders" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/introBenders.html" />
+<title>Annotating a model for CPLEX</title>
+</head>
+<body id="annotationsBenders"><div role="main">
+<h1 class="title topictitle1">Annotating a model for CPLEX</h1>
+<div class="body"><p class="shortdesc">Annotation of a model specifies to CPLEX how to decompose your model.</p>
+<p class="p">If you want to specify a decomposition of your model to CPLEX, you use <strong class="ph b">annotations</strong>. 
+In fact, CPLEX offers an application programming interface (API) for the purpose of annotating the
+objects of a model. An annotation specifies a key and value pair, where keys  are strings, and values 
+can be either <samp class="ph codeph">long</samp>  or <samp class="ph codeph">double</samp>. You can associate an annotation 
+with each element (such as the objective, variables, constraints, rows,
+columns, and so forth) of your model. CPLEX can take advantage of these annotations as it solves
+your model. For example, these annotations make it possible for you to specify to CPLEX the blocks
+of a partition of the variables to apply Benders algorithm. </p>
+<p class="p">To annotate your model, you first create a new annotation 
+<samp class="ph codeph">cpxBendersPartition</samp> of type <samp class="ph codeph">long</samp>. 
+Conventionally, the key 
+<samp class="ph codeph">cpxBendersPartition</samp> and the value 0 (zero) together 
+designate elements in the master of a Benders decomposition, 
+while other values designate subproblems of the partition. 
+You can specify a default value annotation yourself.</p>
+<div class="p"> 
+Next, you use <samp class="ph codeph">cpxBendersPartition</samp> to annotate some or all of the variables in your model. 
+These annotations specify to CPLEX whether certain variables belong to the master or to one of the 
+subproblems assigned to workers (where the subproblems are numbered from 1 (one) to N, the number of 
+subproblems).
+<ul class="ul"><li class="li">If you annotate a given variable with the value 0 (zero), CPLEX assigns that variable to the master.</li>
+<li class="li">If you do not annotate a given variable, CPLEX assumes the <strong class="ph b">default</strong> value annotation.</li>
+<li class="li">If you annotate a given variable with the value i, where i is greater than or equal to 1 (one), 
+CPLEX assigns that variable to subproblem i.</li>
+<li class="li">If you annotate a given variable with a value strictly less than zero, CPLEX raises an error 
+<a class="xref" href="../../../../../refcallablelibrary/macros/CPXERR_NO_DECOMPOSITION.html" title="2000 No Benders decomposition available">CPXERR_NO_DECOMPOSITION</a>. </li>
+</ul>
+</div>
+<p class="p"><strong class="ph b">Tip</strong>: It is a good idea to verify that the N subproblems plus master actually define a decomposition of 
+the original model into disjoint subproblems. That is, make sure you have a complete partition for your decomposition. </p>
+<p class="p">CPLEX also produces an error 
+<a class="xref" href="../../../../../refcallablelibrary/macros/CPXERR_BAD_DECOMPOSITION.html" title="2002 Invalid Benders decomposition">CPXERR_BAD_DECOMPOSITION</a> 
+if the annotated decomposition does not yield disjoint subproblems. For example, 
+if your annotations specify that two (or more) variables belong in different subproblems, yet your model 
+specifies that these variables participate in the same constraint, then these variables  are linked. 
+Consequently, the subproblems where these variables appear according to your annotations are not 
+disjoint with respect to the partition. </p>
+<p class="p">If you want CPLEX to apply a Benders strategy as it solves your problem, but you 
+do not specify <samp class="ph codeph">cpxBendersPartition</samp> annotations yourself, see the topic 
+<a class="xref" href="defaultDecomp.html" title="CPLEX implements a default Benders decomposition in certain situations.">Benders decomposition: CPLEX default</a> for an explanation of default CPLEX 
+decomposition.</p>
+<p class="p">Besides the application programming interface (API) to support annotations, 
+CPLEX also offers a <strong class="ph b">file format</strong>, <samp class="ph codeph">ANN</samp> or <samp class="ph codeph">.ann</samp>,
+to support annotations of modeling objects. CPLEX can read annotations from such a formatted file
+and apply those annotations to your model. CPLEX can also collect annotations from a model and write
+those annotations to such a formatted file. </p>
+<p class="p">In the standard distribution of the product, see the file 
+<samp class="ph codeph">annotation.xsd</samp> for the <strong class="ph b">XML schema</strong> supporting annotations.</p>
+<p class="p">For more detail about the API for annotations, see the topic about 
+the API of interest to you in your CPLEX application:</p>
+<ul class="ul"><li class="li">See the topic <a class="xref" href="annotationsC.html" title="CPLEX supports annotations for Benders decomposition in the Callable Library (C API).">Annotations for Callable Library (C API) users</a> for a list of 
+routines supporting annotations in the <strong class="ph b">Callable Library (C API)</strong>. </li>
+<li class="li">See the topic <a class="xref" href="annotationsCpp.html" title="CPLEX supports annotations for Benders decomposition in the C++ API.">Annotations for C++ API users</a> for a list of 
+ classes and methods supporting annotations in the <strong class="ph b">C++ API</strong>. </li>
+<li class="li">See the topic <a class="xref" href="annotationsJava.html" title="CPLEX offers support for annotations in the Java API.">Annotations for Java API users</a> for a list of 
+ classes and methods supporting annotations in the <strong class="ph b">Java API</strong>. </li>
+<li class="li">See the topic <a class="xref" href="annotationsDotNET.html" title="CPLEX offers features to support annotations of your model for Benders decomposition in the .NET API.">Annotations for .NET API users</a> for a list of 
+classes and methods supporting annotations in the <strong class="ph b">.NET API</strong>. </li>
+<li class="li">See the topic <a class="xref" href="annotationsPython.html" title="CPLEX supports annotations for Benders decomposition in the Python API.">Annotations for Python API users</a> for a list of 
+classes and methods supporting annotations in the <strong class="ph b">Python API</strong>. </li>
+</ul>
+</div>
+<div class="related-links">
+<ul class="ullinks">
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/annotationsC.html">Annotations for Callable Library (C API) users</a></span><br />
+CPLEX supports annotations for Benders decomposition in the Callable Library (C API).</li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/annotationsCpp.html">Annotations for C++ API users</a></span><br />
+CPLEX supports annotations for Benders decomposition in the C++ API.</li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/annotationsJava.html">Annotations for Java API users</a></span><br />
+CPLEX offers support for annotations in the Java API.</li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/annotationsDotNET.html">Annotations for .NET API users</a></span><br />
+CPLEX offers features to support annotations of your model for Benders decomposition in the .NET API.</li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/annotationsPython.html">Annotations for Python API users</a></span><br />
+CPLEX supports annotations for Benders decomposition in the Python API.</li>
+</ul>
+
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/introBenders.html" title="CPLEX implements Benders algorithm.">Benders algorithm</a></div>
+</div>
+</div></div></body>
+</html>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="Changed feature: IlcIntMax and IlcIntMin" />
+<meta name="abstract" content="The constants IlcIntMax and IlcIntMin changed and new constants to represent the smallest and largest integers were introduced." />
+<meta name="Description" content="The constants IlcIntMax and IlcIntMin changed and new constants to represent the smallest and largest integers were introduced." />
+<meta name="DC.subject" content="integer, smallest, largest" />
+<meta name="keywords" content="integer, smallest, largest" />
+<meta name="DC.Relation" scheme="URI" content="../../../CP_Optimizer/Release_notes/topics/relnotes_V1270_changes.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="changedfeatureminmax" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../CP_Optimizer/Release_notes/topics/relnotes_V1270_changes.html" />
+<title>Changed feature: IlcIntMax and IlcIntMin</title>
+</head>
+<body id="changedfeatureminmax"><div role="main">
+<h1 class="title topictitle1">Changed feature: <samp class="ph codeph">IlcIntMax</samp> and <samp class="ph codeph">IlcIntMin</samp></h1>
+<div class="body"><p class="shortdesc">The constants <samp class="ph codeph">IlcIntMax</samp> and <samp class="ph codeph">IlcIntMin</samp> 
+changed and new constants to represent the smallest and largest integers were introduced. </p>
+<p class="p">Users of CP Optimizer Extensions who use the macros <samp class="ph codeph">IlcIntMax</samp> 
+and <samp class="ph codeph">IlcIntMin</samp> should be aware of a change in their definitions.</p>
+<p class="p">The constant <samp class="ph codeph">IlcIntMax</samp> is now the largest possible
+value usable in variables and constraints. On 64-bit operating systems <samp class="ph codeph">IlcIntMax</samp>
+is the largest positive integer that can be represented 
+as a 64-bit floating point number according to IEEE 754, or the constant 2^53-1. On 32-bit
+operating systems, this constant is 2^31-1.</p>
+<p class="p">The constant <samp class="ph codeph">IlcIntMin</samp> is now the smallest possible
+value usable in variables and constraints. On 64-bit operating systems, <samp class="ph codeph">IlcIntMin</samp>
+is the smallest negative integer that can be represented 
+as a 64-bit floating point number according to IEEE 754, or the constant -(2^53-1). On 32-bit 
+operating systems, this constant is -(2^31-1).</p>
+<p class="p">The constant <samp class="ph codeph">IlcIntTop</samp> was introduced to represent the largest integer. This constant is the positive 
+integer of largest magnitude representable on the operating system: 2^63-1 on 64-bit
+operating systems and 2^31-1 on 32-bit operating systems.</p>
+<p class="p">Likewise, the constant <samp class="ph codeph">IlcIntBottom</samp> was introduced to  represent the smallest integer. This constant is one 
+more than the negative integer of largest magnitude representable on the operating system:
+-(2^63-1) on 64-bit operating systems 
+and -(2^31-1) on 32-bit operating systems.</p>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../CP_Optimizer/Release_notes/topics/relnotes_V1270_changes.html" title="Describes the changes for the release of the CP Optimizer feature of CPLEX Optimization Studio V12.7.0.">Changes since CP Optimizer V12.6.3</a></div>
+</div>
+</div></div></body>
+</html>

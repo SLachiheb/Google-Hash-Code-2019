@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="Annotations for Python API users" />
+<meta name="abstract" content="CPLEX supports annotations for Benders decomposition in the Python API." />
+<meta name="Description" content="CPLEX supports annotations for Benders decomposition in the Python API." />
+<meta name="DC.subject" content="Python API, annotations, Benders decomposition" />
+<meta name="keywords" content="Python API, annotations, Benders decomposition" />
+<meta name="DC.Relation" scheme="URI" content="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/annotations.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="annotationsPython" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/annotations.html" />
+<title>Annotations for Python API users</title>
+</head>
+<body id="annotationsPython"><div role="main">
+<h1 class="title topictitle1">Annotations for Python API users</h1>
+<div class="body"><p class="shortdesc">CPLEX supports annotations for Benders decomposition in the Python API.</p>
+<div class="p">These classes support annotations in the Python API of CPLEX: 
+<ul class="ul"><li class="li"><samp class="ph codeph"><span class="keyword apiname">AnnotationObjectType</span></samp></li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">AnnotationInterface</span></samp></li>
+</ul>
+</div>
+<div class="p">There are also methods for adding, accessing, and modifying annotations of a model. 
+<ul class="ul"><li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.long_annotations.add</span></samp>  adds a new annotation to a model. </li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.long_annotations.delete</span></samp>  deletes the annotation from an element of a model.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.long_annotations.get_names</span></samp>  returns the names of a set of annotations.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.long_annotations.get_num</span></samp>   returns the number of annotations of a model.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.long_annotations.get_types</span></samp>  returns the type of a set of annotations.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.long_annotations.get_default_values</span></samp>  returns the default value of a set of annotations.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.long_annotations.set_values</span></samp>  sets annotations for a specified object type.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.long_annotations.get_values</span></samp>  returns the annotations for a specified object type.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.double_annotations.add</span></samp>  adds a new annotation to a model. </li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.double_annotations.delete</span></samp>  deletes the annotation from an element of a model.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.double_annotations.get_names</span></samp>  returns the names of a set of annotations.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.double_annotations.get_num</span></samp>   returns the number of annotations of a model.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.double_annotations.get_types</span></samp>  returns the type of a set of annotations.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.double_annotations.get_default_values</span></samp>  returns the default value of a set of annotations.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.double_annotations.set_values</span></samp>  sets annotations for a specified object type.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.double_annotations.get_values</span></samp>  returns the annotations for a specified object type.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.annotations.read</span></samp>  reads annotations from a file.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.annotations.write</span></samp>  writes annotations to a file.</li>
+<li class="li"><samp class="ph codeph"><span class="keyword apiname">cplex.write_benders_annotation</span></samp>  writes to a file any annotations that 
+CPLEX automatically generated.</li>
+</ul>
+</div>
+<p class="p"> For detailed documentation and examples of methods in these classes, see the entries for these
+classes in the reference manual of the Python API of CPLEX, and see also doc strings in
+<samp class="ph codeph">src/python/2.x/cplex/_internal/_anno.py</samp>. </p>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/annotations.html" title="Annotation of a model specifies to CPLEX how to decompose your model.">Annotating a model for CPLEX</a></div>
+</div>
+</div></div></body>
+</html>

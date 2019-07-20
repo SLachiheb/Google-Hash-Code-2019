@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="reference" />
+<meta name="DC.Title" content="Reformulation Linearization Technique (RLT) cuts" />
+<meta name="abstract" content="Controls the addition of RLT cuts for nonconvex QP solved to global optimality." />
+<meta name="Description" content="Controls the addition of RLT cuts for nonconvex QP solved to global optimality." />
+<meta name="DC.subject" content="CPX_PARAM_RLT, CPXPARAM_MIP_Cuts_RLT, RLT, see Reformulation Linearization Technique, Reformulation Linearization Technique (RLT), cuts, nonconvex QP, nonconvex MIQP, global optimality and, cut, nonconvex, Reformulation Linearization Technique (RLT) cuts and QP, global optimum, Reformulation Linearization Technique (RLT) cuts and" />
+<meta name="keywords" content="CPX_PARAM_RLT, CPXPARAM_MIP_Cuts_RLT, RLT, see Reformulation Linearization Technique, Reformulation Linearization Technique (RLT), cuts, nonconvex QP, nonconvex MIQP, global optimality and, cut, nonconvex, Reformulation Linearization Technique (RLT) cuts and QP, global optimum, Reformulation Linearization Technique (RLT) cuts and" />
+<meta name="DC.Relation" scheme="URI" content="../../../CPLEX/Parameters/topics/introListAlpha.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="CPLEXparameterRLTcuts" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../CPLEX/Parameters/topics/introListAlpha.html" />
+<title>Reformulation Linearization Technique (RLT) cuts</title>
+</head>
+<body id="CPLEXparameterRLTcuts"><div role="main">
+<h1 class="title topictitle1">Reformulation Linearization Technique (RLT) cuts</h1>
+<div class="body refbody"><p class="shortdesc">Controls the addition of RLT cuts for nonconvex QP solved to global optimality.</p>
+<div class="section"><h2 class="title sectiontitle">Purpose</h2>    
+    <p class="p">Reformulation Linearization Technique (RLT) cuts switch</p>
+</div>
+<div class="tableborder">
+<table cellpadding="4" cellspacing="0" summary="" class="table" rules="none" frame="border" border="1"><thead class="thead" align="left"><tr class="row"><th class="entry nrule thleft" valign="top" width="12.5%" id="d228573e64">API</th>
+<th class="entry nrule thleft" valign="top" width="50%" id="d228573e66">Parameter Name</th>
+<th class="entry nrule thleft" valign="top" width="37.5%" id="d228573e68">Name prior to V12.6.0</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d228573e64 ">C</td>
+<td class="entry nrule" valign="top" width="50%" headers="d228573e66 ">CPXPARAM_MIP_Cuts_RLT</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d228573e68 ">CPX_PARAM_RLTCUTS</td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d228573e64 ">C++</td>
+<td class="entry nrule" valign="top" width="50%" headers="d228573e66 ">IloCplex::Param::MIP::Cuts::RLT</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d228573e68 "> </td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d228573e64 ">Java</td>
+<td class="entry nrule" valign="top" width="50%" headers="d228573e66 ">IloCplex.Param.MIP.Cuts.RLT</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d228573e68 "> </td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d228573e64 ">.NET</td>
+<td class="entry nrule" valign="top" width="50%" headers="d228573e66 ">Cplex.Param.MIP.Cuts.RLT</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d228573e68 "> </td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d228573e64 ">OPL</td>
+<td class="entry nrule" valign="top" width="50%" headers="d228573e66 "> </td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d228573e68 "> </td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d228573e64 ">Python</td>
+<td class="entry nrule" valign="top" width="50%" headers="d228573e66 ">parameters.mip.cuts.rlt</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d228573e68 "> </td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d228573e64 ">MATLAB</td>
+<td class="entry nrule" valign="top" width="50%" headers="d228573e66 ">Cplex.Param.mip.cuts.rlt</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d228573e68 "> </td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d228573e64 ">Interactive</td>
+<td class="entry nrule" valign="top" width="50%" headers="d228573e66 ">mip cuts rlt</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d228573e68 "> </td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d228573e64 ">Identifier</td>
+<td class="entry nrule" valign="top" width="50%" headers="d228573e66 ">2196</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d228573e68 "> </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section"><h2 class="title sectiontitle">Description</h2>
+<p class="p">This parameter controls the addition of cuts based on the 
+Reformulation Linearization Technique (RLT) for
+<strong class="ph b">nonconvex</strong> quadratic programs (QP) or mixed integer quadratic programs (MIQP) 
+solved to <strong class="ph b">global optimality</strong>. That is, the 
+<a class="xref" href="OptimalityTarget.html" title="Specifies type of optimality that CPLEX targets (optimal convex or first-order satisfaction) as it searches for a solution">optimality target</a> parameter  
+must be set to 3 (CPX_OPTIMALITYTARGET_OPTIMALGLOBAL).</p>
+
+<p class="p">For a definition of the cuts based on a Reformulation Linearization Technique (RLT), see the topic 
+<a class="xref" href="../../UsrMan/topics/discr_optim/mip/cuts/38_RLTcuts.html" title="Defines a Reformulation Linearization Technique (RLT) cut.">Reformulation Linearization Technique (RLT) cuts</a> 
+in the general topic 
+<a class="xref" href="../../UsrMan/topics/discr_optim/mip/cuts/26_cuts_title_synopsis.html" title="Describes types of cuts available in the MIP optimizer as performance features.">Cuts</a> 
+in the <em class="ph i">CPLEX User’s Manual</em>. The table 
+<a class="xref" href="../../UsrMan/topics/discr_optim/mip/cuts/41_params.html#User_manual.uss_solveMIP.672903__title1310474232097">Parameters for controlling cuts</a>, also in the user’s
+manual, includes links to the documentation of other parameters affecting
+other types of cuts.</p>
+
+<p class="p"> </p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="A two-column table showing possible values and their meaning." class="table PlainHead" rules="all" frame="border" border="1"><span class="desc tabledesc"></span><thead class="thead" align="left"><tr class="row" valign="top"><th class="entry thleft" align="left" valign="top" width="33.33333333333333%" id="d228573e186">Value</th>
+<th class="entry thleft" align="left" valign="top" width="66.66666666666666%" id="d228573e188">Meaning</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row" valign="top"><td class="entry" valign="top" width="33.33333333333333%" headers="d228573e186 ">-1</td>
+<td class="entry" valign="top" width="66.66666666666666%" headers="d228573e188 ">Do not generate RLT cuts </td>
+</tr>
+<tr class="row" valign="top"><td class="entry" valign="top" width="33.33333333333333%" headers="d228573e186 ">0</td>
+<td class="entry" valign="top" width="66.66666666666666%" headers="d228573e188 ">Automatic: let CPLEX decide; <strong class="ph b">default</strong></td>
+</tr>
+<tr class="row" valign="top"><td class="entry" valign="top" width="33.33333333333333%" headers="d228573e186 ">1</td>
+<td class="entry" valign="top" width="66.66666666666666%" headers="d228573e188 ">Generate RLT cuts moderately</td>
+</tr>
+<tr class="row" valign="top"><td class="entry" valign="top" width="33.33333333333333%" headers="d228573e186 ">2</td>
+<td class="entry" valign="top" width="66.66666666666666%" headers="d228573e188 ">Generate RLT cuts aggressively</td>
+</tr>
+<tr class="row" valign="top"><td class="entry" valign="top" width="33.33333333333333%" headers="d228573e186 ">3</td>
+<td class="entry" valign="top" width="66.66666666666666%" headers="d228573e188 ">Generate RLT cuts very aggressively</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p"> </p>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../CPLEX/Parameters/topics/introListAlpha.html" title="CPLEX parameters, documented here alphabetically by name in the Callable Library (C API), are available in the C++, Java, .NET, and Python APIs, as well as in the Interactive Optimizer, the MathWorks MATLAB connector, and the Excel Connector.">List of CPLEX parameters</a></div>
+</div>
+</div></div></body>
+</html>

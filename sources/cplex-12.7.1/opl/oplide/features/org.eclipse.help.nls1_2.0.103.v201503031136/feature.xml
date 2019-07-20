@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.help.nls1" label="%featureName" plugin="org.eclipse.help.base" provider-name="%providerName" version="2.0.103.v201503031136">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>%copyright</copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   <plugin fragment="true" id="org.eclipse.equinox.http.jetty.nl1" unpack="false" version="3.0.200.v201503031136"></plugin>
+
+   <plugin fragment="true" id="org.eclipse.equinox.http.registry.nl1" unpack="false" version="1.1.300.v201503031136"></plugin>
+
+   <plugin fragment="true" id="org.eclipse.equinox.http.servlet.nl1" unpack="false" version="1.1.500.v201503031136"></plugin>
+
+   <plugin fragment="true" id="org.eclipse.equinox.jsp.jasper.nl1" unpack="false" version="1.0.400.v201503031136"></plugin>
+
+   <plugin fragment="true" id="org.eclipse.equinox.jsp.jasper.registry.nl1" unpack="false" version="1.0.300.v201503031136"></plugin>
+
+   <plugin fragment="true" id="org.eclipse.help.base.nl1" unpack="false" version="4.0.201.v201503031136"></plugin>
+
+   <plugin fragment="true" id="org.eclipse.help.ui.nl1" unpack="false" version="4.0.100.v201503031136"></plugin>
+
+   <plugin fragment="true" id="org.eclipse.help.webapp.nl1" unpack="false" version="3.6.301.v201503031136"></plugin>
+
+   
+
+   <plugin fragment="true" id="org.eclipse.jetty.http.nl1" unpack="false" version="8.1.16.v201503031136"></plugin>
+
+   
+
+   
+
+   <plugin fragment="true" id="org.eclipse.jetty.server.nl1" unpack="false" version="8.1.16.v201503031136"></plugin>
+
+   <plugin fragment="true" id="org.eclipse.jetty.servlet.nl1" unpack="false" version="8.1.16.v201503031136"></plugin>
+
+   
+
+   <plugin fragment="true" id="org.eclipse.core.net.nl1" unpack="false" version="1.2.200.v201503031136"></plugin>
+
+   <plugin fragment="true" id="org.eclipse.equinox.security.nl1" unpack="false" version="1.2.0.v201503031136"></plugin>
+
+</feature>

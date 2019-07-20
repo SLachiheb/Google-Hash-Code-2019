@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="reference" />
+<meta name="DC.Title" content="solution type for LP and QP" />
+<meta name="abstract" content="Specifies type of solution (basic or non basic) that CPLEX produces for a linear program (LP) or quadratic program (QP)." />
+<meta name="Description" content="Specifies type of solution (basic or non basic) that CPLEX produces for a linear program (LP) or quadratic program (QP)." />
+<meta name="DC.subject" content="CPX_PARAM_SOLUTIONTYPE, CPXPARAM_SolutionType, SolutionType, basic solution, nonbasic solution, solution, basic, non basic, solution type, crossover, barrier optimization and, barrier optimizer, solution type and" />
+<meta name="keywords" content="CPX_PARAM_SOLUTIONTYPE, CPXPARAM_SolutionType, SolutionType, basic solution, nonbasic solution, solution, basic, non basic, solution type, crossover, barrier optimization and, barrier optimizer, solution type and" />
+<meta name="DC.Relation" scheme="URI" content="../../../CPLEX/Parameters/topics/introListAlpha.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="paramSolutionType" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../CPLEX/Parameters/topics/introListAlpha.html" />
+<title>solution type for LP and QP</title>
+</head>
+<body id="paramSolutionType"><div role="main">
+<h1 class="title topictitle1">solution type for LP and QP</h1>
+<div class="body refbody"><p class="shortdesc">Specifies type of solution (basic or non basic) that CPLEX produces 
+for a linear program (LP) or quadratic program (QP).</p>
+<div class="section"><h2 class="title sectiontitle">Purpose</h2> <p class="p">Solution type for LP or QP</p>
+</div>
+<div class="tableborder">
+<table cellpadding="4" cellspacing="0" summary="" class="table" rules="none" frame="border" border="1"><thead class="thead" align="left"><tr class="row"><th class="entry nrule thleft" valign="top" width="12.5%" id="d248803e53">API</th>
+<th class="entry nrule thleft" valign="top" width="50%" id="d248803e55">Parameter Name</th>
+<th class="entry nrule thleft" valign="top" width="37.5%" id="d248803e57">Name prior to V12.6.0</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d248803e53 ">C</td>
+<td class="entry nrule" valign="top" width="50%" headers="d248803e55 ">CPXPARAM_SolutionType</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d248803e57 ">CPX_PARAM_SOLUTIONTYPE</td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d248803e53 ">C++</td>
+<td class="entry nrule" valign="top" width="50%" headers="d248803e55 ">IloCplex::Param::SolutionType</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d248803e57 "> </td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d248803e53 ">Java</td>
+<td class="entry nrule" valign="top" width="50%" headers="d248803e55 ">IloCplex.Param.SolutionType</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d248803e57 "> </td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d248803e53 ">.NET</td>
+<td class="entry nrule" valign="top" width="50%" headers="d248803e55 ">Cplex.Param.SolutionType</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d248803e57 "> </td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d248803e53 ">OPL</td>
+<td class="entry nrule" valign="top" width="50%" headers="d248803e55 ">solutiontype</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d248803e57 "> </td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d248803e53 ">Python</td>
+<td class="entry nrule" valign="top" width="50%" headers="d248803e55 ">parameters.solutiontype</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d248803e57 "> </td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d248803e53 ">MATLAB</td>
+<td class="entry nrule" valign="top" width="50%" headers="d248803e55 ">Cplex.Param.solutiontype</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d248803e57 "> </td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d248803e53 ">Interactive</td>
+<td class="entry nrule" valign="top" width="50%" headers="d248803e55 ">solutiontype</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d248803e57 "> </td>
+</tr>
+<tr class="row"><td class="entry nrule" valign="top" width="12.5%" headers="d248803e53 ">Identifier</td>
+<td class="entry nrule" valign="top" width="50%" headers="d248803e55 ">1147</td>
+<td class="entry nrule" valign="top" width="37.5%" headers="d248803e57 "> </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section"><h2 class="title sectiontitle">Description</h2> 
+<p class="p">Specifies the type of solution (basic or non basic) 
+that CPLEX attempts to compute for a linear program (LP) 
+or for a quadratic program (QP). In this context, 
+<em class="ph i">basic</em> means having to do with the basis.
+When CPLEX offers a <em class="ph i">non basic</em> solution, the solution 
+consists of a pair of primal-dual solution vectors.</p>
+ 
+<p class="p">By <strong class="ph b">default</strong>  
+(that is, when the value of this parameter is 0 (zero) automatic), 
+CPLEX seeks a basic solution (that is, a solution with a basis) 
+for all linear programs (LP) and for all quadratic programs (QP). </p>
+
+<p class="p">When the value of this parameter is 1 (one), CPLEX seeks a basic solution, 
+that is, a solution that includes a basis with a basic status for variables 
+and constraints. In other words, CPLEX behaves the same way for the values 
+0 (zero) and 1 (one) of this parameter.</p>
+
+<p class="p">When the value of this parameter is 2, CPLEX seeks a pair of 
+primal-dual solution vectors. This setting does not prevent CPLEX from 
+producing status information, but in seeking a pair of primal-dual solution vectors,
+CPLEX possibly may not produce <em class="ph i">basic</em> status information; that is, 
+it is possible that CPLEX does not produce status information about which 
+variables and constraints participate in the  
+<em class="ph i">basis</em> at this setting. </p>
+</div>
+<div class="section"><h2 class="title sectiontitle">Solution type interacts with symmetry detection in LP simplex</h2> 
+
+<p class="p">If your setting of this parameter requires CPLEX to find a <strong class="ph b">basis</strong>, 
+and your model is a linear program (LP) with a simplex algorithm, then 
+CPLEX does not apply <a class="xref" href="Symmetry.html" title="Decides whether symmetry breaking reductions will be automatically executed, during the preprocessing phase, in a MIP or LP model.">symmetry breaking</a>. </p>
+
+<p class="p">If your setting of this parameter does <strong class="ph b">not</strong> require CPLEX to find a 
+<strong class="ph b">basis</strong>, then CPLEX applies the <strong class="ph b">default</strong> <a class="xref" href="Symmetry.html" title="Decides whether symmetry breaking reductions will be automatically executed, during the preprocessing phase, in a MIP or LP model.">symmetry breaking</a> 
+to a linear program (LP) using a simplex algorithm.</p>
+</div>
+<div class="section"><h2 class="title sectiontitle">Solution type interacts with barrier crossover algorithm</h2> 
+ 
+<p class="p">Your setting of <a class="xref" href="BarCrossAlg.html" title="Decides which crossover is performed at the end of a barrier optimization.">barrier crossover algorithm</a> interacts with 
+your setting of this parameter. For example, the Callable Library (C API) routine 
+<a class="xref" href="../../../refcallablelibrary/barapi/hybbaropt.html" title="The routine CPXXhybbaropt/CPXhybbaropt may be used, at any time after a linear program has been created via a call to CPXXcreateprob/CPXcreateprob, to find a solution to that problem.">CPXXhybbaropt and CPXhybbaropt</a> produces 
+a basic solution, solution vectors, or an error, depending on these settings.</p>
+
+<p class="p">Specifically, to avoid errors, set the parameter controlling the barrier crossover algorithm 
+to a non default value <strong class="ph b">only</strong> when the solution type parameter is at its default. 
+Likewise, set the solution type parameter to a non default value <strong class="ph b">only</strong> 
+when the parameter controlling the barrier crossover algorithm is at its default setting.</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="A five column table showing effect of parameter settings on results." class="table" rules="all" frame="border" border="1"><caption><span class="tablecap">Table 1. Solution type interacts with barrier crossover algorithm</span></caption><thead class="thead" align="left"><tr class="row"><th class="entry thleft" valign="top" id="d248803e239">solution type</th>
+<th class="entry thleft" valign="top" id="d248803e241">barrier crossover algorithm: no crossover</th>
+<th class="entry thleft" valign="top" id="d248803e243">barrier crossover algorithm: auto</th>
+<th class="entry thleft" valign="top" id="d248803e245">barrier crossover algorithm: primal</th>
+<th class="entry thleft" valign="top" id="d248803e247">barrier crossover algorithm: dual</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry" valign="top" headers="d248803e239 ">auto 0</td>
+<td class="entry" valign="top" headers="d248803e241 ">solution vectors</td>
+<td class="entry" valign="top" headers="d248803e243 ">basic solution</td>
+<td class="entry" valign="top" headers="d248803e245 ">basic solution</td>
+<td class="entry" valign="top" headers="d248803e247 ">basic solution</td>
+</tr>
+<tr class="row"><td class="entry" valign="top" headers="d248803e239 ">basic 1</td>
+<td class="entry" valign="top" headers="d248803e241 ">error</td>
+<td class="entry" valign="top" headers="d248803e243 ">basic solution</td>
+<td class="entry" valign="top" headers="d248803e245 ">error</td>
+<td class="entry" valign="top" headers="d248803e247 ">error</td>
+</tr>
+<tr class="row"><td class="entry" valign="top" headers="d248803e239 ">non basic 2</td>
+<td class="entry" valign="top" headers="d248803e241 ">error</td>
+<td class="entry" valign="top" headers="d248803e243 ">solution vectors</td>
+<td class="entry" valign="top" headers="d248803e245 ">error</td>
+<td class="entry" valign="top" headers="d248803e247 ">error</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p class="p"><strong class="ph b">Tip</strong>: The value 2 of this solution type parameter tells CPLEX to seek a 
+nonbasic solution. In the case of barrier optimization, this setting turns off 
+crossover. </p>
+
+<p class="p"><strong class="ph b">Tip</strong>: At the value 2 of this solution type parameter, it is possible 
+under certain conditions that CPLEX can produce a basis anyway.</p>
+</div>
+<div class="section"><div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="A three-column table showing possible values, their symbolic name, and their meaning." class="table PlainHead" rules="all" frame="border" border="1"><caption><span class="tablecap">Table 2. Values</span></caption><thead class="thead" align="left"><tr class="row" valign="top"><th class="entry thleft" align="left" valign="top" width="20%" id="d248803e307">Value</th>
+<th class="entry thleft" align="left" valign="top" width="40%" id="d248803e309">Symbol</th>
+<th class="entry thleft" align="left" valign="top" width="40%" id="d248803e311">Meaning</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row" valign="top"><td class="entry" valign="top" width="20%" headers="d248803e307 ">0</td>
+<td class="entry" valign="top" width="40%" headers="d248803e309 "><samp class="ph codeph">CPX_AUTO_SOLN</samp> </td>
+<td class="entry" valign="top" width="40%" headers="d248803e311 ">Automatic: let CPLEX decide; <strong class="ph b">default</strong></td>
+</tr>
+<tr class="row" valign="top"><td class="entry" valign="top" width="20%" headers="d248803e307 ">1</td>
+<td class="entry" valign="top" width="40%" headers="d248803e309 "><samp class="ph codeph">CPX_BASIC_SOLN</samp> </td>
+<td class="entry" valign="top" width="40%" headers="d248803e311 ">CPLEX computes a basic solution.</td>
+</tr>
+<tr class="row" valign="top"><td class="entry" valign="top" width="20%" headers="d248803e307 ">2</td>
+<td class="entry" valign="top" width="40%" headers="d248803e309 "><samp class="ph codeph">CPX_NONBASIC_SOLN</samp> </td>
+<td class="entry" valign="top" width="40%" headers="d248803e311 ">CPLEX computes a primal-dual pair of solution-vectors</td>
+</tr>
+</tbody>
+</table>
+</div>
+ 
+<p class="p paragrouptitle">See also</p>
+
+<p class="p"><a class="xref" href="Symmetry.html" title="Decides whether symmetry breaking reductions will be automatically executed, during the preprocessing phase, in a MIP or LP model.">symmetry breaking</a></p>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../CPLEX/Parameters/topics/introListAlpha.html" title="CPLEX parameters, documented here alphabetically by name in the Callable Library (C API), are available in the C++, Java, .NET, and Python APIs, as well as in the Interactive Optimizer, the MathWorks MATLAB connector, and the Excel Connector.">List of CPLEX parameters</a></div>
+</div>
+</div></div></body>
+</html>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="Removed" />
+<meta name="abstract" content="Documents elements removed from CPLEX V12.7.0." />
+<meta name="Description" content="Documents elements removed from CPLEX V12.7.0." />
+<meta name="DC.subject" content="removed elements, release notes CPLEX V12.7.0" />
+<meta name="keywords" content="removed elements, release notes CPLEX V12.7.0" />
+<meta name="DC.Relation" scheme="URI" content="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/convertIntro.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="removedReleaseNotes127" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/convertIntro.html" />
+<title>Removed</title>
+</head>
+<body id="removedReleaseNotes127"><div role="main">
+<h1 class="title topictitle1">Removed</h1>
+<div class="body"><p class="shortdesc">Documents elements removed from CPLEX V12.7.0.</p>
+<p class="p">These elements were deprecated in earlier versions of CPLEX and <strong class="ph b">removed</strong> from CPLEX V12.7.0. </p>
+<div class="section"><h2 class="title sectiontitle">Error codes removed</h2>
+<p class="p">These error codes have been <strong class="ph b">removed</strong> from CPLEX 12.7.0.</p>
+ 
+
+    <ul class="ul"><li class="li"> 1216 <samp class="ph codeph">CPXERR_NO_RNGVAL</samp></li>
+<li class="li"> 3603 <samp class="ph codeph">CPXERR_PTHREAD_CREATE</samp></li>
+<li class="li"> 3601 <samp class="ph codeph">CPXERR_PTHREAD_MUTEX_INIT</samp></li>
+</ul>
+ 
+</div>
+<div class="section"><h2 class="title sectiontitle">Parameters removed</h2> 
+
+<p class="p">This parameter was deprecated in a previous version of CPLEX: CPX_PARAM_SOLUTIONTARGET,
+SolutionTarget, solutiontarget; these symbols have been removed from CPLEX V12.7.0. Use <a class="xref" href="../../../Parameters/topics/OptimalityTarget.html" title="Specifies type of optimality that CPLEX targets (optimal convex or first-order satisfaction) as it searches for a solution">optimality target</a> instead. </p>
+ 
+<ul class="ul"><li class="li">In the Callable Library (C API), these constants have been removed: 
+    <ul class="ul"><li class="li"><samp class="ph codeph">CPX_SOLUTIONTARGET_AUTO</samp></li>
+<li class="li"><samp class="ph codeph">CPX_SOLUTIONTARGET_OPTIMALCONVEX</samp></li>
+<li class="li"><samp class="ph codeph">CPX_SOLUTIONTARGET_FIRSTORDER</samp></li>
+<li class="li"><samp class="ph codeph">CPX_SOLUTIONTARGET_OPTIMALGLOBAL</samp></li>
+</ul>
+ 
+    </li>
+<li class="li">In the C++ API, the field <samp class="ph codeph">IloCplex::IntParam::SolutionTarget</samp> and 
+the enumeration <samp class="ph codeph">IloCplex::SolutionTargetType</samp> have been removed.</li>
+<li class="li">In the Java API, <samp class="ph codeph">IloCplex.IntParam.SolutionTarget</samp> and the inner class 
+<samp class="ph codeph">IloCplex.SolutionTarget</samp> have been removed.</li>
+<li class="li">In the .NET API, <samp class="ph codeph">Cplex.IntParam.SolutionTarget</samp> and 
+<samp class="ph codeph">Cplex.SolutionTarget</samp> have been removed.</li>
+<li class="li">In the Python API, the constants of <samp class="ph codeph">solution_target_constants</samp> 
+have been removed.</li>
+</ul>
+</div>
+<div class="section"><h2 class="title sectiontitle">Callable Library (C API) elements removed</h2>
+
+    <ul class="ul"><li class="li"><samp class="ph codeph">CPXXaddchannel, CPXaddchannel</samp></li>
+<li class="li"><samp class="ph codeph">CPXXdelchannel, CPXdelchannel</samp></li>
+<li class="li"><samp class="ph codeph">CPXXcopymipstart, CPXcopymipstart</samp></li>
+<li class="li"><samp class="ph codeph">CPXXfindiis, CPXfindiis</samp></li>
+<li class="li"><samp class="ph codeph">CPXXfree, CPXfree</samp></li>
+<li class="li"><samp class="ph codeph">CPXXgetcutcallbackfunc, CPXgetcutcallbackfunc</samp></li>
+<li class="li"><samp class="ph codeph">CPXXgetiis, CPXgetiis</samp></li>
+<li class="li"><samp class="ph codeph">CPXXmalloc, CPXmalloc</samp></li>
+<li class="li"><samp class="ph codeph">CPXXmemcpy, CPXmemcpy</samp></li>
+<li class="li"><samp class="ph codeph">CPXXputenv, CPXputenv</samp></li>
+<li class="li"><samp class="ph codeph">CPXXreadcopyvec, CPXreadcopyvec</samp></li>
+<li class="li"><samp class="ph codeph">CPXXrealloc, CPXrealloc</samp></li>
+<li class="li"><samp class="ph codeph">CPXXsetcutcallbackfunc, CPXsetcutcallbackfunc</samp></li>
+<li class="li"><samp class="ph codeph">CPXXstrcpy, CPXstrcpy</samp></li>
+<li class="li"><samp class="ph codeph">CPXXstrlen, CPXstrlen</samp></li>
+<li class="li"><samp class="ph codeph">CPXXtxtsolwrite, CPXtxtsolwrite</samp></li>
+<li class="li"><samp class="ph codeph">CPXXvecwrite, CPXvecwrite</samp></li>
+</ul>
+ </div>
+<div class="section"><h2 class="title sectiontitle">C++ API elements removed</h2>
+    <ul class="ul"><li class="li"><samp class="ph codeph">IloCplex::MIPInfoCallbackI::getNcliques</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::MIPInfoCallbackI::getNcovers</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::MIPInfoCallbackI::getNflowCovers</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::MIPInfoCallbackI::getNflowPaths</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::MIPInfoCallbackI::getNGUBcovers</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::MIPInfoCallbackI::getNfractionalCuts</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::MIPInfoCallbackI::getNdisjunctiveCuts</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::MIPInfoCallbackI::getNMIRs</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::MIPInfoCallbackI::getNimpliedBounds</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::MIPInfoCallbackI::getNzeroHalfCuts</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::GoalI::getNcliques</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::GoalI::getNcovers</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::GoalI::getNdisjunctiveCuts</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::GoalI::getNflowCovers</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::GoalI::getNflowPaths</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::GoalI::getNfractionalCuts</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::GoalI::getNGUBcovers</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::GoalI::getNimpliedBounds</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::GoalI::getNzeroHalfCuts</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::GoalI::getNMIRs</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::setVectors</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::SolveCallbackI::setVectors</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::readMIPStart(const char * name)</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::writeMIPStart(const char * name, IloInt mst=0)</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::readVectors(const char * name)</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::writeVectors(const char * name)</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::writeTextSolution(const char * name)</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex::getIIs</samp> method and <samp class="ph codeph">IloCplex::IISStatus</samp> enumeration 
+and <samp class="ph codeph">IloCplex::IISStatusArray</samp> typedef</li>
+</ul>
+  </div>
+<div class="section"><h2 class="title sectiontitle">Java API elements removed</h2>
+
+    <ul class="ul"><li class="li"><samp class="ph codeph">IloCplex.NodeEvaluator.getNodeId</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex.UserCutCallback.add(IloRange)</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex.UserCutCallback.add(IloRange, boolean)</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex.setVectors</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex.SolveCallback.setVectors</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex.readMIPStart</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex.writeMIPStart(String)</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex.writeMIPStart(String, int)</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex.readVectors(String)</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex.writeVectors(String)</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex.writeTextSolution(String)</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex.putenv(String)</samp></li>
+<li class="li"><samp class="ph codeph">IloCplex.IIS</samp> class and method <samp class="ph codeph">IloCplex.getIIS</samp></li>
+</ul>
+</div>
+<div class="section"><h2 class="title sectiontitle">.NET API elements removed</h2> 
+
+
+<p class="p">These <strong class="ph b">methods</strong> have been <strong class="ph b">removed</strong> from the .NET API of CPLEX V12.7.0.</p>
+
+    <ul class="ul"><li class="li"><samp class="ph codeph">Cplex.NodeEvaluator.GetNodeId</samp></li>
+<li class="li"><samp class="ph codeph">Cplex.UserCutCallback.Add(IRange)</samp></li>
+<li class="li"><samp class="ph codeph">Cplex.UserCutCallback.Add(IRange, boolean)</samp></li>
+<li class="li"><samp class="ph codeph">Cplex.SetVectors</samp></li>
+<li class="li"><samp class="ph codeph">Cplex.SolveCallback.SetVectors</samp></li>
+<li class="li"><samp class="ph codeph">Cplex.ReadMIPStart</samp></li>
+<li class="li"><samp class="ph codeph">Cplex.WriteMIPStart(String)</samp></li>
+<li class="li"><samp class="ph codeph">Cplex.WriteMIPStart(String, int)</samp></li>
+<li class="li"><samp class="ph codeph">Cplex.ReadVectors(String)</samp></li>
+<li class="li"><samp class="ph codeph">Cplex.WriteVectors(String)</samp></li>
+<li class="li"><samp class="ph codeph">Cplex.WriteTextSolution(String)</samp></li>
+<li class="li"><samp class="ph codeph">Cplex.IIS</samp> class and method <samp class="ph codeph">Cplex.GetIIS</samp></li>
+</ul>
+ 
+    
+<p class="p">These <strong class="ph b">properties</strong> have been <strong class="ph b">removed</strong> and replaced by accessors in CPLEX V12.7.0.</p>
+
+
+<ul class="ul"><li class="li"><samp class="ph codeph">Cplex.BarrierCallback.DualObjValue </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.BestObjValue  </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.BranchCallback.Nbranches </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Callback.CplexTime  </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Callback.DetTime </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Callback.EndDetTime </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Callback.EndTime </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Callback.StartDetTime </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Callback.StartTime </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.ContinuousCallback.DualInfeasibility </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.ContinuousCallback.Infeasibility </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.ContinuousCallback.Niterations </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.ContinuousCallback.ObjValue </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.ControlCallback.NodeData </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.ControlCallback.ObjValue </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.CplexTime </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.CrossoverCallback.NdualExchanges </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.CrossoverCallback.NdualPushes </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.CrossoverCallback.NprimalExchanges </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.CrossoverCallback.NprimalPushes </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.CrossoverCallback.Nsuperbasics </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Cutoff </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.DetTime </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.DisjunctiveCutCallback.Progress </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.DisjunctiveCutInfoCallback.Progress </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.FlowMIRCutCallback.Progress </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.FlowMIRCutInfoCallback.Progress </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.FractionalCutCallback.Progress </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.FractionalCutInfoCallback.Progress </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Goal.BestObjValue </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Goal.Cutoff </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Goal.IncumbentObjValue </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Goal.MIPRelativeGap </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Goal.Nbranches </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Goal.Niterations </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Goal.Nnodes </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Goal.NremainingNodes </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Goal.ObjValue </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.IncumbentCallback.NodeData </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.IncumbentCallback.ObjValue </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.BestObjValue </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.Cutoff </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.GUBcovers </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.IncumbentObjValue </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.Ncliques </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.Ncovers </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.NdisjunctiveCuts </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.NflowCovers </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.NflowPaths </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.NfractionalCuts </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.NimpliedBounds </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.Niterations </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.NMCFCuts </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.NMIRs </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.Nnodes </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.NremainingNodes </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPInfoCallback.NzeroHalfCuts </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.MIPRelativeGap  </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.NetworkCallback.Infeasibility </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.NetworkCallback.Niterations </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.NetworkCallback.ObjValue </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.NodeEvaluator.BranchVar </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.NodeEvaluator.Depth </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.NodeEvaluator.EstimatedObjValue </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.NodeEvaluator.InfeasibilitySum </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.NodeEvaluator.LeftDepth </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.NodeEvaluator.Ninfeasibilities </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.NodeEvaluator.ObjValue </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.NodeEvaluator.RightDepth </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.NumCores </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.OptimizationCallback.Model </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.OptimizationCallback.Ncols </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.OptimizationCallback.Nrows </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.PresolveCallback.Naggregations </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.PresolveCallback.NmodifiedCoeffs </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.PresolveCallback.NremovedCols </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.PresolveCallback.NremovedRows </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.ProbingCallback.Phase </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.ProbingCallback.Progress </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.ProbingInfoCallback.Phase </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.ProbingInfoCallback.Progress </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.Ray </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.SearchLimit.Depth </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.SearchLimit.LeftDepth </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.SearchLimit.RightDepth </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.SolnPoolMeanObjValue  </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.SolnPoolNreplaced  </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.SolnPoolNsolns </samp></li>
+<li class="li"><samp class="ph codeph">Cplex.TuningCallback.Progress </samp></li>
+</ul>
+
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/convertIntro.html" title="Explains changes introduced by CPLEX V12.7.0.">Conversion notes</a></div>
+</div>
+</div></div></body>
+</html>

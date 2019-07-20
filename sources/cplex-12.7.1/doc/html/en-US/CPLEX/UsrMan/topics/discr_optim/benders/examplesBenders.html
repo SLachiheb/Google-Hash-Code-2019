@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="Examples of Benders algorithm" />
+<meta name="abstract" content="CPLEX provides examples that implement Benders algorithm." />
+<meta name="Description" content="CPLEX provides examples that implement Benders algorithm." />
+<meta name="DC.subject" content="Benders algorithm, examples, cut-generating linear program (CGLP), Benders algorithm examples" />
+<meta name="keywords" content="Benders algorithm, examples, cut-generating linear program (CGLP), Benders algorithm examples" />
+<meta name="DC.Relation" scheme="URI" content="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/introBenders.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="examplesBenders" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/introBenders.html" />
+<title>Examples of Benders algorithm</title>
+</head>
+<body id="examplesBenders"><div role="main">
+<h1 class="title topictitle1">Examples of Benders algorithm</h1>
+<div class="body"><p class="shortdesc">CPLEX provides examples that implement Benders algorithm.</p>
+<p class="p">CPLEX offers a variety of examples of Benders algorithm in all APIs.</p>
+<ul class="ul"><li class="li">In the Callable Library (<strong class="ph b">C API</strong>), see <samp class="ph codeph">benders.c</samp> or <samp class="ph codeph">xbenders.c</samp>. </li>
+<li class="li">In the <strong class="ph b">C++ API</strong>, see <samp class="ph codeph">ilobenders.cpp</samp>. </li>
+<li class="li">In the <strong class="ph b">Java API</strong>, see <samp class="ph codeph">Benders.java</samp>. </li>
+<li class="li">In the <strong class="ph b">.NET API</strong>, see <samp class="ph codeph">Benders.cs</samp>. </li>
+<li class="li">In the <strong class="ph b">Python API</strong>, see <samp class="ph codeph">benders.py</samp>.</li>
+</ul>
+<p class="p">Those examples read a model from a file. If the user also provides an annotation file for 
+that model, CPLEX uses those annotations. Otherwise, CPLEX automatically decomposes the 
+problem, as explained in 
+<a class="xref" href="defaultDecomp.html" title="CPLEX implements a default Benders decomposition in certain situations.">Benders decomposition: CPLEX default</a>. CPLEX then 
+writes the resulting annotations to a file named <samp class="ph codeph">benders.ann</samp>. 
+CPLEX then solves the problem according to that decomposition.</p>
+<p class="p">For an explanation of how to annotate a model, see 
+<a class="xref" href="annotations.html" title="Annotation of a model specifies to CPLEX how to decompose your model.">Annotating a model for CPLEX</a>.</p>
+<div class="p">For examples that demonstrate how to annotate a model, see these samples as well:
+<ul class="ul"><li class="li">In the <strong class="ph b">C++ API</strong>, see <samp class="ph codeph">facility.cpp</samp>. </li>
+<li class="li">In the <strong class="ph b">Java API</strong>, see <samp class="ph codeph">Facility.java</samp>. </li>
+<li class="li">In the <strong class="ph b">.NET API</strong>, see <samp class="ph codeph">Facility.cs</samp>. </li>
+</ul>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../../../CPLEX/UsrMan/topics/discr_optim/benders/introBenders.html" title="CPLEX implements Benders algorithm.">Benders algorithm</a></div>
+</div>
+</div></div></body>
+</html>

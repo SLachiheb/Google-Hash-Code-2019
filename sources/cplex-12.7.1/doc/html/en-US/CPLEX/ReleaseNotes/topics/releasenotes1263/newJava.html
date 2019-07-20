@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="New Java features in CPLEX V12.6.3" />
+<meta name="abstract" content="Announces new features of CPLEX V12.6.3 in the Java API." />
+<meta name="Description" content="Announces new features of CPLEX V12.6.3 in the Java API." />
+<meta name="DC.subject" content="release notes CPLEX V12.6.3, new features Java API, Community Edition and Java API, counting constraints in Java API, Java API, counting constraints, Community Edition" />
+<meta name="keywords" content="release notes CPLEX V12.6.3, new features Java API, Community Edition and Java API, counting constraints in Java API, Java API, counting constraints, Community Edition" />
+<meta name="DC.Relation" scheme="URI" content="../../../../CPLEX/ReleaseNotes/topics/releasenotes1263/newIntro.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="NewFeaturesJavaUsers1263" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes1263/newIntro.html" />
+<title>New Java features in CPLEX V12.6.3</title>
+</head>
+<body id="NewFeaturesJavaUsers1263"><div role="main">
+<h1 class="title topictitle1">New Java features in CPLEX V12.6.3</h1>
+<div class="body"><p class="shortdesc">Announces new features of CPLEX V12.6.3 in the Java API.</p>
+<p class="p">These notes highlight new features in the Java API of interest to users of CPLEX V12.6.3.</p>
+<div class="section"><h2 class="title sectiontitle">New support for Community Edition in the Java API</h2>
+<p class="p">To enable users of the Community Edition of IBM ILOG CPLEX Optimization Studio to 
+verify that the size of their model does not exceed limits of the Community Edition, 
+CPLEX V12.6.3 now offers new methods. See the following 
+announcements about new counting methods for this purpose.</p>
+</div>
+<div class="section"><h2 class="title sectiontitle">New method to count indicator constraints in Java API</h2>
+<p class="p">CPLEX V12.6.3 offers a new method <samp class="ph codeph">IloCplex.getNindicators </samp>  in the Java API. 
+This method returns the number of indicator constraints in a model. It counts explicit 
+indicator constraints in the model as well as constraints added implicitly when CPLEX 
+expands a logical constraint into multiple indicator constraints automatically.
+This counting method can be useful, for example, to test whether the size of a model 
+conforms to limits in the Community Edition of IBM ILOG CPLEX Optimization Studio. </p>
+</div>
+<div class="section"><h2 class="title sectiontitle">New method to count lazy constraints in Java API</h2>
+<p class="p">CPLEX V12.6.3 offers a new method <samp class="ph codeph">IloCplex.getNLCs </samp>  in the Java API. 
+This method returns the number of lazy constraints in a model. 
+This counting method can be useful, for example, to test whether the size of a model 
+conforms to limits in the Community Edition of IBM ILOG CPLEX Optimization Studio. </p>
+</div>
+<div class="section"><h2 class="title sectiontitle">New method to count user cuts in Java API</h2>
+<p class="p">CPLEX V12.6.3 offers a new method <samp class="ph codeph">IloCplex.getNUCs </samp>  in the Java API. 
+This method returns the number of user cuts in a model. 
+This counting method can be useful, for example, to test whether the size of a model 
+conforms to limits in the Community Edition of IBM ILOG CPLEX Optimization Studio. </p>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes1263/newIntro.html" title="Announces new features of CPLEX V12.6.3.">New features in CPLEX V12.6.3</a></div>
+</div>
+</div></div></body>
+</html>

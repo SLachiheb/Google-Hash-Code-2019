@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="New parameters in CPLEX V12.7.0" />
+<meta name="abstract" content="CPLEX V12.7.0 offers new parameters." />
+<meta name="Description" content="CPLEX V12.7.0 offers new parameters." />
+<meta name="DC.subject" content="release notes CPLEX V12.7.0, parameters, parameter, RLT cuts, release notes CPLEX V12.7.0, Benders strategy, Benders optimality cut tolerance, Benders feasibility cut tolerance" />
+<meta name="keywords" content="release notes CPLEX V12.7.0, parameters, parameter, RLT cuts, release notes CPLEX V12.7.0, Benders strategy, Benders optimality cut tolerance, Benders feasibility cut tolerance" />
+<meta name="DC.Relation" scheme="URI" content="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/newIntro.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="NewFeaturesForAllUsers127parameters" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/newIntro.html" />
+<title>New parameters in CPLEX V12.7.0</title>
+</head>
+<body id="NewFeaturesForAllUsers127parameters"><div role="main">
+<h1 class="title topictitle1">New parameters in CPLEX V12.7.0</h1>
+<div class="body"><p class="shortdesc">CPLEX V12.7.0 offers new parameters.</p>
+<div class="section"><h2 class="title sectiontitle">Benders strategy</h2>
+<p class="p">CPLEX V12.7.0 offers a new parameter <a class="xref" href="../../../Parameters/topics/BendersStrategy.html" title="This parameter specifies whether CPLEX should apply Benders algorithm as a strategy to solve a model.">Benders strategy</a> to specify to CPLEX to apply Benders
+algorithm as a strategy to solve your model. (See <a class="xref" href="newBenders.html" title="Announces Benders algorithm as a new feature of CPLEX V12.7.0.">Benders algorithm in CPLEX V12.7.0</a> in
+these release notes for more about Benders algorithm as supported in CPLEX V12.7.0.)</p>
+ </div>
+<div class="section"><h2 class="title sectiontitle">Benders feasibility cut tolerance</h2>
+<p class="p">CPLEX V12.7.0 offers a new parameter <a class="xref" href="../../../Parameters/topics/BendersFeasCutTol.html" title="This parameter specifies a tolerance for the feasibility of cuts when CPLEX solves a model decomposed according to Benders algorithm.">Benders feasibility cut tolerance</a> to specify to CPLEX 
+a tolerance for feasibility cuts.</p>
+</div>
+<div class="section"><h2 class="title sectiontitle">Benders optimality cut tolerance</h2>
+<p class="p">CPLEX V12.7.0 offers a new parameter <a class="xref" href="../../../Parameters/topics/BendersOptCutTol.html" title="This parameter specifies a tolerance for the optimality of cuts when CPLEX solves a model decomposed according to Benders algorithm.">Benders optimality cut tolerance</a> to specify to CPLEX 
+a tolerance for optimality cuts.</p>
+</div>
+<div class="section"><h2 class="title sectiontitle">RLT cuts</h2> 
+
+<p class="p">CPLEX V12.7.0 offers a new parameter <a class="xref" href="../../../Parameters/topics/RLTcuts.html" title="Controls the addition of RLT cuts for nonconvex QP solved to global optimality.">Reformulation Linearization Technique (RLT) cuts</a> that turns on or off the generation of cuts based
+on the Reformulation Linearization Technique. These cuts, also known as RLT cuts, can improve
+performance when CPLEX solves certain <strong class="ph b">nonconvex</strong> quadratic programs (QP) or mixed integer
+quadratic programs (MIQP) solved to <strong class="ph b">global optimality</strong>. This new parameter interacts with the
+existing parameter <a class="xref" href="../../../Parameters/topics/OptimalityTarget.html" title="Specifies type of optimality that CPLEX targets (optimal convex or first-order satisfaction) as it searches for a solution">optimality target</a>,
+documented in the <em class="ph i">CPLEX Parameters Reference Manual</em>. </p>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/newIntro.html" title="Announces new features of CPLEX V12.7.0.">New features in CPLEX V12.7.0</a></div>
+</div>
+</div></div></body>
+</html>

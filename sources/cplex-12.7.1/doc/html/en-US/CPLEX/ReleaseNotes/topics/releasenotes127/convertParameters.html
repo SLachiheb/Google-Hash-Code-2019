@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="Changes in parameters in CPLEX V12.7.0" />
+<meta name="abstract" content="These parameters have changed in CPLEX V12.7.0." />
+<meta name="Description" content="These parameters have changed in CPLEX V12.7.0." />
+<meta name="DC.subject" content="release notes CPLEX V12.7.0, parameters, parameter, data checking, release notes CPLEX V12.7.0, DataCheck" />
+<meta name="keywords" content="release notes CPLEX V12.7.0, parameters, parameter, data checking, release notes CPLEX V12.7.0, DataCheck" />
+<meta name="DC.Relation" scheme="URI" content="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/convertIntro.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="ConvertForAllUsers127Parameters" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/convertIntro.html" />
+<title>Changes in parameters in CPLEX V12.7.0</title>
+</head>
+<body id="ConvertForAllUsers127Parameters"><div role="main">
+<h1 class="title topictitle1">Changes in parameters in CPLEX V12.7.0</h1>
+<div class="body"><p class="shortdesc">These parameters have changed in CPLEX V12.7.0.</p>
+<div class="p">In CPLEX V12.7.0, the type of the parameter <a class="xref" href="../../../Parameters/topics/DataCheck.html" title="Turns on or off data consistency checking and modeling assistance.">data consistency checking and modeling assistance</a> has changed. Formerly, the type was Boolean; that
+is, data checking was simply on or off (one or zero, true or false, depending on your API) in
+previous versions of CPLEX. Now the type is <samp class="ph codeph">int</samp>, offering users more control over
+the level of data checking that CPLEX performs. <ul class="ul"><li class="li">0 (zero) CPX_DATACHECK_OFF still means for CPLEX to turn off data checking.</li>
+<li class="li">1 (one) CPX_DATACHECK_WARN tells CPLEX to turn on data checking and to issue warnings about
+conditions that it detects during data checking.</li>
+<li class="li">2 CPX_DATACHECK_ASSIST tells CPLEX to turn on modeling assistance in addition to data checking.
+At this setting, CPLEX issues warnings about data consistency and about modeling anomalies, such as
+disproportionate coefficients, bounds, or righthand side values. This level can also report kappa
+statistics (also known as the condition number) when it detects ill conditioning in a linear program
+(LP) or mixed integer program (MIP).</li>
+</ul>
+</div>
+<p class="p">The additional warnings that CPLEX issues during modeling assistance have names 
+that begin CPXMI_. These messages appear on the warning channel or in logs, 
+depending on how you have set messaging and logging in your application. These
+warnings are available in all CPLEX APIs. 
+See the documentation of these warnings in the reference manual of the 
+Callable Library (C API) in the topic 
+<a class="xref" href="../../../../refcallablelibrary/macros/homepagemodelinfo.html">Modeling information in the CPLEX Callable Library (C API)</a> 
+(regardless of your API). </p>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/convertIntro.html" title="Explains changes introduced by CPLEX V12.7.0.">Conversion notes</a></div>
+</div>
+</div></div></body>
+</html>

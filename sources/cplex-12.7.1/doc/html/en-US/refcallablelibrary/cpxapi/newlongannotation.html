@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="reference" />
+<meta name="DC.Title" content="CPXXnewlongannotation and CPXnewlongannotation" />
+<meta name="abstract" content="The routine CPXXnewlongannotation/CPXnewlongannotation creates a new annotation with the specified name for annotating modeling objects with data of type long. By default all modeling objects are annotated with defval." />
+<meta name="Description" content="The routine CPXXnewlongannotation/CPXnewlongannotation creates a new annotation with the specified name for annotating modeling objects with data of type long. By default all modeling objects are annotated with defval." />
+<meta name="DC.subject" content="CPXnewlongannotation, C API Reference Manual, CPXXnewlongannotation" />
+<meta name="keywords" content="CPXnewlongannotation, C API Reference Manual, CPXXnewlongannotation" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/groups/hpAlphabetMNO.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/groups/homepageannotations.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/groups/homepageannotations.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/groups/homepageannotations.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/groups/homepageannotations.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="newlongannotation" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../refcallablelibrary/groups/hpAlphabetMNO.html" />
+<link rel="Start" href="../../refcallablelibrary/groups/homepageannotations.html" />
+<link rel="Start" href="../../refcallablelibrary/groups/homepageannotations.html" />
+<link rel="Start" href="../../refcallablelibrary/groups/homepageannotations.html" />
+<link rel="Start" href="../../refcallablelibrary/groups/homepageannotations.html" />
+<title>CPXXnewlongannotation and CPXnewlongannotation</title>
+</head>
+<body id="newlongannotation"><div role="main">
+<h1 class="title topictitle1"><span class="keyword apiname">CPXXnewlongannotation</span> and <span class="keyword apiname">CPXnewlongannotation</span></h1>
+<div class="body refbody"><p class="shortdesc">     
+
+
+The routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXnewlongannotation</span>/<span class="keyword apiname">CPXnewlongannotation</span></samp>
+creates a new annotation with the specified name for annotating modeling objects
+with data of type long.  By default all modeling objects are annotated with
+defval.
+  </p>
+<div class="section refsyn">      <p class="p"><span class="ph synph">        <span class="keyword kwd">int</span>
+        <span class="ph sep"> </span><span class="keyword kwd">CPXXnewlongannotation</span><span class="ph delim">(</span>
+          <span class="keyword kwd">CPXCENVptr</span><span class="ph sep"> </span><span class="ph var">env</span><span class="ph delim">,</span>
+          <span class="keyword kwd">CPXLPptr</span><span class="ph sep"> </span><span class="ph var">lp</span><span class="ph delim">,</span>
+          <span class="keyword kwd">char const *</span><span class="ph sep"> </span><span class="ph var">annotationname_str</span><span class="ph delim">,</span>
+          <span class="keyword kwd">CPXLONG</span><span class="ph sep"> </span><span class="ph var">defval</span>            <span class="ph delim">)</span>
+      </span></p>
+
+      <p class="p"><span class="ph synph">        <span class="keyword kwd">int</span>
+        <span class="ph sep"> </span><span class="keyword kwd">CPXnewlongannotation</span><span class="ph delim">(</span>
+          <span class="keyword kwd">CPXCENVptr</span><span class="ph sep"> </span><span class="ph var">env</span><span class="ph delim">,</span>
+          <span class="keyword kwd">CPXLPptr</span><span class="ph sep"> </span><span class="ph var">lp</span><span class="ph delim">,</span>
+          <span class="keyword kwd">char const *</span><span class="ph sep"> </span><span class="ph var">annotationname_str</span><span class="ph delim">,</span>
+          <span class="keyword kwd">long</span><span class="ph sep"> </span><span class="ph var">defval</span>            <span class="ph delim">)</span>
+      </span></p>
+
+    </div>
+<div class="section"><h2 class="title sectiontitle">Description</h2>    
+ 
+
+
+<p class="p">The routine
+   <samp class="ph codeph"><span class="keyword apiname">CPXXnewlongannotation</span>/<span class="keyword apiname">CPXnewlongannotation</span></samp>
+   creates a new annotation in a CPLEX problem object with the specified name for annotating modeling objects
+with data of type long.  An argument to
+<samp class="ph codeph"><span class="keyword apiname">CPXXnewlongannotation</span>/<span class="keyword apiname">CPXnewlongannotation</span></samp>
+defines the name of the annotation.  Another argument defines the default value
+with which all modeling objects in cplex are implicitly annotated in the new
+annotation.</p>
+
+
+
+    </div>
+<div class="section"><h2 class="title sectiontitle">Arguments</h2>      
+    </div>
+<table cellpadding="4" cellspacing="0" summary="Each row in this table describes a property; each property can have a type, value, and description." border="1" class="simpletable properties"><tr class="sthead prophead">
+<th valign="bottom" align="left" id="d1086426e170" class="stentry propvaluehd thleft thbot">Name</th>
+<th valign="bottom" align="left" id="d1086426e172" class="stentry propdeschd thleft thbot">Description</th>
+</tr><tr class="strow property">
+<td valign="top" headers="d1086426e170" class="stentry propvalue">env</td>
+<td valign="top" headers="d1086426e172" class="stentry propdesc">          
+
+          A pointer to the CPLEX environment as returned by <samp class="ph codeph"><span class="keyword apiname">CPXXopenCPLEX</span>/<span class="keyword apiname">CPXopenCPLEX</span></samp>.
+        </td>
+</tr>
+<tr class="strow property">
+<td valign="top" headers="d1086426e170" class="stentry propvalue">lp</td>
+<td valign="top" headers="d1086426e172" class="stentry propdesc">          
+
+          A pointer to a CPLEX problem object as returned by <samp class="ph codeph"><span class="keyword apiname">CPXXcreateprob</span>/<span class="keyword apiname">CPXcreateprob</span></samp>.
+        </td>
+</tr>
+<tr class="strow property">
+<td valign="top" headers="d1086426e170" class="stentry propvalue">annotationname_str</td>
+<td valign="top" headers="d1086426e172" class="stentry propdesc">          
+          A pointer to a character string containing the name of the annotation.
+          Annotation names must be non-NULL and unique.
+        </td>
+</tr>
+<tr class="strow property">
+<td valign="top" headers="d1086426e170" class="stentry propvalue">defval</td>
+<td valign="top" headers="d1086426e172" class="stentry propdesc">          
+          The default value the new annotation assigns to all modeling objects in
+          the problem instance.
+        </td>
+</tr>
+</table>
+<div class="section"><h2 class="title sectiontitle">Return</h2>      
+      The routine returns 0 (zero) if successful and nonzero if an error occurs.
+    </div>
+<div class="section"><h2 class="title sectiontitle">Example</h2>      
+
+<pre class="pre codeblock"><code>status = CPXnewlongannotation (env, lp, CPX_BENDERS_PARTITION, -1);</code></pre>
+
+
+    </div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../refcallablelibrary/groups/hpAlphabetMNO.html">M, N, O</a></div>
+</div>
+
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../refcallablelibrary/groups/homepageannotations.html">Annotating Models in the CPLEX Callable Library (C API)</a></div>
+</div>
+</div></div></body>
+</html>

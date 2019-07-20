@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="Annotating a model in CPLEX V12.7.0" />
+<meta name="abstract" content="Announces annotation of models as a new feature of CPLEX V12.7.0." />
+<meta name="Description" content="Announces annotation of models as a new feature of CPLEX V12.7.0." />
+<meta name="DC.subject" content="release notes CPLEX V12.7.0, annotating a model, annotations, XML schema for" />
+<meta name="keywords" content="release notes CPLEX V12.7.0, annotating a model, annotations, XML schema for" />
+<meta name="DC.Relation" scheme="URI" content="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/newIntro.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="NewFeaturesForAllUsers127annotations" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/newIntro.html" />
+<title>Annotating a model in CPLEX V12.7.0</title>
+</head>
+<body id="NewFeaturesForAllUsers127annotations"><div role="main">
+<h1 class="title topictitle1">Annotating a model in CPLEX V12.7.0</h1>
+<div class="body"><p class="shortdesc">Announces annotation of models as a new feature of CPLEX V12.7.0.</p>
+<p class="p">CPLEX V12.7.0 offers an application programming interface (API) for the purpose of annotating the
+objects of a model. An annotation specifies a key and value pair, where keys  are strings, and values 
+can be either <samp class="ph codeph">long</samp>  or <samp class="ph codeph">double</samp>. You can associate an annotation 
+with each element (such as the objective, variables, constraints, rows,
+columns, and so forth) of your model. CPLEX can take advantage of these annotations as it solves
+your model. For example, these annotations make it possible for you to specify to CPLEX the blocks
+of a partition of the variables to apply Benders algorithm. Conventionally, the key 
+<samp class="ph codeph">cpxBendersPartition</samp> with the value 0 (zero) 
+designates elements in the master, while other values designate subproblems of the partition.
+(See the announcement <a class="xref" href="newBenders.html" title="Announces Benders algorithm as a new feature of CPLEX V12.7.0.">Benders algorithm in CPLEX V12.7.0</a> 
+in these release notes for more about Benders algorithm as supported in
+CPLEX V12.7.0. Also see the new topic 
+<a class="xref" href="../../../UsrMan/topics/discr_optim/benders/annotations.html" title="Annotation of a model specifies to CPLEX how to decompose your model.">Annotating a model for CPLEX</a> 
+in the <em class="ph i">CPLEX User's Manual</em>.)</p>
+<p class="p">CPLEX V12.7.0 also offers a new <strong class="ph b">file format</strong>, <samp class="ph codeph">ANN</samp> or <samp class="ph codeph">.ann</samp>,
+to support annotations of modeling objects. CPLEX can read annotations from such a formatted file
+and apply those annotations to your model. CPLEX can also collect annotations from a model and write
+those annotations to such a formatted file. </p>
+<p class="p">See the file <samp class="ph codeph">annotation.xsd</samp> for the <strong class="ph b">XML schema</strong> supporting annotations in
+CPLEX V12.7.0.</p>
+<p class="p">See the topic <a class="xref" href="newC.html" title="Announces new features of CPLEX V12.7.0 in the Callable Library (C API).">New Callable Library (C API) features in CPLEX V12.7.0</a> in these release notes for a list of 
+new routines supporting annotations in the <strong class="ph b">Callable Library (C API)</strong>. </p>
+<p class="p">See the topic <a class="xref" href="newCpp.html" title="Announces new features of CPLEX V12.7.0 in the C++ API.">New C++ features in CPLEX V12.7.0</a> in these release notes for a list of 
+new classes and methods supporting annotations in the <strong class="ph b">C++ API</strong>. </p>
+<p class="p">See the topic <a class="xref" href="newJava.html" title="Announces new features of CPLEX V12.7.0 in the Java API.">New Java features in CPLEX V12.7.0</a> in these release notes for a list of 
+new classes and methods supporting annotations in the <strong class="ph b">Java API</strong>. </p>
+<p class="p">See the topic <a class="xref" href="newDotNET.html" title="Announces new features of CPLEX V12.7.0 in the .NET API.">New .NET features in CPLEX V12.7.0</a> in these release notes for a list of 
+new classes and methods supporting annotations in the <strong class="ph b">.NET API</strong>. </p>
+<p class="p">See the topic <a class="xref" href="newPython.html" title="Announces new features of CPLEX V12.7.0 in the Python API.">New Python features in CPLEX V12.7.0</a> in these release notes for a list of 
+new classes and methods supporting annotations in the <strong class="ph b">Python API</strong>. </p>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/newIntro.html" title="Announces new features of CPLEX V12.7.0.">New features in CPLEX V12.7.0</a></div>
+</div>
+</div></div></body>
+</html>

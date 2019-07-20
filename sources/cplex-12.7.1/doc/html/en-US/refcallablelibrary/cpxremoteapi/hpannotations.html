@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="Remote Object (annotations) in the CPLEX Callable Library (C API)" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/groups/homepagegroups.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxremoteapi/deldblannotation_multicast.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxremoteapi/deldblannotations_multicast.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxremoteapi/dellongannotation_multicast.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxremoteapi/dellongannotations_multicast.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxremoteapi/readcopyannotations_multicast.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxremoteapi/setdblannotations_multicast.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxremoteapi/setlongannotations_multicast.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="hpannotationsRemoteObject" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../refcallablelibrary/groups/homepagegroups.html" />
+<title>Remote Object (annotations) in the CPLEX Callable Library (C API)</title>
+</head>
+<body id="hpannotationsRemoteObject"><div role="main">
+<h1 class="title topictitle1">Remote Object (annotations) in the CPLEX Callable Library (C API) </h1>
+<div class="body"><p class="p">These routines are available in the CPLEX Callable Library (C API) for you 
+to annotate your model in an application of the remote object. 
+An annotation associates an ordered pair of key and value 
+with an object in your model. You can use these annotations, for 
+example, to specify blocks in a Benders decomposition of your model. </p>
+</div>
+<div class="related-links">
+<ul class="ullinks">
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxremoteapi/deldblannotation_multicast.html">CPXXdeldblannotation_multicast and CPXdeldblannotation_multicast</a></span><br />
+     
+
+
+The routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXdeldblannotation_multicast</span>/<span class="keyword apiname">CPXdeldblannotation_multicast</span></samp>
+deletes a double valued annotation.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxremoteapi/deldblannotations_multicast.html">CPXXdeldblannotations_multicast and CPXdeldblannotations_multicast</a></span><br />
+     
+
+Multicast version of <samp class="ph codeph"><span class="keyword apiname">CPXXdeldblannotations_multicast</span>/<span class="keyword apiname">CPXdeldblannotations_multicast</span></samp>.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxremoteapi/dellongannotation_multicast.html">CPXXdellongannotation_multicast and CPXdellongannotation_multicast</a></span><br />
+     
+
+
+The routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXdellongannotation_multicast</span>/<span class="keyword apiname">CPXdellongannotation_multicast</span></samp>
+deletes a long valued annotation.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxremoteapi/dellongannotations_multicast.html">CPXXdellongannotations_multicast and CPXdellongannotations_multicast</a></span><br />
+     
+
+Multicast version of <samp class="ph codeph"><span class="keyword apiname">CPXXdellongannotations_multicast</span>/<span class="keyword apiname">CPXdellongannotations_multicast</span></samp>.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxremoteapi/readcopyannotations_multicast.html">CPXXreadcopyannotations_multicast and CPXreadcopyannotations_multicast</a></span><br />
+     
+
+ Multicast version of <samp class="ph codeph"><a class="xref" href="../../refcallablelibrary/cpxapi/readcopyannotations.html" title="The routine CPXXreadcopyannotations/CPXreadcopyannotations reads a file in the ANN file format and copies the information of all the annotations contained in that file into a CPLEX problem object. Any previously existing annotations in the problem object will first be deleted."><span class="keyword apiname">CPXXreadcopyannotations</span>/<span class="keyword apiname">CPXreadcopyannotations</span></a></samp>.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxremoteapi/setdblannotations_multicast.html">CPXXsetdblannotations_multicast and CPXsetdblannotations_multicast</a></span><br />
+     
+
+
+The routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXsetdblannotations_multicast</span>/<span class="keyword apiname">CPXsetdblannotations_multicast</span></samp>
+sets the annotation values for a set of modeling objects in the CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxremoteapi/setlongannotations_multicast.html">CPXXsetlongannotations_multicast and CPXsetlongannotations_multicast</a></span><br />
+     
+
+
+The routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXsetlongannotations_multicast</span>/<span class="keyword apiname">CPXsetlongannotations_multicast</span></samp>
+sets the annotation values for a set of modeling objects in the CPLEX problem object.
+  </li>
+</ul>
+
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../refcallablelibrary/groups/homepagegroups.html">Browsing by tasks in the CPLEX Callable Library (C API) Reference Manual</a></div>
+</div>
+</div></div></body>
+</html>

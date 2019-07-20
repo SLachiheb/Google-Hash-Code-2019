@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="Effort level for MIP starts in CPLEX V12.7.0" />
+<meta name="abstract" content="Announces a new level of effort for MIP starts as a new feature of CPLEX V12.7.0." />
+<meta name="Description" content="Announces a new level of effort for MIP starts as a new feature of CPLEX V12.7.0." />
+<meta name="DC.subject" content="release notes CPLEX V12.7.0, effort level, MIP starts, MIP start" />
+<meta name="keywords" content="release notes CPLEX V12.7.0, effort level, MIP starts, MIP start" />
+<meta name="DC.Relation" scheme="URI" content="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/newIntro.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="NewFeaturesForAllUsers127EffortLevelMIPstarts" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/newIntro.html" />
+<title>Effort level for MIP starts in CPLEX V12.7.0</title>
+</head>
+<body id="NewFeaturesForAllUsers127EffortLevelMIPstarts"><div role="main">
+<h1 class="title topictitle1">Effort level for MIP starts in CPLEX V12.7.0</h1>
+<div class="body"><p class="shortdesc">Announces a new level of effort for MIP starts as a new feature of CPLEX
+V12.7.0.</p>
+<p class="p">CPLEX V12.7.0 offers a new value (<samp class="ph codeph">CPX_MIPSTART_NOCHECK</samp>) to specify the level of
+effort that CPLEX should expend when it applies a MIP start (also known as a warm start or advanced
+start). You pass this new value to the routine or method that declares the MIP start to CPLEX. The
+new level of effort specifies to CPLEX that you want to inject a complete solution as the incumbent
+without CPLEX performing the usual checks. CPLEX checks whether the MIP start is a complete
+solution; if the MIP start is not a complete solution, CPLEX rejects it. If it is a complete
+solution, CPLEX injects it as the incumbent and proceeds with no further checking. At this level,
+CPLEX performs no other checks. Consequently, if the 
+solution defined by the MIP start is infeasible, behavior is undefined. </p>
+<div class="p"> 
+<ul class="ul"><li class="li">In the Callable Library (<strong class="ph b">C API</strong>), use this new value in the routine 
+<a class="xref" href="../../../../refcallablelibrary/mipapi/addmipstarts.html" title="The routine CPXXaddmipstarts/CPXaddmipstarts adds multiple MIP starts to a CPLEX problem object of type CPXPROB_MILP, CPXPROB_MIQP, or CPXPROB_MIQCP.">CPXXaddmipstarts</a> </li>
+<li class="li">In the <strong class="ph b">C++ API</strong>, use this new value in <samp class="ph codeph"><span class="keyword apiname">IloCplex::addMIPStart</span></samp> </li>
+<li class="li">In the <strong class="ph b">Java API</strong>, use this new value in <samp class="ph codeph"><span class="keyword apiname">IloCplex.addMIPStart </span></samp> </li>
+<li class="li">In the <strong class="ph b">.NET API</strong>, use this new value in <samp class="ph codeph"><span class="keyword apiname">Cplex.AddMIPStart</span></samp> </li>
+<li class="li">In the <strong class="ph b">Python API</strong>, use this new value in <samp class="ph codeph">cplex.MIP_starts.add<span class="keyword apiname"></span></samp> </li>
+<li class="li">In the <strong class="ph b">Interactive Optimizer</strong>, use this new value as an option in the file  
+ that you read to establish the MIP start. </li>
+</ul>
+ </div>
+<p class="p"><strong class="ph b">Tip</strong>: The MIP start should be a <strong class="ph b">complete</strong> solution when you declare this level of effort.</p>
+<p class="p">You can also use this new value for the effort level in other routines of the Callable Library (C API) 
+to access or modify MIP starts, such routines as 
+<a class="xref" href="../../../../refcallablelibrary/mipapi/getmipstarts.html" title="The routine CPXXgetmipstarts/CPXgetmipstarts accesses a range of MIP starts of a CPLEX problem object.">CPXXgetmipstarts</a> or  
+<a class="xref" href="../../../../refcallablelibrary/mipapi/chgmipstarts.html" title="The routine CPXXchgmipstarts/CPXchgmipstarts modifies or extends multiple MIP starts.">CPXXchgmipstarts</a>. 
+Likewise, you can use this new value for effort level in methods of the C++, Java, .NET, Python APIs to 
+access or modify MIP starts. In other words, this new effort level is not limited to creation of a MIP start. </p>
+<p class="p">For more about MIP starts, see the topic 
+<a class="xref" href="../../../UsrMan/topics/discr_optim/mip/para/49_mipStarts.html" title="Documents advanced starts; also known as warm starts or MIP starts.">Starting from a solution: MIP starts</a> 
+in the <em class="ph i">CPLEX User's Manual</em>, especially the subtopic 
+<strong class="ph b">MIP starts and effort level</strong>.</p>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes127/newIntro.html" title="Announces new features of CPLEX V12.7.0.">New features in CPLEX V12.7.0</a></div>
+</div>
+</div></div></body>
+</html>

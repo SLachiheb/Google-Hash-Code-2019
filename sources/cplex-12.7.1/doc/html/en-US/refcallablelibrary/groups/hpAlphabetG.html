@@ -1,0 +1,1599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="G" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/groups/homepagecallable.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getax.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getbaritcnt.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getbase.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getbasednorms.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getbestobjval.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getbhead.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getbranchcallbackfunc.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getbranchnosolncallbackfunc.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbackbranchconstraints.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbackctype.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbackgloballb.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbackglobalub.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbackincumbent.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbackindicatorinfo.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getcallbackinfo.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbacklp.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbacknodeinfo.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbacknodeintfeas.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbacknodelb.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbacknodelp.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbacknodeobjval.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbacknodestat.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbacknodeub.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbacknodex.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbackorder.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbackpseudocosts.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbackseqinfo.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcallbacksosinfo.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getchannels.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getchgparam.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getcoef.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getcolindex.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getcolinfeas.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getcolname.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getcols.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getconflict.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getconflictext.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getcrossdexchcnt.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getcrossdpushcnt.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getcrosspexchcnt.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getcrossppushcnt.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getctype.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getcutoff.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getdeletenodecallbackfunc.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getdblannotationdefval.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getdblannotationindex.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getdblannotationname.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getdblannotations.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getdblparam.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getdblquality.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getdettime.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getdj.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getdnorms.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getdsbcnt.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/geterrorstring.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getgrad.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getheuristiccallbackfunc.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getijdiv.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getijrow.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getincumbentcallbackfunc.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getindconstr.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getindconstrindex.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getindconstrinfeas.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getindconstrname.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getindconstrslack.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getinfocallbackfunc.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getintparam.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getintquality.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getitcnt.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getlazyconstraintcallbackfunc.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getlb.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getlogfile.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getlongannotationdefval.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getlongannotationindex.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getlongannotationname.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getlongannotations.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getlongparam.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getlpcallbackfunc.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getmethod.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getmipcallbackfunc.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getmipitcnt.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getmiprelgap.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getmipstartindex.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getmipstartname.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getmipstarts.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getnetcallbackfunc.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getnodecallbackfunc.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getnodecnt.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getnodeint.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getnodeleftcnt.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getnumdblannotations.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getnumlongannotations.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getnumbin.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getnumcols.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getnumcores.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getnumcuts.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getnumindconstrs.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getnumint.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getnumlazyconstraints.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getnummipstarts.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getnumnz.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/socpapi/getnumqconstrs.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getnumpwl.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/qpapi/getnumqpnz.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/qpapi/getnumquad.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getnumrows.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getnumsemicont.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getnumsemiint.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getnumsos.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getnumusercuts.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getobj.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getobjname.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getobjoffset.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getobjsen.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getobjval.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getorder.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getparamname.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getparamnum.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getparamtype.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getphase1cnt.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getpi.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getpnorms.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getprestat.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getprobname.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getprobtype.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getprotected.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getpsbcnt.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getpwl.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getpwlindex.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getpwlname.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/socpapi/getqconstr.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/socpapi/getqconstrdslack.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/socpapi/getqconstrindex.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/socpapi/getqconstrinfeas.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/socpapi/getqconstrname.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/socpapi/getqconstrslack.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/qpapi/getqpcoef.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/qpapi/getquad.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getray.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getredlp.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getrhs.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getrngval.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getrowindex.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getrowinfeas.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getrowname.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getrows.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getsense.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getsiftitcnt.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getsiftphase1cnt.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getslack.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getsolnpooldblquality.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolnpooldivfilter.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolnpoolfilterindex.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolnpoolfiltername.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolnpoolfiltertype.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getsolnpoolintquality.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolnpoolmeanobjval.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolnpoolnumfilters.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolnpoolnumreplaced.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolnpoolnumsolns.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolnpoolobjval.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolnpoolqconstrslack.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolnpoolrngfilter.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolnpoolslack.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolnpoolsolnindex.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolnpoolsolnname.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolnpoolx.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsolvecallbackfunc.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsos.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsosindex.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsosinfeas.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsosname.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getstat.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getstatstring.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getstrparam.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsubmethod.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getsubstat.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/gettime.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/gettuningcallbackfunc.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getub.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/mipapi/getusercutcallbackfunc.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getweight.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/cpxapi/getx.html" />
+<meta name="DC.Relation" scheme="URI" content="../../refcallablelibrary/socpapi/getxqxax.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="hpAlphabetG" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../refcallablelibrary/groups/homepagecallable.html" />
+<title>G</title>
+</head>
+<body id="hpAlphabetG"><div role="main">
+<h1 class="title topictitle1">G</h1>
+<div class="body"><p class="p"></p>
+</div>
+<div class="related-links">
+<ul class="ullinks">
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getax.html">CPXXgetax and CPXgetax</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetax</span>/<span class="keyword apiname">CPXgetax</span></samp> accesses row activity levels
+for a range of linear constraints.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getbaritcnt.html">CPXXgetbaritcnt and CPXgetbaritcnt</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetbaritcnt</span>/<span class="keyword apiname">CPXgetbaritcnt</span></samp> accesses the total
+number of Barrier iterations to solve an LP problem.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getbase.html">CPXXgetbase and CPXgetbase</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetbase</span>/<span class="keyword apiname">CPXgetbase</span></samp> accesses the basis resident
+in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getbasednorms.html">CPXXgetbasednorms and CPXgetbasednorms</a></span><br />
+ 
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetbasednorms</span>/<span class="keyword apiname">CPXgetbasednorms</span></samp> works in conjunction with the
+routine <samp class="ph codeph"><a class="xref" href="../../refcallablelibrary/cpxapi/copybasednorms.html" title="The routine CPXXcopybasednorms/CPXcopybasednorms works in conjunction with the routine CPXXgetbasednorms/CPXgetbasednorms."><span class="keyword apiname">CPXXcopybasednorms</span>/<span class="keyword apiname">CPXcopybasednorms</span></a></samp>.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getbestobjval.html">CPXXgetbestobjval and CPXgetbestobjval</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetbestobjval</span>/<span class="keyword apiname">CPXgetbestobjval</span></samp>
+ accesses the currently best known bound
+ of all the remaining open nodes in a branch-and-cut tree.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getbhead.html">CPXXgetbhead and CPXgetbhead</a></span><br />
+     
+
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetbhead</span>/<span class="keyword apiname">CPXgetbhead</span></samp> returns the basis header; it gives
+the negative value minus one of all row indices of slacks.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getbranchcallbackfunc.html">CPXXgetbranchcallbackfunc and CPXgetbranchcallbackfunc</a></span><br />
+ 
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetbranchcallbackfunc</span>/<span class="keyword apiname">CPXgetbranchcallbackfunc</span></samp> accesses the
+ user-written callback routine to be called during MIP optimization after a
+ branch has been selected but before the branch is carried out.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getbranchnosolncallbackfunc.html">CPXXgetbranchnosolncallbackfunc and CPXgetbranchnosolncallbackfunc</a></span><br />
+    This routine accesses the user-written callback to be called during MIP optimization when 
+    branching when no solution is available.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbackbranchconstraints.html">CPXXgetcallbackbranchconstraints and CPXgetcallbackbranchconstraints</a></span><br />
+    
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbackctype.html">CPXXgetcallbackctype and CPXgetcallbackctype</a></span><br />
+     
+ 
+
+ 
+
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbackctype</span>/<span class="keyword apiname">CPXgetcallbackctype</span></samp> retrieves the ctypes
+ for the MIP problem from within a user-written callback during MIP
+ optimization.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbackgloballb.html">CPXXgetcallbackgloballb and CPXgetcallbackgloballb</a></span><br />
+     
+ 
+
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbackgloballb</span>/<span class="keyword apiname">CPXgetcallbackgloballb</span></samp> retrieves the best
+ known global lower bound values during MIP optimization from within a
+ user-written callback.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbackglobalub.html">CPXXgetcallbackglobalub and CPXgetcallbackglobalub</a></span><br />
+     
+ 
+
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbackglobalub</span>/<span class="keyword apiname">CPXgetcallbackglobalub</span></samp> retrieves the best
+ known global upper bound values during MIP optimization from within a
+ user-written callback.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbackincumbent.html">CPXXgetcallbackincumbent and CPXgetcallbackincumbent</a></span><br />
+     
+ 
+
+ 
+
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbackincumbent</span>/<span class="keyword apiname">CPXgetcallbackincumbent</span></samp> retrieves the
+ incumbent values during MIP optimization from within a user-written
+ callback.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbackindicatorinfo.html">CPXXgetcallbackindicatorinfo and CPXgetcallbackindicatorinfo</a></span><br />
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbackindicatorinfo</span>/<span class="keyword apiname">CPXgetcallbackindicatorinfo</span></samp> accesses
+ information about the indicator constraints of the presolved problem
+ during MIP callbacks.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getcallbackinfo.html">CPXXgetcallbackinfo and CPXgetcallbackinfo</a></span><br />
+ 
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbackinfo</span>/<span class="keyword apiname">CPXgetcallbackinfo</span></samp> accesses
+information about the current optimization process from within a
+user-written callback function.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbacklp.html">CPXXgetcallbacklp and CPXgetcallbacklp</a></span><br />
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbacklp</span>/<span class="keyword apiname">CPXgetcallbacklp</span></samp> retrieves the pointer to
+ the MIP problem that is in use when the user-written callback function is
+ called.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbacknodeinfo.html">CPXXgetcallbacknodeinfo and CPXgetcallbacknodeinfo</a></span><br />
+     
+ 
+
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbacknodeinfo</span>/<span class="keyword apiname">CPXgetcallbacknodeinfo</span></samp> is called from within
+ user-written callbacks during a MIP optimization and accesses information
+ about nodes.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbacknodeintfeas.html">CPXXgetcallbacknodeintfeas and CPXgetcallbacknodeintfeas</a></span><br />
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbacknodeintfeas</span>/<span class="keyword apiname">CPXgetcallbacknodeintfeas</span></samp> retrieves
+ information for each variable about whether or not the variable is integer
+ feasible in the subproblem at the current node.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbacknodelb.html">CPXXgetcallbacknodelb and CPXgetcallbacknodelb</a></span><br />
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbacknodelb</span>/<span class="keyword apiname">CPXgetcallbacknodelb</span></samp> retrieves the lower
+ bound values for the subproblem at the current node during MIP optimization
+ from within a user-written callback.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbacknodelp.html">CPXXgetcallbacknodelp and CPXgetcallbacknodelp</a></span><br />
+     
+ 
+
+ 
+
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbacknodelp</span>/<span class="keyword apiname">CPXgetcallbacknodelp</span></samp> returns a
+ pointer to the subproblem at the current node
+ from within a user-written callback.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbacknodeobjval.html">CPXXgetcallbacknodeobjval and CPXgetcallbacknodeobjval</a></span><br />
+     
+ 
+
+ 
+
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbacknodeobjval</span>/<span class="keyword apiname">CPXgetcallbacknodeobjval</span></samp> retrieves the
+ objective value for the subproblem at the current node during MIP
+ optimization from within a user-written callback.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbacknodestat.html">CPXXgetcallbacknodestat and CPXgetcallbacknodestat</a></span><br />
+     
+ 
+
+ 
+
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbacknodestat</span>/<span class="keyword apiname">CPXgetcallbacknodestat</span></samp> retrieves the
+ optimization status of the subproblem at the current node from within a
+ user-written callback during MIP optimization.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbacknodeub.html">CPXXgetcallbacknodeub and CPXgetcallbacknodeub</a></span><br />
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbacknodeub</span>/<span class="keyword apiname">CPXgetcallbacknodeub</span></samp> retrieves the upper
+ bound values for the subproblem at the current node during MIP optimization
+ from within a user-written callback.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbacknodex.html">CPXXgetcallbacknodex and CPXgetcallbacknodex</a></span><br />
+     
+ 
+
+ 
+
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbacknodex</span>/<span class="keyword apiname">CPXgetcallbacknodex</span></samp> retrieves the primal
+ variable (x) values for the subproblem at the current node during MIP
+ optimization from within a user-written callback.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbackorder.html">CPXXgetcallbackorder and CPXgetcallbackorder</a></span><br />
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbackorder</span>/<span class="keyword apiname">CPXgetcallbackorder</span></samp> retrieves MIP
+ priority order information during MIP optimization from within a
+ user-written callback.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbackpseudocosts.html">CPXXgetcallbackpseudocosts and CPXgetcallbackpseudocosts</a></span><br />
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbackpseudocosts</span>/<span class="keyword apiname">CPXgetcallbackpseudocosts</span></samp> retrieves the
+ pseudo-cost values during MIP optimization from within a user-written
+ callback.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbackseqinfo.html">CPXXgetcallbackseqinfo and CPXgetcallbackseqinfo</a></span><br />
+     
+ 
+
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbackseqinfo</span>/<span class="keyword apiname">CPXgetcallbackseqinfo</span></samp> accesses information
+ about nodes during the MIP optimization from within user-written callbacks.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcallbacksosinfo.html">CPXXgetcallbacksosinfo and CPXgetcallbacksosinfo</a></span><br />
+     
+ 
+
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcallbacksosinfo</span>/<span class="keyword apiname">CPXgetcallbacksosinfo</span></samp> accesses information
+ about special ordered sets (SOSs) during MIP optimization from within
+ user-written callbacks.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getchannels.html">CPXXgetchannels and CPXgetchannels</a></span><br />
+     
+
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetchannels</span>/<span class="keyword apiname">CPXgetchannels</span></samp> obtains pointers
+to the four default channels created when you call the routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXopenCPLEX</span>/<span class="keyword apiname">CPXopenCPLEX</span></samp>.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getchgparam.html">CPXXgetchgparam and CPXgetchgparam</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetchgparam</span>/<span class="keyword apiname">CPXgetchgparam</span></samp> returns an array of
+parameter numbers (unique identifiers) for parameters which are
+not set at their default values.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getcoef.html">CPXXgetcoef and CPXgetcoef</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcoef</span>/<span class="keyword apiname">CPXgetcoef</span></samp> accesses a single
+constraint matrix coefficient of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getcolindex.html">CPXXgetcolindex and CPXgetcolindex</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcolindex</span>/<span class="keyword apiname">CPXgetcolindex</span></samp> searches for the index number
+of the specified column in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getcolinfeas.html">CPXXgetcolinfeas and CPXgetcolinfeas</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcolinfeas</span>/<span class="keyword apiname">CPXgetcolinfeas</span></samp> computes the
+infeasibility of a given solution for a range of variables.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getcolname.html">CPXXgetcolname and CPXgetcolname</a></span><br />
+     
+
+
+The routine<samp class="ph codeph"><span class="keyword apiname"> CPXgetcolname</span></samp> accesses a range of
+column names or, equivalently, the variable names of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getcols.html">CPXXgetcols and CPXgetcols</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcols</span>/<span class="keyword apiname">CPXgetcols</span></samp> accesses a range of
+columns of the constraint matrix of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getconflict.html">CPXXgetconflict and CPXgetconflict</a></span><br />
+     
+
+
+This routine returns the linear constraints and variables belonging
+to a conflict previously computed by the routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXrefineconflict</span>/<span class="keyword apiname">CPXrefineconflict</span></samp>.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getconflictext.html">CPXXgetconflictext and CPXgetconflictext</a></span><br />
+     
+
+
+For an infeasible problem, if the infeasibility has been analyzed by
+<samp class="ph codeph"><span class="keyword apiname">CPXXrefineconflictext</span>/<span class="keyword apiname">CPXrefineconflictext</span></samp>, this routine accesses
+information about the conflict computed by it.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getcrossdexchcnt.html">CPXXgetcrossdexchcnt and CPXgetcrossdexchcnt</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcrossdexchcnt</span>/<span class="keyword apiname">CPXgetcrossdexchcnt</span></samp> accesses the
+number of dual exchange iterations in the crossover method.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getcrossdpushcnt.html">CPXXgetcrossdpushcnt and CPXgetcrossdpushcnt</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcrossdpushcnt</span>/<span class="keyword apiname">CPXgetcrossdpushcnt</span></samp> accesses the
+number of dual push iterations in the crossover method.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getcrosspexchcnt.html">CPXXgetcrosspexchcnt and CPXgetcrosspexchcnt</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcrosspexchcnt</span>/<span class="keyword apiname">CPXgetcrosspexchcnt</span></samp> accesses the
+number of primal exchange iterations in the crossover method.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getcrossppushcnt.html">CPXXgetcrossppushcnt and CPXgetcrossppushcnt</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcrossppushcnt</span>/<span class="keyword apiname">CPXgetcrossppushcnt</span></samp> accesses the
+number of primal push iterations in the crossover method.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getctype.html">CPXXgetctype and CPXgetctype</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetctype</span>/<span class="keyword apiname">CPXgetctype</span></samp> accesses the types for a
+ range of variables in a problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getcutoff.html">CPXXgetcutoff and CPXgetcutoff</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetcutoff</span>/<span class="keyword apiname">CPXgetcutoff</span></samp> accesses the MIP cutoff
+ value being used during mixed integer optimization.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getdeletenodecallbackfunc.html">CPXXgetdeletenodecallbackfunc and CPXgetdeletenodecallbackfunc</a></span><br />
+     
+ 
+
+ 
+
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetdeletenodecallbackfunc</span>/<span class="keyword apiname">CPXgetdeletenodecallbackfunc</span></samp> accesses the
+ user-written callback to be called during MIP optimization when a node is to
+ be deleted.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getdblannotationdefval.html">CPXXgetdblannotationdefval and CPXgetdblannotationdefval</a></span><br />
+     
+
+
+The routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXgetdblannotationdefval</span>/<span class="keyword apiname">CPXgetdblannotationdefval</span></samp>
+accesses the default value of an annotation of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getdblannotationindex.html">CPXXgetdblannotationindex and CPXgetdblannotationindex</a></span><br />
+     
+
+
+The routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXgetdblannotationindex</span>/<span class="keyword apiname">CPXgetdblannotationindex</span></samp>
+retreives the index of the double valued annotation with the given name.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getdblannotationname.html">CPXXgetdblannotationname and CPXgetdblannotationname</a></span><br />
+     
+
+
+The routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXgetdblannotationname</span>/<span class="keyword apiname">CPXgetdblannotationname</span></samp> accesses the name of
+the double valued annotation with the specified index in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getdblannotations.html">CPXXgetdblannotations and CPXgetdblannotations</a></span><br />
+     
+
+
+The routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXgetdblannotations</span>/<span class="keyword apiname">CPXgetdblannotations</span></samp>
+accesses the annotation values range of modeling objects in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getdblparam.html">CPXXgetdblparam and CPXgetdblparam</a></span><br />
+ 
+
+The routine 
+<samp class="ph codeph"><span class="keyword apiname">CPXXgetdblparam</span>/<span class="keyword apiname">CPXgetdblparam</span></samp> 
+obtains the current value of a CPLEX parameter of type 
+<samp class="ph codeph"><span class="keyword apiname">double</span></samp>.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getdblquality.html">CPXXgetdblquality and CPXgetdblquality</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetdblquality</span>/<span class="keyword apiname">CPXgetdblquality</span></samp> accesses
+double-valued information about the quality of the current solution of a
+problem.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getdettime.html">CPXXgetdettime and CPXgetdettime</a></span><br />
+     
+
+
+This routine returns a deterministic time stamp.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getdj.html">CPXXgetdj and CPXgetdj</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetdj</span>/<span class="keyword apiname">CPXgetdj</span></samp> accesses the reduced costs
+for a range of the variables of a linear or quadratic program.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getdnorms.html">CPXXgetdnorms and CPXgetdnorms</a></span><br />
+     
+
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetdnorms</span>/<span class="keyword apiname">CPXgetdnorms</span></samp> accesses the norms from the dual
+steepest edge.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getdsbcnt.html">CPXXgetdsbcnt and CPXgetdsbcnt</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetdsbcnt</span>/<span class="keyword apiname">CPXgetdsbcnt</span></samp> accesses the number of dual super-basic variables in the current solution.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/geterrorstring.html">CPXXgeterrorstring and CPXgeterrorstring</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgeterrorstring</span>/<span class="keyword apiname">CPXgeterrorstring</span></samp> returns an error message
+string corresponding to an error code.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getgrad.html">CPXXgetgrad and CPXgetgrad</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetgrad</span>/<span class="keyword apiname">CPXgetgrad</span></samp> can be used, after an LP has been
+solved and a basis is available, to access information useful for different
+types of post-solution analysis.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getheuristiccallbackfunc.html">CPXXgetheuristiccallbackfunc and CPXgetheuristiccallbackfunc</a></span><br />
+     
+ 
+
+ 
+
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetheuristiccallbackfunc</span>/<span class="keyword apiname">CPXgetheuristiccallbackfunc</span></samp> accesses the
+ user-written callback to be called by CPLEX during MIP optimization
+ after the subproblem has been solved to optimality.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getijdiv.html">CPXXgetijdiv and CPXgetijdiv</a></span><br />
+     
+
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetijdiv</span>/<span class="keyword apiname">CPXgetijdiv</span></samp> returns the index of the diverging
+row (that is, constraint) or column (that is, variable) when one of the
+CPLEX simplex optimizers terminates due to a diverging vector.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getijrow.html">CPXXgetijrow and CPXgetijrow</a></span><br />
+     
+
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetijrow</span>/<span class="keyword apiname">CPXgetijrow</span></samp> returns the index of a specific
+basic variable as its position in the basis header.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getincumbentcallbackfunc.html">CPXXgetincumbentcallbackfunc and CPXgetincumbentcallbackfunc</a></span><br />
+     
+ 
+
+ 
+
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetincumbentcallbackfunc</span>/<span class="keyword apiname">CPXgetincumbentcallbackfunc</span></samp> accesses the
+ user-written callback to be called by CPLEX during MIP optimization after an
+ integer solution has been found but before this solution replaces the
+ incumbent.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getindconstr.html">CPXXgetindconstr and CPXgetindconstr</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetindconstr</span>/<span class="keyword apiname">CPXgetindconstr</span></samp> accesses a specified
+ indicator constraint on the variables of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getindconstrindex.html">CPXXgetindconstrindex and CPXgetindconstrindex</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetindconstrindex</span>/<span class="keyword apiname">CPXgetindconstrindex</span></samp>
+ searches for the index number
+ of the specified indicator constraint in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getindconstrinfeas.html">CPXXgetindconstrinfeas and CPXgetindconstrinfeas</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetindconstrinfeas</span>/<span class="keyword apiname">CPXgetindconstrinfeas</span></samp> computes
+ the infeasibility of a given solution for a range of indicator
+ constraints.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getindconstrname.html">CPXXgetindconstrname and CPXgetindconstrname</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetindconstrname</span>/<span class="keyword apiname">CPXgetindconstrname</span></samp> accesses the name of
+ a specified indicator constraint of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getindconstrslack.html">CPXXgetindconstrslack and CPXgetindconstrslack</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetindconstrslack</span>/<span class="keyword apiname">CPXgetindconstrslack</span></samp> accesses
+ the slack values for a range of indicator constraints.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getinfocallbackfunc.html">CPXXgetinfocallbackfunc and CPXgetinfocallbackfunc</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetinfocallbackfunc</span>/<span class="keyword apiname">CPXgetinfocallbackfunc</span></samp> accesses the
+ user-written callback routine to be called regularly during the
+ optimization of a mixed integer program (MIP).
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getintparam.html">CPXXgetintparam and CPXgetintparam</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetintparam</span>/<span class="keyword apiname">CPXgetintparam</span></samp> obtains the current
+value of a CPLEX parameter of type CPXINT.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getintquality.html">CPXXgetintquality and CPXgetintquality</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetintquality</span>/<span class="keyword apiname">CPXgetintquality</span></samp> accesses
+integer-valued information about the quality of the current solution of a
+problem.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getitcnt.html">CPXXgetitcnt and CPXgetitcnt</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetitcnt</span>/<span class="keyword apiname">CPXgetitcnt</span></samp> accesses the total number
+of simplex iterations to solve an LP problem, or the number of crossover
+iterations in the case that the barrier optimizer is used.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getlazyconstraintcallbackfunc.html">CPXXgetlazyconstraintcallbackfunc and CPXgetlazyconstraintcallbackfunc</a></span><br />
+     
+ 
+
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetlazyconstraintcallbackfunc</span>/<span class="keyword apiname">CPXgetlazyconstraintcallbackfunc</span></samp> accesses the
+ user-written callback for adding lazy constraints.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getlb.html">CPXXgetlb and CPXgetlb</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetlb</span>/<span class="keyword apiname">CPXgetlb</span></samp> accesses a range of lower
+bounds on the variables of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getlogfile.html">CPXXgetlogfile and CPXgetlogfile</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetlogfile</span>/<span class="keyword apiname">CPXgetlogfile</span></samp> accesses the log file to which
+messages from all four CPLEX-defined channels are written.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getlongannotationdefval.html">CPXXgetlongannotationdefval and CPXgetlongannotationdefval</a></span><br />
+     
+
+
+The routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXgetlongannotationdefval</span>/<span class="keyword apiname">CPXgetlongannotationdefval</span></samp>
+accesses the default value of an annotation of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getlongannotationindex.html">CPXXgetlongannotationindex and CPXgetlongannotationindex</a></span><br />
+     
+
+
+The routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXgetlongannotationindex</span>/<span class="keyword apiname">CPXgetlongannotationindex</span></samp>
+retreives the index of the long valued annotation with the given name.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getlongannotationname.html">CPXXgetlongannotationname and CPXgetlongannotationname</a></span><br />
+     
+
+
+The routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXgetlongannotationname</span>/<span class="keyword apiname">CPXgetlongannotationname</span></samp> accesses the name of
+the long valued annotation with the specified index in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getlongannotations.html">CPXXgetlongannotations and CPXgetlongannotations</a></span><br />
+     
+
+
+The routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXgetlongannotations</span>/<span class="keyword apiname">CPXgetlongannotations</span></samp>  
+accesses the annotation values of a range of modeling objects in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getlongparam.html">CPXXgetlongparam and CPXgetlongparam</a></span><br />
+ 
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetlongparam</span>/<span class="keyword apiname">CPXgetlongparam</span></samp> obtains the current
+value of a CPLEX parameter of type <samp class="ph codeph"><span class="keyword apiname">CPXLONG</span></samp>.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getlpcallbackfunc.html">CPXXgetlpcallbackfunc and CPXgetlpcallbackfunc</a></span><br />
+ 
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetlpcallbackfunc</span>/<span class="keyword apiname">CPXgetlpcallbackfunc</span></samp> accesses the
+user-written callback routine to be called after each iteration during the
+optimization of a continuous problem (LP, QP, or QCP),
+and also periodically during the CPLEX presolve algorithm.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getmethod.html">CPXXgetmethod and CPXgetmethod</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetmethod</span>/<span class="keyword apiname">CPXgetmethod</span></samp> returns an integer specifying the
+solution algorithm used to solve the resident LP, QP, or QCP problem.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getmipcallbackfunc.html">CPXXgetmipcallbackfunc and CPXgetmipcallbackfunc</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetmipcallbackfunc</span>/<span class="keyword apiname">CPXgetmipcallbackfunc</span></samp> accesses the
+ user-written callback routine to be called prior to solving each subproblem
+ in the branch-and-cut tree during the optimization of a mixed integer
+ program.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getmipitcnt.html">CPXXgetmipitcnt and CPXgetmipitcnt</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetmipitcnt</span>/<span class="keyword apiname">CPXgetmipitcnt</span></samp> accesses the
+ cumulative number of simplex iterations used to solve a mixed integer
+ problem.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getmiprelgap.html">CPXXgetmiprelgap and CPXgetmiprelgap</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetmiprelgap</span>/<span class="keyword apiname">CPXgetmiprelgap</span></samp>
+ accesses the relative objective gap for a MIP optimization.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getmipstartindex.html">CPXXgetmipstartindex and CPXgetmipstartindex</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetmipstartindex</span>/<span class="keyword apiname">CPXgetmipstartindex</span></samp> searches for the index number
+ of the specified MIP start in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getmipstartname.html">CPXXgetmipstartname and CPXgetmipstartname</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetmipstartname</span>/<span class="keyword apiname">CPXgetmipstartname</span></samp> accesses a range of
+ names of MIP starts in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getmipstarts.html">CPXXgetmipstarts and CPXgetmipstarts</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetmipstarts</span>/<span class="keyword apiname">CPXgetmipstarts</span></samp> accesses a range of MIP starts
+ of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getnetcallbackfunc.html">CPXXgetnetcallbackfunc and CPXgetnetcallbackfunc</a></span><br />
+ 
+
+The <samp class="ph codeph"><span class="keyword apiname">CPXXgetnetcallbackfunc</span>/<span class="keyword apiname">CPXgetnetcallbackfunc</span></samp> accesses the
+user-written callback routine to be called each time a log message is issued
+during the optimization of a network problem.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getnodecallbackfunc.html">CPXXgetnodecallbackfunc and CPXgetnodecallbackfunc</a></span><br />
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnodecallbackfunc</span>/<span class="keyword apiname">CPXgetnodecallbackfunc</span></samp> accesses the
+ user-written callback to be called during MIP optimization after CPLEX
+ has selected a node to explore, but before this exploration is carried out.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getnodecnt.html">CPXXgetnodecnt and CPXgetnodecnt</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnodecnt</span>/<span class="keyword apiname">CPXgetnodecnt</span></samp> accesses the number of
+ nodes used to solve a mixed integer problem.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getnodeint.html">CPXXgetnodeint and CPXgetnodeint</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnodeint</span>/<span class="keyword apiname">CPXgetnodeint</span></samp> accesses the node
+ number of the best known integer solution.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getnodeleftcnt.html">CPXXgetnodeleftcnt and CPXgetnodeleftcnt</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnodeleftcnt</span>/<span class="keyword apiname">CPXgetnodeleftcnt</span></samp> accesses the number
+ of unexplored nodes left in the branch-and-cut tree.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getnumdblannotations.html">CPXXgetnumdblannotations and CPXgetnumdblannotations</a></span><br />
+     
+
+
+The routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXgetnumdblannotations</span>/<span class="keyword apiname">CPXgetnumdblannotations</span></samp> accesses the number of
+double values annotations in the problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getnumlongannotations.html">CPXXgetnumlongannotations and CPXgetnumlongannotations</a></span><br />
+     
+
+
+The routine
+<samp class="ph codeph"><span class="keyword apiname">CPXXgetnumlongannotations</span>/<span class="keyword apiname">CPXgetnumlongannotations</span></samp> accesses the number of
+long values annotations in the problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getnumbin.html">CPXXgetnumbin and CPXgetnumbin</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumbin</span>/<span class="keyword apiname">CPXgetnumbin</span></samp> accesses the number of
+ binary variables in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getnumcols.html">CPXXgetnumcols and CPXgetnumcols</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumcols</span>/<span class="keyword apiname">CPXgetnumcols</span></samp> accesses the number of
+columns in the constraint matrix, or equivalently, the number of variables
+in the CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getnumcores.html">CPXXgetnumcores and CPXgetnumcores</a></span><br />
+     
+
+
+This routine returns the number of logical cores of the machine
+where the code is being run.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getnumcuts.html">CPXXgetnumcuts and CPXgetnumcuts</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumcuts</span>/<span class="keyword apiname">CPXgetnumcuts</span></samp> accesses the number
+ of cuts of the specified type in use at the end
+ of the previous optimization.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getnumindconstrs.html">CPXXgetnumindconstrs and CPXgetnumindconstrs</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumindconstrs</span>/<span class="keyword apiname">CPXgetnumindconstrs</span></samp>
+ accesses the number of
+ indicator constraints in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getnumint.html">CPXXgetnumint and CPXgetnumint</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumint</span>/<span class="keyword apiname">CPXgetnumint</span></samp> accesses the number of
+ general integer variables in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getnumlazyconstraints.html">CPXXgetnumlazyconstraints and CPXgetnumlazyconstraints</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumlazyconstraints</span>/<span class="keyword apiname">CPXgetnumlazyconstraints</span></samp>
+ accesses the number of lazy constraints in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getnummipstarts.html">CPXXgetnummipstarts and CPXgetnummipstarts</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnummipstarts</span>/<span class="keyword apiname">CPXgetnummipstarts</span></samp> accesses the number of
+ MIP starts in the CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getnumnz.html">CPXXgetnumnz and CPXgetnumnz</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumnz</span>/<span class="keyword apiname">CPXgetnumnz</span></samp> accesses the number of
+nonzero elements in the constraint matrix of a CPLEX problem object, not
+including the objective function, quadratic constraints,
+or the bounds constraints on the variables.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/socpapi/getnumqconstrs.html">CPXXgetnumqconstrs and CPXgetnumqconstrs</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumqconstrs</span>/<span class="keyword apiname">CPXgetnumqconstrs</span></samp> is used to access the number of
+ quadratic constraints in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getnumpwl.html">CPXXgetnumpwl and CPXgetnumpwl</a></span><br />
+    The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumpwl</span>/<span class="keyword apiname">CPXgetnumpwl</span></samp> accesses the number of
+    piecewise linear (PWL) constraints in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/qpapi/getnumqpnz.html">CPXXgetnumqpnz and CPXgetnumqpnz</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumqpnz</span>/<span class="keyword apiname">CPXgetnumqpnz</span></samp> returns the number of nonzeros
+ in the Q matrix of a problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/qpapi/getnumquad.html">CPXXgetnumquad and CPXgetnumquad</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumquad</span>/<span class="keyword apiname">CPXgetnumquad</span></samp> returns the number of variables
+ that have quadratic objective coefficients in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getnumrows.html">CPXXgetnumrows and CPXgetnumrows</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumrows</span>/<span class="keyword apiname">CPXgetnumrows</span></samp> accesses the number of
+rows in the constraint matrix, not including the objective function,
+quadratic constraints, or the
+bounds constraints on the variables.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getnumsemicont.html">CPXXgetnumsemicont and CPXgetnumsemicont</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumsemicont</span>/<span class="keyword apiname">CPXgetnumsemicont</span></samp> accesses the number
+ of semi-continuous variables in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getnumsemiint.html">CPXXgetnumsemiint and CPXgetnumsemiint</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumsemiint</span>/<span class="keyword apiname">CPXgetnumsemiint</span></samp> accesses the number
+ of semi-integer variables in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getnumsos.html">CPXXgetnumsos and CPXgetnumsos</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumsos</span>/<span class="keyword apiname">CPXgetnumsos</span></samp> accesses the number of
+ special ordered sets (SOS) in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getnumusercuts.html">CPXXgetnumusercuts and CPXgetnumusercuts</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetnumusercuts</span>/<span class="keyword apiname">CPXgetnumusercuts</span></samp>
+ accesses the number of user cuts in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getobj.html">CPXXgetobj and CPXgetobj</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetobj</span>/<span class="keyword apiname">CPXgetobj</span></samp> accesses a range of
+objective function coefficients of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getobjname.html">CPXXgetobjname and CPXgetobjname</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetobjname</span>/<span class="keyword apiname">CPXgetobjname</span></samp> accesses the name of
+the objective row of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getobjoffset.html">CPXXgetobjoffset and CPXgetobjoffset</a></span><br />
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetobjoffset</span>/<span class="keyword apiname">CPXgetobjoffset</span></samp> accesses the objective offset.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getobjsen.html">CPXXgetobjsen and CPXgetobjsen</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetobjsen</span>/<span class="keyword apiname">CPXgetobjsen</span></samp> accesses whether the
+objective function sense of a CPLEX problem object is maximization or
+minimization.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getobjval.html">CPXXgetobjval and CPXgetobjval</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetobjval</span>/<span class="keyword apiname">CPXgetobjval</span></samp> accesses the solution
+objective value.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getorder.html">CPXXgetorder and CPXgetorder</a></span><br />
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetorder</span>/<span class="keyword apiname">CPXgetorder</span></samp> accesses all the MIP
+ priority order information stored in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getparamname.html">CPXXgetparamname and CPXgetparamname</a></span><br />
+ 
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetparamname</span>/<span class="keyword apiname">CPXgetparamname</span></samp> returns the name of a CPLEX
+parameter, given the symbolic constant (or reference number) for it.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getparamnum.html">CPXXgetparamnum and CPXgetparamnum</a></span><br />
+ 
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetparamnum</span>/<span class="keyword apiname">CPXgetparamnum</span></samp> returns the reference number of
+a CPLEX parameter, given a character string containing the name for it.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getparamtype.html">CPXXgetparamtype and CPXgetparamtype</a></span><br />
+ 
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetparamtype</span>/<span class="keyword apiname">CPXgetparamtype</span></samp> returns the type of
+a CPLEX parameter, given the symbolic constant or reference number
+for it.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getphase1cnt.html">CPXXgetphase1cnt and CPXgetphase1cnt</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetphase1cnt</span>/<span class="keyword apiname">CPXgetphase1cnt</span></samp> accesses the number
+of Phase I iterations to solve a problem using the primal or dual simplex
+method.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getpi.html">CPXXgetpi and CPXgetpi</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetpi</span>/<span class="keyword apiname">CPXgetpi</span></samp> accesses the dual values for
+a range of the constraints of a linear or quadratic program.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getpnorms.html">CPXXgetpnorms and CPXgetpnorms</a></span><br />
+     
+
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetpnorms</span>/<span class="keyword apiname">CPXgetpnorms</span></samp> returns the norms from the primal
+steepest-edge.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getprestat.html">CPXXgetprestat and CPXgetprestat</a></span><br />
+     
+
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetprestat</span>/<span class="keyword apiname">CPXgetprestat</span></samp> accesses presolve status
+information for the columns and rows of the presolved problem in the
+original problem and of the original problem in the presolved problem.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getprobname.html">CPXXgetprobname and CPXgetprobname</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetprobname</span>/<span class="keyword apiname">CPXgetprobname</span></samp> accesses the name of
+the problem set via the call to <samp class="ph codeph"><span class="keyword apiname">CPXXcreateprob</span>/<span class="keyword apiname">CPXcreateprob</span></samp>.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getprobtype.html">CPXXgetprobtype and CPXgetprobtype</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetprobtype</span>/<span class="keyword apiname">CPXgetprobtype</span></samp> accesses the problem
+type that is currently stored in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getprotected.html">CPXXgetprotected and CPXgetprotected</a></span><br />
+     
+
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetprotected</span>/<span class="keyword apiname">CPXgetprotected</span></samp> accesses the set of
+variables that cannot be aggregated out.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getpsbcnt.html">CPXXgetpsbcnt and CPXgetpsbcnt</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetpsbcnt</span>/<span class="keyword apiname">CPXgetpsbcnt</span></samp> accesses the number of
+primal super-basic variables in the current solution.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getpwl.html">CPXXgetpwl and CPXgetpwl</a></span><br />
+    The routine
+    <samp class="ph codeph"><span class="keyword apiname">CPXXgetpwl</span>/<span class="keyword apiname">CPXgetpwl</span></samp>
+    accesses the definitions of a piecewise linear (PWL) constraint
+    stored in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getpwlindex.html">CPXXgetpwlindex and CPXgetpwlindex</a></span><br />
+    The routine
+    <samp class="ph codeph"><span class="keyword apiname">CPXXgetpwlindex</span>/<span class="keyword apiname">CPXgetpwlindex</span></samp>
+    searches for the index number of the piecewise liner (PWL) constraint in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getpwlname.html">CPXXgetpwlname and CPXgetpwlname</a></span><br />
+    The routine
+    <samp class="ph codeph"><span class="keyword apiname">CPXXgetpwlname</span>/<span class="keyword apiname">CPXgetpwlname</span></samp>
+    accesses the name of a piecewise linear (PWL) constraint of a
+    CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/socpapi/getqconstr.html">CPXXgetqconstr and CPXgetqconstr</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetqconstr</span>/<span class="keyword apiname">CPXgetqconstr</span></samp> is used to access a specified
+ quadratic constraint on the variables of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/socpapi/getqconstrdslack.html">CPXXgetqconstrdslack and CPXgetqconstrdslack</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetqconstrdslack</span>/<span class="keyword apiname">CPXgetqconstrdslack</span></samp> accesses the dual slack
+ values for a quadratic constraint.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/socpapi/getqconstrindex.html">CPXXgetqconstrindex and CPXgetqconstrindex</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetqconstrindex</span>/<span class="keyword apiname">CPXgetqconstrindex</span></samp> searches for the index number
+ of the specified quadratic constraint in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/socpapi/getqconstrinfeas.html">CPXXgetqconstrinfeas and CPXgetqconstrinfeas</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetqconstrinfeas</span>/<span class="keyword apiname">CPXgetqconstrinfeas</span></samp> computes the
+ infeasibility of a given solution for a range of quadratic
+ constraints.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/socpapi/getqconstrname.html">CPXXgetqconstrname and CPXgetqconstrname</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetqconstrname</span>/<span class="keyword apiname">CPXgetqconstrname</span></samp> is used to access the name of
+ a specified quadratic constraint of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/socpapi/getqconstrslack.html">CPXXgetqconstrslack and CPXgetqconstrslack</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetqconstrslack</span>/<span class="keyword apiname">CPXgetqconstrslack</span></samp> is used to access
+ the slack values
+ for a range of the quadratic constraints of a
+ quadratically constrained program.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/qpapi/getqpcoef.html">CPXXgetqpcoef and CPXgetqpcoef</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetqpcoef</span>/<span class="keyword apiname">CPXgetqpcoef</span></samp> accesses the quadratic
+ coefficient in the matrix Q of a CPLEX problem object for the variable pair
+ indexed by (<samp class="ph codeph"><span class="keyword apiname">rownum</span></samp>, <samp class="ph codeph"><span class="keyword apiname">colnum</span></samp>).
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/qpapi/getquad.html">CPXXgetquad and CPXgetquad</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetquad</span>/<span class="keyword apiname">CPXgetquad</span></samp> is used to access a range of
+ columns of the matrix Q of a model with a quadratic objective function.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getray.html">CPXXgetray and CPXgetray</a></span><br />
+     
+
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetray</span>/<span class="keyword apiname">CPXgetray</span></samp> finds an unbounded
+direction (also known as a ray) for a linear program where the CPLEX
+simplex optimizer concludes that the LP is unbounded (solution status
+<samp class="ph codeph"><span class="keyword apiname">CPX_STAT_UNBOUNDED</span></samp>).
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getredlp.html">CPXXgetredlp and CPXgetredlp</a></span><br />
+ 
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetredlp</span>/<span class="keyword apiname">CPXgetredlp</span></samp> returns a pointer for the
+presolved problem.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getrhs.html">CPXXgetrhs and CPXgetrhs</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetrhs</span>/<span class="keyword apiname">CPXgetrhs</span></samp> accesses the righthand
+side coefficients for a range of constraints in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getrngval.html">CPXXgetrngval and CPXgetrngval</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetrngval</span>/<span class="keyword apiname">CPXgetrngval</span></samp> accesses the RHS range
+coefficients for a set of constraints in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getrowindex.html">CPXXgetrowindex and CPXgetrowindex</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetrowindex</span>/<span class="keyword apiname">CPXgetrowindex</span></samp> searches for the index number
+of the specified row in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getrowinfeas.html">CPXXgetrowinfeas and CPXgetrowinfeas</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetrowinfeas</span>/<span class="keyword apiname">CPXgetrowinfeas</span></samp> computes the
+infeasibility of a given solution for a range of linear
+constraints.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getrowname.html">CPXXgetrowname and CPXgetrowname</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetrowname</span>/<span class="keyword apiname">CPXgetrowname</span></samp> accesses a range of row
+names or, equivalently, the constraint names of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getrows.html">CPXXgetrows and CPXgetrows</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetrows</span>/<span class="keyword apiname">CPXgetrows</span></samp> accesses a range of rows
+of the constraint matrix, not including the objective function nor the bound
+constraints on the variables of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getsense.html">CPXXgetsense and CPXgetsense</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsense</span>/<span class="keyword apiname">CPXgetsense</span></samp> accesses the sense for a
+range of constraints in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getsiftitcnt.html">CPXXgetsiftitcnt and CPXgetsiftitcnt</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsiftitcnt</span>/<span class="keyword apiname">CPXgetsiftitcnt</span></samp> accesses the total
+number of sifting iterations to solve an LP problem.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getsiftphase1cnt.html">CPXXgetsiftphase1cnt and CPXgetsiftphase1cnt</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsiftphase1cnt</span>/<span class="keyword apiname">CPXgetsiftphase1cnt</span></samp> accesses the
+number of Phase I sifting iterations to solve an LP problem.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getslack.html">CPXXgetslack and CPXgetslack</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetslack</span>/<span class="keyword apiname">CPXgetslack</span></samp> accesses the slack values
+for a range of linear constraints.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getsolnpooldblquality.html">CPXXgetsolnpooldblquality and CPXgetsolnpooldblquality</a></span><br />
+     
+
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsolnpooldblquality</span>/<span class="keyword apiname">CPXgetsolnpooldblquality</span></samp> accesses
+double-valued information about the quality of a solution in
+the solution pool.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolnpooldivfilter.html">CPXXgetsolnpooldivfilter and CPXgetsolnpooldivfilter</a></span><br />
+     
+ 
+
+ Accesses a diversity filter of the solution pool.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolnpoolfilterindex.html">CPXXgetsolnpoolfilterindex and CPXgetsolnpoolfilterindex</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsolnpoolfilterindex</span>/<span class="keyword apiname">CPXgetsolnpoolfilterindex</span></samp> searches for the index number
+ of the specified filter of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolnpoolfiltername.html">CPXXgetsolnpoolfiltername and CPXgetsolnpoolfiltername</a></span><br />
+     
+ 
+
+ Accesses the name of a filter of the solution pool.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolnpoolfiltertype.html">CPXXgetsolnpoolfiltertype and CPXgetsolnpoolfiltertype</a></span><br />
+     
+ 
+
+ Accesses the type of a filter of the solution pool.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getsolnpoolintquality.html">CPXXgetsolnpoolintquality and CPXgetsolnpoolintquality</a></span><br />
+     
+
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsolnpoolintquality</span>/<span class="keyword apiname">CPXgetsolnpoolintquality</span></samp> accesses
+integer-valued information about the quality of a solution in
+the solution pool.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolnpoolmeanobjval.html">CPXXgetsolnpoolmeanobjval and CPXgetsolnpoolmeanobjval</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsolnpoolmeanobjval</span>/<span class="keyword apiname">CPXgetsolnpoolmeanobjval</span></samp> accesses the
+ the mean objective value for solutions in the pool.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolnpoolnumfilters.html">CPXXgetsolnpoolnumfilters and CPXgetsolnpoolnumfilters</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsolnpoolnumfilters</span>/<span class="keyword apiname">CPXgetsolnpoolnumfilters</span></samp> accesses the number of
+ filters in the solution pool.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolnpoolnumreplaced.html">CPXXgetsolnpoolnumreplaced and CPXgetsolnpoolnumreplaced</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsolnpoolnumreplaced</span>/<span class="keyword apiname">CPXgetsolnpoolnumreplaced</span></samp> accesses the number of
+ solutions replaced in the solution pool.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolnpoolnumsolns.html">CPXXgetsolnpoolnumsolns and CPXgetsolnpoolnumsolns</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsolnpoolnumsolns</span>/<span class="keyword apiname">CPXgetsolnpoolnumsolns</span></samp> accesses the number of
+ solutions in the solution pool in the problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolnpoolobjval.html">CPXXgetsolnpoolobjval and CPXgetsolnpoolobjval</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsolnpoolobjval</span>/<span class="keyword apiname">CPXgetsolnpoolobjval</span></samp> accesses the
+ objective value for a solution in the solution pool.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolnpoolqconstrslack.html">CPXXgetsolnpoolqconstrslack and CPXgetsolnpoolqconstrslack</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsolnpoolqconstrslack</span>/<span class="keyword apiname">CPXgetsolnpoolqconstrslack</span></samp> accesses
+ the slack values for a range of the quadratic constraints for a member
+ of the solution pool of a quadratically constrained program (QCP).
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolnpoolrngfilter.html">CPXXgetsolnpoolrngfilter and CPXgetsolnpoolrngfilter</a></span><br />
+     
+ 
+
+ Accesses a range filter of the solution pool.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolnpoolslack.html">CPXXgetsolnpoolslack and CPXgetsolnpoolslack</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsolnpoolslack</span>/<span class="keyword apiname">CPXgetsolnpoolslack</span></samp> accesses the slack values
+ for a range of linear constraints for a member of the solution pool.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolnpoolsolnindex.html">CPXXgetsolnpoolsolnindex and CPXgetsolnpoolsolnindex</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsolnpoolsolnindex</span>/<span class="keyword apiname">CPXgetsolnpoolsolnindex</span></samp>
+ searches for the index number
+ of the specified solution in the solution pool of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolnpoolsolnname.html">CPXXgetsolnpoolsolnname and CPXgetsolnpoolsolnname</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsolnpoolsolnname</span>/<span class="keyword apiname">CPXgetsolnpoolsolnname</span></samp>
+ accesses the name of a solution, specified by the argument
+ <samp class="ph codeph"><span class="keyword apiname">soln</span></samp>, of the solution pool associated with the problem
+ object specified by the argument <samp class="ph codeph"><span class="keyword apiname">lp</span></samp>.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolnpoolx.html">CPXXgetsolnpoolx and CPXgetsolnpoolx</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsolnpoolx</span>/<span class="keyword apiname">CPXgetsolnpoolx</span></samp> accesses the solution values
+ for a range of problem variables for a member of the solution pool.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsolvecallbackfunc.html">CPXXgetsolvecallbackfunc and CPXgetsolvecallbackfunc</a></span><br />
+     
+ 
+
+ 
+
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsolvecallbackfunc</span>/<span class="keyword apiname">CPXgetsolvecallbackfunc</span></samp> accesses the
+ user-written callback to be called during MIP optimization to optimize the
+ subproblem.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsos.html">CPXXgetsos and CPXgetsos</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsos</span>/<span class="keyword apiname">CPXgetsos</span></samp> accesses
+ the definitions of a range of special
+ ordered sets (SOS) stored in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsosindex.html">CPXXgetsosindex and CPXgetsosindex</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsosindex</span>/<span class="keyword apiname">CPXgetsosindex</span></samp> searches for the index number
+ of the specified special ordered set in a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsosinfeas.html">CPXXgetsosinfeas and CPXgetsosinfeas</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsosinfeas</span>/<span class="keyword apiname">CPXgetsosinfeas</span></samp> computes the
+ infeasibility of a given solution for a range of special ordered sets
+ (SOSs).
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsosname.html">CPXXgetsosname and CPXgetsosname</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsosname</span>/<span class="keyword apiname">CPXgetsosname</span></samp> accesses a range of
+ special ordered set (SOS) names of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getstat.html">CPXXgetstat and CPXgetstat</a></span><br />
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetstat</span></samp>/<samp class="ph codeph"><span class="keyword apiname">CPXgetstat</span></samp> accesses the solution
+status of the problem after an LP, QP, QCP, or MIP optimization,
+after <samp class="ph codeph"><span class="keyword apiname">CPXXfeasopt</span></samp>/<samp class="ph codeph"><span class="keyword apiname">CPXfeasopt</span></samp> and its extensions, after
+<samp class="ph codeph"><span class="keyword apiname">CPXXrefineconflict</span></samp>/<samp class="ph codeph"><span class="keyword apiname">CPXrefineconflict</span></samp> and its extensions.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getstatstring.html">CPXXgetstatstring and CPXgetstatstring</a></span><br />
+ 
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetstatstring</span>/<span class="keyword apiname">CPXgetstatstring</span></samp> places a string in a
+buffer.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getstrparam.html">CPXXgetstrparam and CPXgetstrparam</a></span><br />
+ 
+
+The routine 
+ <samp class="ph codeph"><span class="keyword apiname">CPXXgetstrparam</span>/<span class="keyword apiname">CPXgetstrparam</span></samp> 
+ obtains the current value of a CPLEX string parameter.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsubmethod.html">CPXXgetsubmethod and CPXgetsubmethod</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsubmethod</span>/<span class="keyword apiname">CPXgetsubmethod</span></samp> accesses the solution
+ method of the last subproblem optimization, in the case of an error
+ termination during mixed integer optimization.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getsubstat.html">CPXXgetsubstat and CPXgetsubstat</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetsubstat</span>/<span class="keyword apiname">CPXgetsubstat</span></samp> accesses the solution
+ status of the last subproblem optimization, in the case of an error
+ termination during mixed integer optimization.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/gettime.html">CPXXgettime and CPXgettime</a></span><br />
+ 
+
+This routine returns a time stamp.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/gettuningcallbackfunc.html">CPXXgettuningcallbackfunc and CPXgettuningcallbackfunc</a></span><br />
+ 
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgettuningcallbackfunc</span>/<span class="keyword apiname">CPXgettuningcallbackfunc</span></samp> accesses the
+user-written callback routine to be called before each trial run
+during the tuning process.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getub.html">CPXXgetub and CPXgetub</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetub</span>/<span class="keyword apiname">CPXgetub</span></samp> accesses a range of upper
+bounds on the variables of a CPLEX problem object.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/mipapi/getusercutcallbackfunc.html">CPXXgetusercutcallbackfunc and CPXgetusercutcallbackfunc</a></span><br />
+     
+ 
+
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetusercutcallbackfunc</span>/<span class="keyword apiname">CPXgetusercutcallbackfunc</span></samp> accesses the
+ user-written callback for adding cuts.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getweight.html">CPXXgetweight and CPXgetweight</a></span><br />
+Undocumented, unsupported</li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/cpxapi/getx.html">CPXXgetx and CPXgetx</a></span><br />
+     
+
+
+The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetx</span>/<span class="keyword apiname">CPXgetx</span></samp> accesses the solution values
+for a range of problem variables.
+  </li>
+<li class="link ulchildlink"><span class="ulchildlinktext"><a href="../../refcallablelibrary/socpapi/getxqxax.html">CPXXgetxqxax and CPXgetxqxax</a></span><br />
+     
+ 
+
+ The routine <samp class="ph codeph"><span class="keyword apiname">CPXXgetxqxax</span>/<span class="keyword apiname">CPXgetxqxax</span></samp> accesses
+ quadratic constraint activity levels for a range of
+ quadratic constraints in a quadratically constrained program (QCP).
+  </li>
+</ul>
+
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../refcallablelibrary/groups/homepagecallable.html">Alphabetic list of routines in the CPLEX Callable Library (C API)</a></div>
+</div>
+</div></div></body>
+</html>

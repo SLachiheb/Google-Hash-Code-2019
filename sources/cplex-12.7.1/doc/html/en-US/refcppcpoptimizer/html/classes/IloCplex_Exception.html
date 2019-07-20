@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en"><head><link type="text/css"
+            rel="stylesheet"
+            href="../cppdoc.css" />
+<title>Exception</title>
+</head><body><div
+                class="ibm-access"><a href="#ibm-content"><img
+                    class="ibm-access" src="../whitepixel.png"
+            alt="Skip to main content" /></a></div><table
+            class="navigation-bar" border="0" cellpadding="0"
+                        cellspacing="3"><tr><td><a
+                        class="navigation-item"
+                        href="../overview.html">Overview</a></td><td><a
+                        class="navigation-item"
+                        href="../optim.cplex.cpp/group.html">Group</a></td><td><a
+                        class="navigation-item"
+                        href="../tree.html">Tree</a></td><td><a
+                        class="navigation-item"
+                        href="../graph.html">Graph</a></td><td><a
+                        class="navigation-item"
+                        href="../deprecated.html">Deprecated</a></td><td><a
+                        class="navigation-item"
+                        href="../index/index.html">Index</a></td><td><a
+                        class="navigation-item"
+            href="../concepts.html">Concepts</a></td></tr></table><div
+                align="right"><a href="../index.html"
+                target="_top">FRAMES</a> <a
+                href="../classes/IloCplex_Exception.html"
+            target="_top">NO FRAMES</a></div><hr /><a
+            name="ibm-content"></a><h1>Class IloCplex::Exception</h1><div
+                class="definition-file"><strong>Definition file: </strong><span
+                class="definition-file">ilcplex/ilocplexi.h</span></div><div><img
+                src="IloCplex_Exception.png" border="0"
+                usemap="#svg_map_IloCplex::Exception"
+                    alt="Map of IloCplex::Exception"><map
+                        name="svg_map_IloCplex::Exception"><area
+                        href="../classes/IloCplex_Exception.html"
+                        shape="rect" alt="IloCplex::Exception"
+                        coords="10.0,86.00460815429688,229.0,101.3394775390625" /><area
+                        href="../classes/IloCplex_ExtractedConstraintException.html"
+                        shape="rect"
+                        alt="IloCplex::ExtractedConstraintException"
+                        coords="129.5,111.3394775390625,348.5,126.67434692382812" /><area
+                        href="../classes/IloCplex_InvalidCutException.html"
+                        shape="rect" alt="IloCplex::InvalidCutException"
+                        coords="129.5,136.67434692382812,348.5,152.00921630859375" /><area
+                        href="../classes/IloCplex_MultipleConversionException.html"
+                        shape="rect"
+                        alt="IloCplex::MultipleConversionException"
+                        coords="129.5,162.00921630859375,348.5,177.34408569335938" /><area
+                        href="../classes/IloCplex_MultipleObjException.html"
+                        shape="rect"
+                        alt="IloCplex::MultipleObjException"
+                        coords="129.5,187.34408569335938,348.5,202.678955078125" /><area
+                        href="../classes/ControlCallbackI_PresolvedVariableException.html"
+                        shape="rect"
+                        alt="ControlCallbackI::PresolvedVariableException"
+                        coords="129.5,212.678955078125,348.5,228.01382446289062" /><area
+                        href="../classes/IloCplex_UnknownExtractableException.html"
+                        shape="rect"
+                        alt="IloCplex::UnknownExtractableException"
+                        coords="129.5,238.01382446289062,348.5,253.34869384765625" /><area
+                        href="../classes/IloCplex_Exception.html"
+                        shape="rect" alt="IloCplex::Exception"
+                        coords="10.0,86.00460815429688,229.0,101.3394775390625" /><area
+                        href="../classes/IloAlgorithm_Exception.html"
+                        shape="rect" alt="IloAlgorithm::Exception"
+                        coords="129.5,60.66973876953125,348.5,76.00460815429688" /><area
+                        href="../classes/IloException.html" shape="rect"
+                        alt="IloException"
+            coords="249.0,35.334869384765625,468.0,50.66973876953125" /></map></img></div><div
+            class="description"><p>The class <code>IloCplex::Exception</code>, derived from the nested class
+ <code>IloAlgorithm::Exception</code>, is the base class of exceptions thrown
+ by classes derived from <code>IloCplex</code>.</p></div><table
+            class="summary" border="1" cellpadding="3" cellspacing="0"
+                    width="100%"><tr><th
+                    colspan="2">Method Summary</th></tr><tr><td
+                    valign="top" align="right" nowrap=""><code
+                            class="prototype">public <a
+                    href="../typedefs/IloInt.html">IloInt</a></code></td><td
+                            width="100%"><code><a
+            href="../classes/IloCplex_Exception.html#method_getStatus">getStatus</a>() const</code></td></tr></table><table
+            class="summary" border="1" cellpadding="3" cellspacing="0"
+                    width="100%"><tr><th
+                            colspan="1">Inherited Methods from <code><a
+                    href="../classes/IloAlgorithm_Exception.html">Exception</a></code></th></tr><tr><td
+                            width="100%"><code><a
+            href="../classes/IloAlgorithm_Exception.html#method_Exception">Exception</a></code></td></tr></table><table
+            class="summary" border="1" cellpadding="3" cellspacing="0"
+                    width="100%"><tr><th
+                            colspan="1">Inherited Methods from <code><a
+                    href="../classes/IloException.html">IloException</a></code></th></tr><tr><td
+                            width="100%"><code><a
+                            href="../classes/IloException.html#method_end">end</a>, <a
+                            href="../classes/IloException.html#method_getMessage">getMessage</a>, <a
+            href="../classes/IloException.html#method_IloException">IloException</a></code></td></tr></table><table
+            border="1" cellspacing="0" width="100%"><tr><th
+                colspan="0">Method Detail</th></tr></table><h3><a
+            name="method_getStatus">getStatus</a></h3><div
+                class="prototype">public <a
+                href="../typedefs/IloInt.html">IloInt</a> <span
+            class="function-name">getStatus</span>() const</div><div
+                        class="description"><p>This method returns the CPLEX error code of an exception
+ thrown by a member of <code><a href="../classes/IloCplex.html">IloCplex</a></code>. These error
+ codes are detailed in the reference manual as the group 
+ optim.cplex.errorcodes.
+ </p><p>This method may also return negative values for subclasses of
+ <code>IloCplex::Exception</code>, which are not listed in the reference 
+ manual. The
+ exceptions listed in the reference manual are always thrown as instances of
+ <code>IloCplex::Exception</code> and not as an instance of one of its
+ derived classes.</p></div><hr /></body>
+</html>

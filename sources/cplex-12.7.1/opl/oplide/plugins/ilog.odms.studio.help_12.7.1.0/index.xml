@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <entry keyword="orientation guide for CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/orientation_guide/topics/orientation_intro.html#orientation_intro" title="Orientation Guide"/>
+  </entry>
+  <entry keyword="new user to CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/orientation_guide/topics/new_to_cos.html#new_to_cos" title="Completely new to CPLEX Optimization Studio?"/>
+  </entry>
+  <entry keyword="CPLEX Optimization Studio, introduction for a complete beginner">
+    <topic href="Optimization_Studio/orientation_guide/topics/new_to_cos.html#new_to_cos" title="Completely new to CPLEX Optimization Studio?"/>
+  </entry>
+  <entry keyword="overview (brief) of CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/orientation_guide/topics/overview_cos.html#briefoverviewofcplexoptimizationstudio" title="Brief overview of CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="CPLEX Optimization Studio, brief overview">
+    <topic href="Optimization_Studio/orientation_guide/topics/overview_cos.html#briefoverviewofcplexoptimizationstudio" title="Brief overview of CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="analyzing a simple OPL model, production.mod">
+    <topic href="Optimization_Studio/orientation_guide/topics/analyze_model.html#analyzingasimpleoplmodel" title="Analyzing a simple OPL model"/>
+  </entry>
+  <entry keyword="OPL model production.mod, exercise for beginners">
+    <topic href="Optimization_Studio/orientation_guide/topics/analyze_model.html#analyzingasimpleoplmodel" title="Analyzing a simple OPL model"/>
+  </entry>
+  <entry keyword="first steps in the IDE">
+    <topic href="Optimization_Studio/orientation_guide/topics/firststeps_ide.html#firststepswiththeide" title="First steps with the IDE"/>
+  </entry>
+  <entry keyword="running a simple model in the IDE">
+    <topic href="Optimization_Studio/orientation_guide/topics/run_model.html#runningthemodelintheide" title="Running a model in the IDE"/>
+  </entry>
+  <entry keyword="IDE, running a simple model">
+    <topic href="Optimization_Studio/orientation_guide/topics/run_model.html#runningthemodelintheide" title="Running a model in the IDE"/>
+  </entry>
+  <entry keyword="beginners documentation for CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/orientation_guide/topics/discovering_cos.html#discovering_cos" title="Discovering CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="tutorials for CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/orientation_guide/topics/familiar_with_cos.html#familiar_with_cos" title="Becoming familiar with CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="advanced documentation for CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/orientation_guide/topics/advanced_features.html#advanced_features" title="Advanced features"/>
+  </entry>
+  <entry keyword="ports supported">
+    <topic href="Optimization_Studio/topics/COS_intro_features.html#descriptiveTopic1272990032229" title="Introduction"/>
+  </entry>
+  <entry keyword="limitation">
+    <entry keyword="Java">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1271_notes_java.html#limitationsofthejavaapi.1271" title="Limitations of the Java API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1270_notes_java.html#limitationsofthejavaapi.127" title="Limitations of the Java API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1263_notes_java.html#limitationsofthejavaapi.1263" title="Limitations of the Java API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1262_notes_java.html#limitationsofthejavaapi.1262" title="Limitations of the Java API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1261_notes_java.html#limitationsofthejavaapi.1261" title="Limitations of the Java API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V126_notes_java.html#limitationsofthejavaapi" title="Limitations of the Java API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1251_notes_java.html#limitationsofthejavaapi" title="Limitations of the Java API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V125_notes_java.html#LimitationsOfTheJavaAPI125" title="Limitations of the Java API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V124_notes_java.html#descriptiveTopic1221060151346" title="Limitations of the Java API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V123_notes_java.html#descriptiveTopic1221060151346" title="Limitations of the Java API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V122_notes_java.html#descriptiveTopic1221060151346" title="Limitations of the Java API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_23_notes_java.html#descriptiveTopic1221060151346" title="Limitations of the Java API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_22_notes_java.html#descriptiveTopic1221060151346" title="Limitations of the Java API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_21_notes_java.html#descriptiveTopic1221060151346" title="Limitations of the Java API"/>
+    </entry>
+    <entry keyword=".NET">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1271_notes_dotnet.html#limitationsofthemicrosoft.netapi.1271" title="Limitations of the Microsoft .NET   API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1270_notes_dotnet.html#limitationsofthemicrosoft.netapi.130" title="Limitations of the Microsoft .NET   API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1263_notes_dotnet.html#limitationsofthemicrosoft.netapi.1263" title="Limitations of the Microsoft .NET   API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1262_notes_dotnet.html#limitationsofthemicrosoft.netapi.1262" title="Limitations of the Microsoft .NET   API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1261_notes_dotnet.html#limitationsofthemicrosoft.netapi.1261" title="Limitations of the Microsoft .NET   API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V126_notes_dotnet.html#limitationsofthemicrosoft.netapi" title="Limitations of the Microsoft .NET API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1251_notes_dotnet.html#limitationsonthe.netlibrariesapi" title="Limitations of the Microsoft .NET Framework languages API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V125_notes_dotnet.html#LimitationsOfTheMicrosoft.NETFramework125" title="Limitations of the Microsoft .NET Framework languages API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V124_notes_dotnet.html#migration.uss_relnotescpoptimizer20.1014402" title="Limitations of the Microsoft .NET Framework languages API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V123_notes_dotnet.html#migration.uss_relnotescpoptimizer20.1014402" title="Limitations of the Microsoft .NET Framework languages API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V122_notes_dotnet.html#migration.uss_relnotescpoptimizer20.1014402" title="Limitations of the Microsoft .NET Framework languages API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_23_notes_dotnet.html#migration.uss_relnotescpoptimizer20.1014402" title="Limitations of the Microsoft .NET Framework languages API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_22_notes_dotnet.html#migration.uss_relnotescpoptimizer20.1014402" title="Limitations of the .NET languages API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_21_notes_dotnet.html#migration.uss_relnotescpoptimizer20.1014402" title="Limitations of the .NET languages API"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_20_notes_dotnet.html#migration.uss_relnotescpoptimizer20.1014402" title="Limitations of the .NET languages API"/>
+    </entry>
+  </entry>
+  <entry keyword="interactive">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1271_changes_interactive.html#featureinteractiveflags" title="New feature: Flags for interactive optimizer"/>
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1270_changes_interactive.html#newfeatureinteractive" title="New feature: Interactive optimizer"/>
+  </entry>
+  <entry keyword="search phase">
+    <entry keyword="setting">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1270_changes_search.html#newfeaturesetsearch" title="Changed feature: Setting search phases"/>
+    </entry>
+  </entry>
+  <entry keyword="integer">
+    <entry keyword="smallest">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1270_changes_minmax.html#changedfeatureminmax" title="Changed feature: IlcIntMax and IlcIntMin"/>
+    </entry>
+    <entry keyword="largest">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1270_changes_minmax.html#changedfeatureminmax" title="Changed feature: IlcIntMax and IlcIntMin"/>
+    </entry>
+  </entry>
+  <entry keyword="starting point">
+    <entry keyword="CPO File Format">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1270_changes_starting.html#newfeaturestarting" title="New feature: Starting points in the CPO File Format"/>
+    </entry>
+  </entry>
+  <entry keyword="performance">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1270_changes_performance.html#performance" title="Performance improvement"/>
+  </entry>
+  <entry keyword="expression">
+    <entry keyword="countdifferent">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1262_changes_count.html#newfeaturecountdifferent" title="New feature: Count different expression"/>
+    </entry>
+  </entry>
+  <entry keyword="errors">
+    <entry keyword="warnings">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1262_changes_warn.html#newfeaturecountdifferent" title="New feature: Warnings"/>
+    </entry>
+  </entry>
+  <entry keyword="model">
+    <entry keyword="export">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1261_changes_fileformat.html#newfeaturefileformat" title="New feature: CP Optimizer file format"/>
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V126_changes_exportmodel.html#newfeatureexportmodel" title="New feature: Export model"/>
+    </entry>
+    <entry keyword="dump">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1261_changes_fileformat.html#newfeaturefileformat" title="New feature: CP Optimizer file format"/>
+    </entry>
+  </entry>
+  <entry keyword="Parameter">
+    <entry keyword="FailureDirectedSearch">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1261_changes_failuredirectedsearch.html#failuredirectedsearchemphasis" title="New feature: Failure-directed search emphasis parameter"/>
+    </entry>
+    <entry keyword="TimeMode">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V126_changes_timemode.html#defaultchangetimemodeparameter" title="Change: Default TimeMode parameter"/>
+    </entry>
+    <entry keyword="PropagationLog">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V126_changes_deprecated.html#changedeprecatedpropagationlogparameter" title="Conversion notes: Deprecated methods and parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="Location">
+    <entry keyword="source file">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1261_changes_sourcefilelocations.html#sourcefilelocations" title="New feature: Source file locations"/>
+    </entry>
+  </entry>
+  <entry keyword="Member">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1261_changes_deprecated.html#changedeprecatedfunction" title="Conversion notes: Deprecated functions"/>
+  </entry>
+  <entry keyword="constraint">
+    <entry keyword="strong">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V126_changes_strong.html#newfeaturestrongconstraint" title="New feature: Strong constraint"/>
+    </entry>
+    <entry keyword="sequence">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V126_changes_sameseq.html#newfeaturesame-sequenceconstraints" title="New feature: Same-sequence constraints and same-common-subsequence constraints "/>
+    </entry>
+  </entry>
+  <entry keyword="parameter">
+    <entry keyword="failuredirectedsearch">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V126_changes_failuredirectedsearch.html#newfeaturefailuredirectedsearch" title="New feature: Failure-directed search"/>
+    </entry>
+    <entry keyword="release notes CPLEX V12.7.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newParameters.html#NewFeaturesForAllUsers127parameters" title="New parameters in CPLEX V12.7.0"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/convertParameters.html#ConvertForAllUsers127Parameters" title="Changes in parameters in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="RLT cuts">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newParameters.html#NewFeaturesForAllUsers127parameters" title="New parameters in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="Benders strategy">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newParameters.html#NewFeaturesForAllUsers127parameters" title="New parameters in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="Benders optimality cut tolerance">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newParameters.html#NewFeaturesForAllUsers127parameters" title="New parameters in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="Benders feasibility cut tolerance">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newParameters.html#NewFeaturesForAllUsers127parameters" title="New parameters in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="data checking">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/convertParameters.html#ConvertForAllUsers127Parameters" title="Changes in parameters in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="DataCheck">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/convertParameters.html#ConvertForAllUsers127Parameters" title="Changes in parameters in CPLEX V12.7.0"/>
+    </entry>
+  </entry>
+  <entry keyword="search">
+    <entry keyword="failure">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V126_changes_failuredirectedsearch.html#newfeaturefailuredirectedsearch" title="New feature: Failure-directed search"/>
+    </entry>
+  </entry>
+  <entry keyword="IlcConstraintI">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V126_changes_deprecated.html#changedeprecatedpropagationlogparameter" title="Conversion notes: Deprecated methods and parameters"/>
+  </entry>
+  <entry keyword="conflict">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V125_changes_refiner.html#NewFeatureConflictRefiner125" title="New feature: Conflict refiner"/>
+  </entry>
+  <entry keyword="presolve">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V125_changes_presolve.html#presolve" title="New feature: Presolve"/>
+  </entry>
+  <entry keyword=".NET">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_21_changes_64bit.html#migration.uss_relnotescpoptimizer20.1021222" title="Availability of 64–bit port for the .NET languages API"/>
+  </entry>
+  <entry keyword="temporal relaxation">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_21_changes_relax.html#descriptiveTopic1220889088006" title="Addition of the temporal relaxation parameter"/>
+  </entry>
+  <entry keyword="time mode">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_20_changes_timeMode.html#migration.uss_relnotescpoptimizer20.1021222" title="Addition of the time mode parameter"/>
+  </entry>
+  <entry keyword="release notes CPLEX V12.7.0">
+    <entry keyword="new features">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newIntro.html#NewFeaturesForAllUsers127" title="New features in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="parameters">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newParameters.html#NewFeaturesForAllUsers127parameters" title="New parameters in CPLEX V12.7.0"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/convertParameters.html#ConvertForAllUsers127Parameters" title="Changes in parameters in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="Benders algorithm">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newBenders.html#NewFeaturesForAllUsers127Benders" title="Benders algorithm in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="cut-generating linear program (CGLP)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newBenders.html#NewFeaturesForAllUsers127Benders" title="Benders algorithm in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="annotating a model">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newAnnotations.html#NewFeaturesForAllUsers127annotations" title="Annotating a model in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="modeling assistance">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newModelAsst.html#NewFeaturesModelAsst127" title="Modeling assistance in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="piecewise linear (PWL)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newPWL.html#PWLReleaseNote127" title="Piecewise linear (PWL) features in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="effort level">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newEffortLevel.html#NewFeaturesForAllUsers127EffortLevelMIPstarts" title="Effort level for MIP starts in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="MIP starts">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newEffortLevel.html#NewFeaturesForAllUsers127EffortLevelMIPstarts" title="Effort level for MIP starts in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="new features Callable Library (C API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newC.html#NewFeaturesCallableLibraryUsers127" title="New Callable Library (C API) features in CPLEX V12.7.0"/>
+      <entry keyword="annotations">
+        <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newC.html#NewFeaturesCallableLibraryUsers127" title="New Callable Library (C API) features in CPLEX V12.7.0"/>
+      </entry>
+    </entry>
+    <entry keyword="new features C++ API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newCpp.html#NewFeaturesCppUsers127" title="New C++ features in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="new features Java API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newJava.html#NewFeaturesJavaUsers127" title="New Java features in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="new features .NET API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newDotNET.html#NewFeaturesDotNETUsers127" title="New .NET features in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="new features Python API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newPython.html#NewFeaturesPythonUsers127" title="New Python features in CPLEX V12.7.0"/>
+      <entry keyword="annotations">
+        <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newPython.html#NewFeaturesPythonUsers127" title="New Python features in CPLEX V12.7.0"/>
+      </entry>
+    </entry>
+    <entry keyword="new features Interactive Optimizer">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newInteractive.html#NewFeaturesInteractiveOptimizer127" title="New Interactive Optimizer features in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="conversion notes">
+      <entry keyword="Interactive Optimizer">
+        <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/convertInteractiveOptimizer.html#ConvertInteractiveOptimizer127" title="Changes in the Interactive Optimizer"/>
+      </entry>
+    </entry>
+    <entry keyword="deprecated">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/deprecated.html#deprecated127" title="Deprecated"/>
+    </entry>
+    <entry keyword="removed elements">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/removed.html#removedReleaseNotes127" title="Removed"/>
+    </entry>
+  </entry>
+  <entry keyword="Benders algorithm">
+    <entry keyword="release notes CPLEX V12.7">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newBenders.html#NewFeaturesForAllUsers127Benders" title="Benders algorithm in CPLEX V12.7.0"/>
+    </entry>
+  </entry>
+  <entry keyword="cut-generating linear program (CGLP)">
+    <entry keyword="release notes CPLEX V12.7.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newBenders.html#NewFeaturesForAllUsers127Benders" title="Benders algorithm in CPLEX V12.7.0"/>
+    </entry>
+  </entry>
+  <entry keyword="annotations">
+    <entry keyword="release notes CPLEX V12.7.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newAnnotations.html#NewFeaturesForAllUsers127annotations" title="Annotating a model in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="XML schema for">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newAnnotations.html#NewFeaturesForAllUsers127annotations" title="Annotating a model in CPLEX V12.7.0"/>
+    </entry>
+  </entry>
+  <entry keyword="modeling assistance">
+    <entry keyword="release notes CPLEX V12.7.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newModelAsst.html#NewFeaturesModelAsst127" title="Modeling assistance in CPLEX V12.7.0"/>
+    </entry>
+  </entry>
+  <entry keyword="piecewise linear">
+    <entry keyword="release notes CPLEX V12.7.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newPWL.html#PWLReleaseNote127" title="Piecewise linear (PWL) features in CPLEX V12.7.0"/>
+    </entry>
+  </entry>
+  <entry keyword="effort level">
+    <entry keyword="release notes CPLEX V12.7.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newEffortLevel.html#NewFeaturesForAllUsers127EffortLevelMIPstarts" title="Effort level for MIP starts in CPLEX V12.7.0"/>
+    </entry>
+  </entry>
+  <entry keyword="MIP start">
+    <entry keyword="release notes CPLEX V12.7.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newEffortLevel.html#NewFeaturesForAllUsers127EffortLevelMIPstarts" title="Effort level for MIP starts in CPLEX V12.7.0"/>
+    </entry>
+  </entry>
+  <entry keyword="release notes CPLEX V12.7">
+    <entry keyword="error codes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newErrorCodes.html#NewFeaturesForAllUsers127ErrorCodes" title="New error codes in CPLEX V12.7.0"/>
+    </entry>
+  </entry>
+  <entry keyword="error code">
+    <entry keyword="release notes CPLEX V12.7.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newErrorCodes.html#NewFeaturesForAllUsers127ErrorCodes" title="New error codes in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="CPXERR_LP_PARSE">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newErrorCodes.html#NewFeaturesForAllUsers127ErrorCodes" title="New error codes in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="CPXERR_XMLPARSE">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newErrorCodes.html#NewFeaturesForAllUsers127ErrorCodes" title="New error codes in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="CPXERR_BAD_DECOMPOSITION">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newErrorCodes.html#NewFeaturesForAllUsers127ErrorCodes" title="New error codes in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="CPXERR_NO_DECOMPOSITION">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newErrorCodes.html#NewFeaturesForAllUsers127ErrorCodes" title="New error codes in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="CPXERR_PARAM_INCOMPATIBLE">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/newErrorCodes.html#NewFeaturesForAllUsers127ErrorCodes" title="New error codes in CPLEX V12.7.0"/>
+    </entry>
+    <entry keyword="release notes V12.5">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertErrorCodes.html#ErrorCodesChanged" title="Error codes changed"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newErrorCodes.html#NewErrorCodes125" title="New error codes"/>
+    </entry>
+    <entry keyword="release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotescplex124.html#descriptiveTopic1317727923872" title="Error codes added"/>
+    </entry>
+  </entry>
+  <entry keyword="release notes CPLEX V12.7.0.">
+    <entry keyword="conversion notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/convertIntro.html#ConvertIntro127" title="Conversion notes"/>
+    </entry>
+  </entry>
+  <entry keyword="Interactive Optimizer">
+    <entry keyword="changes in CPLEX V12.7.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/convertInteractiveOptimizer.html#ConvertInteractiveOptimizer127" title="Changes in the Interactive Optimizer"/>
+    </entry>
+    <entry keyword="command line options">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newInteractiveCmdLine.html#NewFeaturesOfTheInteractiveOptimizer" title="New features of the Interactive Optimizer"/>
+    </entry>
+  </entry>
+  <entry keyword="deprecated">
+    <entry keyword="release notes CPLEX V12.7.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/deprecated.html#deprecated127" title="Deprecated"/>
+    </entry>
+    <entry keyword="release notes CPLEX V12.6.3">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/deprecated.html#deprecated1262" title="Deprecated"/>
+    </entry>
+    <entry keyword="release notes CPLEX V12.6.2">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1262/deprecated.html#deprecated1262" title="Deprecated"/>
+    </entry>
+  </entry>
+  <entry keyword="removed elements">
+    <entry keyword="release notes CPLEX V12.7.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes127/removed.html#removedReleaseNotes127" title="Removed"/>
+    </entry>
+    <entry keyword="release notes CPLEX V12.6.3">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/deprecated.html#deprecated1262" title="Deprecated"/>
+    </entry>
+  </entry>
+  <entry keyword="release notes CPLEX V12.6.3">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/home.html#ReleaseNotesForCPLEXV1263" title="Release notes for CPLEX Optimizers V12.6.3"/>
+    <entry keyword="new features">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newIntro.html#NewFeaturesForAllUsers1263" title="New features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="new features in VMC files">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newVMCdistribMIP.html#NewFeaturesVMCdistribMIP1263" title="New features for users of VMC files for distributed MIP optimization in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="new features for distributed MIP">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newVMCdistribMIP.html#NewFeaturesVMCdistribMIP1263" title="New features for users of VMC files for distributed MIP optimization in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="new features Callable Library (C API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newC.html#NewFeaturesCallableLibraryUsers1263" title="New Callable Library (C API) features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="Community Edition and Callable Library (C API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newC.html#NewFeaturesCallableLibraryUsers1263" title="New Callable Library (C API) features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="counting lazy constraints in Callable Library (C API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newC.html#NewFeaturesCallableLibraryUsers1263" title="New Callable Library (C API) features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="new features C++ API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newCpp.html#NewFeaturesCppUsers1263" title="New C++ features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="Community Edition and C++ API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newCpp.html#NewFeaturesCppUsers1263" title="New C++ features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="counting constraints in C++ API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newCpp.html#NewFeaturesCppUsers1263" title="New C++ features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="new features Java API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newJava.html#NewFeaturesJavaUsers1263" title="New Java features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="Community Edition and Java API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newJava.html#NewFeaturesJavaUsers1263" title="New Java features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="counting constraints in Java API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newJava.html#NewFeaturesJavaUsers1263" title="New Java features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="new features .NET API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newDotNET.html#NewFeaturesDotNETUsers1263" title="New .NET features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="Community Edition and .NET API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newDotNET.html#NewFeaturesDotNETUsers1263" title="New .NET features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="property of constraints in .NET API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newDotNET.html#NewFeaturesDotNETUsers1263" title="New .NET features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="new features Python API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newPython.html#NewFeaturesPythonUsers1263" title="New Python features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="with statement in Python API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newPython.html#NewFeaturesPythonUsers1263" title="New Python features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="context manager in Python API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newPython.html#NewFeaturesPythonUsers1263" title="New Python features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="Community Edition and Python API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newPython.html#NewFeaturesPythonUsers1263" title="New Python features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="counting constraints in Python API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newPython.html#NewFeaturesPythonUsers1263" title="New Python features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="deprecated">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/deprecated.html#deprecated1262" title="Deprecated"/>
+    </entry>
+    <entry keyword="removed elements">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/deprecated.html#deprecated1262" title="Deprecated"/>
+    </entry>
+  </entry>
+  <entry keyword="Callable Library (C API)">
+    <entry keyword="counting lazy constraints">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newC.html#NewFeaturesCallableLibraryUsers1263" title="New Callable Library (C API) features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="counting user cuts">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newC.html#NewFeaturesCallableLibraryUsers1263" title="New Callable Library (C API) features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="Community Edition">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newC.html#NewFeaturesCallableLibraryUsers1263" title="New Callable Library (C API) features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="release notes V12.5">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertC_API.html#ChangesInTheCallableLibraryCAPI" title="Changes in the Callable Library (C API)"/>
+    </entry>
+    <entry keyword="deprecated routines removed">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertC_API.html#ChangesInTheCallableLibraryCAPI" title="Changes in the Callable Library (C API)"/>
+    </entry>
+  </entry>
+  <entry keyword="C++ API">
+    <entry keyword="counting constraints">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newCpp.html#NewFeaturesCppUsers1263" title="New C++ features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="Community Edition">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newCpp.html#NewFeaturesCppUsers1263" title="New C++ features in CPLEX V12.6.3"/>
+    </entry>
+  </entry>
+  <entry keyword="Java API">
+    <entry keyword="counting constraints">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newJava.html#NewFeaturesJavaUsers1263" title="New Java features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="Community Edition">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newJava.html#NewFeaturesJavaUsers1263" title="New Java features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="MPModeler.piecewiseLinear">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes120/relnotescplex12_9.html#descriptiveTopic1237565519250" title="New feature for Java or .NET users: piecewise linear numeric expression"/>
+    </entry>
+  </entry>
+  <entry keyword=".NET API">
+    <entry keyword="counting constraints">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newDotNET.html#NewFeaturesDotNETUsers1263" title="New .NET features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="Community Edition">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newDotNET.html#NewFeaturesDotNETUsers1263" title="New .NET features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="IMPModeler.PiecewiseLinear">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes120/relnotescplex12_9.html#descriptiveTopic1237565519250" title="New feature for Java or .NET users: piecewise linear numeric expression"/>
+    </entry>
+  </entry>
+  <entry keyword="Python API">
+    <entry keyword="with statement">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newPython.html#NewFeaturesPythonUsers1263" title="New Python features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="context manager">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newPython.html#NewFeaturesPythonUsers1263" title="New Python features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="counting constraints">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newPython.html#NewFeaturesPythonUsers1263" title="New Python features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="Community Edition">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1263/newPython.html#NewFeaturesPythonUsers1263" title="New Python features in CPLEX V12.6.3"/>
+    </entry>
+    <entry keyword="reporting functions (release notes)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_18.html#descriptiveTopic1269416709168" title="New reporting features in Python API of CPLEX"/>
+    </entry>
+    <entry keyword="new topic in User’s Manual">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_19.html#descriptiveTopic1268665666058" title="Additional documentation of the Python API"/>
+    </entry>
+  </entry>
+  <entry keyword="release notes CPLEX V12.6.2">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes1262/home.html#ReleaseNotesForCPLEXV1262" title="Release notes for CPLEX Optimizers V12.6.2"/>
+    <entry keyword="conversion notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1262/convertIntro.html#ConvertIntro1262" title="Conversion notes"/>
+    </entry>
+    <entry keyword="parameter CutsFactor">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1262/convertParameterCutsFactor.html#convertParameterCutsFactor1262" title="Cuts factor parameter changed behavior"/>
+    </entry>
+    <entry keyword="parameter OptimalityTarget">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1262/convertParameterOptimalityTarget.html#convertParameterOptimalityTarget1262" title="Optimality target: new name for former solution target parameter"/>
+    </entry>
+    <entry keyword="deprecated">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1262/deprecated.html#deprecated1262" title="Deprecated"/>
+    </entry>
+    <entry keyword="new features">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1262/newIntro.html#NewFeaturesForAllUsers1262" title="New features in CPLEX V12.6.2"/>
+    </entry>
+    <entry keyword="new methods for objective offset">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1262/newObjOffset.html#NewObjOffset1262" title="New routines to access objective offset in CPLEX V12.6.2"/>
+    </entry>
+    <entry keyword="new parameters">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1262/newParameters.html#NewParameters1262" title="New CPLEX parameters"/>
+    </entry>
+    <entry keyword="new error codes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1262/newErrorCode.html#NewErrorCode1262" title="New error codes in CPLEX V12.6.2"/>
+    </entry>
+  </entry>
+  <entry keyword="objective offset">
+    <entry keyword="release notes CPLEX V12.6.2">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1262/newObjOffset.html#NewObjOffset1262" title="New routines to access objective offset in CPLEX V12.6.2"/>
+    </entry>
+  </entry>
+  <entry keyword="CPXERR_CPUBINDING_FAILURE">
+    <entry keyword="release notes CPLEX V12.6.2">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1262/newErrorCode.html#NewErrorCode1262" title="New error codes in CPLEX V12.6.2"/>
+    </entry>
+  </entry>
+  <entry keyword="CPXERR_MULTIPLE_PROBS_IN_REMOTE_ENVIRONMENT">
+    <entry keyword="release notes CPLEX V12.6.2">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1262/newErrorCode.html#NewErrorCode1262" title="New error codes in CPLEX V12.6.2"/>
+    </entry>
+  </entry>
+  <entry keyword="release notes CPLEX V12.6.1">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/home.html#ReleaseNotesForCPLEXV1261" title="Release notes for CPLEX Optimizers V12.6.1"/>
+    <entry keyword="conversion notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertIntro.html#ConvertIntro1261" title="Conversion notes"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertAll.html#ConvertAllUsers1261" title="Conversion notes for all users"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertAll_SiftConcurrent.html#ConvertAllUsersSiftingConcurrent1261" title="Sifting and concurrent optimization of LP"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertAll_LazyConstraints.html#ConvertAllUsersLazyConstraints1261" title="Lazy constraints"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertAll_VMCexamples.html#ConvertAllUsersVMCexamples1261" title="Location of VMC examples"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertAll_MSTfileFormat.html#ConvertAllUsersMSTfileFormat1261" title="MST file format"/>
+    </entry>
+    <entry keyword="sifting">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertAll_SiftConcurrent.html#ConvertAllUsersSiftingConcurrent1261" title="Sifting and concurrent optimization of LP"/>
+    </entry>
+    <entry keyword="concurrent optimization (LP)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertAll_SiftConcurrent.html#ConvertAllUsersSiftingConcurrent1261" title="Sifting and concurrent optimization of LP"/>
+    </entry>
+    <entry keyword="lazy constraints">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertAll_LazyConstraints.html#ConvertAllUsersLazyConstraints1261" title="Lazy constraints"/>
+    </entry>
+    <entry keyword="VMC examples">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertAll_VMCexamples.html#ConvertAllUsersVMCexamples1261" title="Location of VMC examples"/>
+    </entry>
+    <entry keyword="MST file format">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertAll_MSTfileFormat.html#ConvertAllUsersMSTfileFormat1261" title="MST file format"/>
+    </entry>
+    <entry keyword="conversion note ICU">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertICU_EBCDIC.html#ConvertICUandEBCDIC1261" title="Conversion note for ICU and EBCDIC users"/>
+    </entry>
+    <entry keyword="conversion note EBCDIC">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertICU_EBCDIC.html#ConvertICUandEBCDIC1261" title="Conversion note for ICU and EBCDIC users"/>
+    </entry>
+    <entry keyword="conversion notes (C++ API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertCpp.html#ConvertCPPapi1261" title="Conversion notes for users of the C++ API"/>
+    </entry>
+    <entry keyword="conversion notes (Java API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertJava.html#ConvertJava1261" title="Conversion notes for users of the Java API"/>
+    </entry>
+    <entry keyword="conversion notes (.NET API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertDotNET.html#ConvertDotNET1261" title="Conversion notes for users of the .NET API"/>
+    </entry>
+    <entry keyword="conversion notes (C API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertCapi.html#ConvertCapi1261" title="Conversion notes for users of the Callable Library (C API)"/>
+    </entry>
+    <entry keyword="conversion notes (Python API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertPython.html#ConvertPython1261" title="Conversion notes for users of the Python API"/>
+    </entry>
+    <entry keyword="conversion notes (MATLAB)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertMATLAB.html#ConvertMATLAB1261" title="Conversion notes for users of the MATLAB Connector"/>
+    </entry>
+    <entry keyword="conversion notes (Interactive Optimizer)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/convertInteractive.html#ConvertInteractive1261" title="Conversion notes for users of the Interactive Optimizer"/>
+    </entry>
+    <entry keyword="deprecated">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/deprecated.html#deprecated1261" title="Deprecated"/>
+    </entry>
+    <entry keyword="new features">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newIntro.html#NewFeaturesForAllUsers1261" title="New features in CPLEX V12.6.1"/>
+    </entry>
+    <entry keyword="new parameters">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newParameters.html#NewParameters1261" title="New CPLEX parameters"/>
+    </entry>
+    <entry keyword="new parameter: QToLin">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newParameterQtoLin.html#NewParameterQtoLin1261" title="QToLin: linearization switch for QP, MIQP"/>
+    </entry>
+    <entry keyword="new parameter:locally valid implied bound cuts">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newParameterLocalImplBd.html#NewParameterLocalImplBd1261" title="Locally valid implied bound cuts"/>
+    </entry>
+    <entry keyword="new parameter: conflict refiner">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newParameterConflictRefinerAlg.html#NewParameterConflictRefinerAlg1261" title="Conflict refiner algorithm"/>
+    </entry>
+    <entry keyword="ramp up parameters">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newDistribMIPrampupParams.html#NewRampupParams1261" title="Specifying ramp up parameters in distributed parallel optimization"/>
+    </entry>
+    <entry keyword="VMC files">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newDistribMIPrampupParams.html#NewRampupParams1261" title="Specifying ramp up parameters in distributed parallel optimization"/>
+    </entry>
+    <entry keyword="distributed parallel optimization">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newDistribMIPrampupParams.html#NewRampupParams1261" title="Specifying ramp up parameters in distributed parallel optimization"/>
+    </entry>
+    <entry keyword="opportunistic MIP">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newDistribMIPparallel.html#NewDistribMIPparallel1261" title="Opportunistic distributed parallel MIP"/>
+    </entry>
+    <entry keyword="distributed MIP">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newDistribMIPparallel.html#NewDistribMIPparallel1261" title="Opportunistic distributed parallel MIP"/>
+    </entry>
+    <entry keyword="parallel MIP">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newDistribMIPparallel.html#NewDistribMIPparallel1261" title="Opportunistic distributed parallel MIP"/>
+    </entry>
+    <entry keyword="new features (C++ API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newCPPapi.html#NewCPPapi1261" title="New features of the C++ API"/>
+    </entry>
+    <entry keyword="new features (Java API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newJavaapi.html#NewJavaapi1261" title="New features of the Java API"/>
+    </entry>
+    <entry keyword="new features (.NET API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newDotNETapi.html#NewDotNETapi1261" title="New features of the .NET API"/>
+    </entry>
+    <entry keyword="new features (C API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newCapi.html#NewCapi1261" title="New features of the Callable Library (C API)"/>
+    </entry>
+    <entry keyword="new features (Python API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newPythonapi.html#NewPythonapi1261" title="New features of the Python API"/>
+    </entry>
+    <entry keyword="new features (MATLAB)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1261/newMATLAB.html#NewMATLAB1261" title="New features of the MATLAB Connector"/>
+    </entry>
+  </entry>
+  <entry keyword="release notes CPLEX V12.6.0">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/home.html#ReleaseNotesForCPLEXV126" title="Release notes for CPLEX Optimizers V12.6.0"/>
+    <entry keyword="conversion notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/convertIntro.html#ConversionNotesForAllUsers126" title="Conversion notes for all users"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/convertJavaHP-UX.html#ConversionNotesForJavaUsers126" title="For Java users of CPLEX V12.6.0 on HP-UX"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/convertPython.html#ConversionNotesForPythonUsers126" title="Conversion notes for Python users of CPLEX V12.6.0"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/convertMATLAB.html#ConversionNotesForMATLABUsers126" title="Conversion notes for MATLAB users of CPLEX V12.6.0"/>
+    </entry>
+    <entry keyword="removed _stdcall">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/convertIntro.html#ConversionNotesForAllUsers126" title="Conversion notes for all users"/>
+    </entry>
+    <entry keyword="Windows users">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/convertIntro.html#ConversionNotesForAllUsers126" title="Conversion notes for all users"/>
+    </entry>
+    <entry keyword="normalization">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/convertNormalizeDeprecated.html#ConversionNotesDeprecatedNormalize126" title="Deprecated normalization methods in C++ CPLEX V12.6.0"/>
+    </entry>
+    <entry keyword="deprecated methods (C++ API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/convertNormalizeDeprecated.html#ConversionNotesDeprecatedNormalize126" title="Deprecated normalization methods in C++ CPLEX V12.6.0"/>
+    </entry>
+    <entry keyword="conversion notes .NET API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/convertDotNETdeprecated.html#ConversionNotesForDotNETUsrs126" title="Deprecated properties in the .NET API of CPLEX V12.6.0"/>
+    </entry>
+    <entry keyword="deprecated properties .NET API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/convertDotNETdeprecated.html#ConversionNotesForDotNETUsrs126" title="Deprecated properties in the .NET API of CPLEX V12.6.0"/>
+    </entry>
+    <entry keyword="conversion notes C API">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/convertCapi.html#ConversionNotesForCapiUsrs126" title="Conversion notes for Callable Library (C API) users"/>
+    </entry>
+    <entry keyword="new features">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newIntro.html#NewFeaturesForAllUsers126" title="New features for all users"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newDistribMIP.html#NewDistribMIP126" title="Distributed parallel MIP optimization"/>
+    </entry>
+    <entry keyword="new parameters">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newParameters.html#NewFeaturesParameters126" title="New parameters for all users"/>
+    </entry>
+    <entry keyword="hierarchy of new parameter names">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newParameterTopics.html#NewFeatureParameterHierarchy126" title="Hierarchy of new parameter names"/>
+    </entry>
+    <entry keyword="nonconvex MIQP">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newNonconvexMIQP.html#NewNonconvexMIQP126" title="Global solution of nonconvex MIQP"/>
+    </entry>
+    <entry keyword="nonconvex MIQP solution status">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newSolnStatus.html#NewSolnStatus126" title="New solution status"/>
+    </entry>
+    <entry keyword="new values">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newValuesForRampup.html#NewValuesForRampup126" title="New values for ramp up duration in distributed parallel optimization"/>
+    </entry>
+    <entry keyword="ramp up duration">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newValuesForRampup.html#NewValuesForRampup126" title="New values for ramp up duration in distributed parallel optimization"/>
+    </entry>
+    <entry keyword="file format VMC">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newFileFormatVMC.html#NewFileFormatVMC126" title="New file format: VMC"/>
+    </entry>
+    <entry keyword="informational callbacks">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newInfoCallbacksAndDistribMIP.html#NewInfoCallbacksAndDistribMIP126" title="Informational callbacks and distributed MIP"/>
+    </entry>
+    <entry keyword="distributed MIP and callbacks">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newInfoCallbacksAndDistribMIP.html#NewInfoCallbacksAndDistribMIP126" title="Informational callbacks and distributed MIP"/>
+    </entry>
+    <entry keyword="accessing current version number">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newVersionNumberGetter.html#newVersionNumberGetter126" title="New accessor for current version number"/>
+    </entry>
+  </entry>
+  <entry keyword="_stdcall removed">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/convertIntro.html#ConversionNotesForAllUsers126" title="Conversion notes for all users"/>
+  </entry>
+  <entry keyword="nonconvex MIQP">
+    <entry keyword="release notes CPLEX V12.6.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newNonconvexMIQP.html#NewNonconvexMIQP126" title="Global solution of nonconvex MIQP"/>
+    </entry>
+    <entry keyword="solution status in release notes CPLEX V12.6.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newSolnStatus.html#NewSolnStatus126" title="New solution status"/>
+    </entry>
+  </entry>
+  <entry keyword="nonconvex QP">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_2.html#Release_notes.uss_relnotescplex.1009061" title="Announcements"/>
+    <entry keyword="release notes CPLEX V12.6.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newNonconvexMIQP.html#NewNonconvexMIQP126" title="Global solution of nonconvex MIQP"/>
+    </entry>
+    <entry keyword="solution status in release notes CPLEX V12.6.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newSolnStatus.html#NewSolnStatus126" title="New solution status"/>
+    </entry>
+  </entry>
+  <entry keyword="indefinite MIQP">
+    <entry keyword="release notes CPLEX V12.6.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newNonconvexMIQP.html#NewNonconvexMIQP126" title="Global solution of nonconvex MIQP"/>
+    </entry>
+    <entry keyword="solution status in release notes CPLEX V12.6.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newSolnStatus.html#NewSolnStatus126" title="New solution status"/>
+    </entry>
+  </entry>
+  <entry keyword="indefinite QP">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_2.html#Release_notes.uss_relnotescplex.1009061" title="Announcements"/>
+    <entry keyword="release notes CPLEX V12.6.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newNonconvexMIQP.html#NewNonconvexMIQP126" title="Global solution of nonconvex MIQP"/>
+    </entry>
+    <entry keyword="solution status in release notes CPLEX V12.6.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newSolnStatus.html#NewSolnStatus126" title="New solution status"/>
+    </entry>
+  </entry>
+  <entry keyword="mixed integer quadratic programming (MIQP)">
+    <entry keyword="release notes CPLEX V12.6.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newNonconvexMIQP.html#NewNonconvexMIQP126" title="Global solution of nonconvex MIQP"/>
+    </entry>
+    <entry keyword="solution status release notes CPLEX V12.6.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newSolnStatus.html#NewSolnStatus126" title="New solution status"/>
+    </entry>
+  </entry>
+  <entry keyword="quadratic programming (QP)">
+    <entry keyword="release notes CPLEX V12.6.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newNonconvexMIQP.html#NewNonconvexMIQP126" title="Global solution of nonconvex MIQP"/>
+    </entry>
+    <entry keyword="solution status release notes CPLEX V12.6.0">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newSolnStatus.html#NewSolnStatus126" title="New solution status"/>
+    </entry>
+  </entry>
+  <entry keyword="ramp up duration">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newValuesForRampup.html#NewValuesForRampup126" title="New values for ramp up duration in distributed parallel optimization"/>
+  </entry>
+  <entry keyword="file format">
+    <entry keyword="VMC virtual machine configuration">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newFileFormatVMC.html#NewFileFormatVMC126" title="New file format: VMC"/>
+    </entry>
+  </entry>
+  <entry keyword="callback">
+    <entry keyword="informational">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newInfoCallbacksAndDistribMIP.html#NewInfoCallbacksAndDistribMIP126" title="Informational callbacks and distributed MIP"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_17.html#descriptiveTopic1301324953161" title="New features in callbacks"/>
+    </entry>
+    <entry keyword="distributed parallel optimization and">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newInfoCallbacksAndDistribMIP.html#NewInfoCallbacksAndDistribMIP126" title="Informational callbacks and distributed MIP"/>
+    </entry>
+    <entry keyword="distributed MIP">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newInfoCallbacksAndDistribMIP.html#NewInfoCallbacksAndDistribMIP126" title="Informational callbacks and distributed MIP"/>
+    </entry>
+    <entry keyword="Java API (release notes V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertJava_API.html#ChangesInTheJavaAPI" title="Changes in the Java API"/>
+    </entry>
+    <entry keyword=".NET API (release notes V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertdotNET_API.html#ChangesInTheDotNETAPI" title="Changes in the .NET API"/>
+    </entry>
+    <entry keyword="incumbent">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="lazy constraints and">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="user cuts and">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="lazy constraints (C API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="user cuts (C API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="lazy constraints (C++ API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="user cuts (C++ API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="lazy constraints (Java API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="user cuts (Java API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="lazy constraints (.NET API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="user cuts (.NET API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="lazy constraints (Python API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="user cuts (Python API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="delete node (C API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="node queries (C++ API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="node queries (Java API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="solve (Java API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="where from">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_17.html#descriptiveTopic1301324953161" title="New features in callbacks"/>
+    </entry>
+    <entry keyword="exiting cut loop">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_17.html#descriptiveTopic1301324953161" title="New features in callbacks"/>
+    </entry>
+    <entry keyword="user cut">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_17.html#descriptiveTopic1301324953161" title="New features in callbacks"/>
+    </entry>
+  </entry>
+  <entry keyword="distributed parallel optimization">
+    <entry keyword="informational callbacks and">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newInfoCallbacksAndDistribMIP.html#NewInfoCallbacksAndDistribMIP126" title="Informational callbacks and distributed MIP"/>
+    </entry>
+  </entry>
+  <entry keyword="accessing">
+    <entry keyword="current version number">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes126/newVersionNumberGetter.html#newVersionNumberGetter126" title="New accessor for current version number"/>
+    </entry>
+  </entry>
+  <entry keyword="release notes CPLEX V12.5.1">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/home.html#ReleaseNotesForCPLEXV1251" title="Release notes for CPLEX Optimizers V12.5.1"/>
+    <entry keyword="conversion notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertIntro.html#ConversionNotesForAllUsers12510" title="Conversion notes for all users"/>
+    </entry>
+    <entry keyword="conversion notes (Windows)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertDeprecated_stdcall.html#ConversionNoteSTDcallCapi" title="Deprecated: _stdcall"/>
+    </entry>
+    <entry keyword="deprecated feature (Windows)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertDeprecated_stdcall.html#ConversionNoteSTDcallCapi" title="Deprecated: _stdcall"/>
+    </entry>
+    <entry keyword="conversion notes MSF">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertDeprecated_MSF.html#ConversionNoteDeprecatedMSF" title="Deprecated: CPLEX connectors for MSF and Excel"/>
+    </entry>
+    <entry keyword="deprecated feature MSF">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertDeprecated_MSF.html#ConversionNoteDeprecatedMSF" title="Deprecated: CPLEX connectors for MSF and Excel"/>
+    </entry>
+    <entry keyword="deprecated feature Excel">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertDeprecated_MSF.html#ConversionNoteDeprecatedMSF" title="Deprecated: CPLEX connectors for MSF and Excel"/>
+    </entry>
+    <entry keyword="conversion notes (C API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertCapi.html#ConversionNotesForAllUsers12510" title="Conversion notes for users of the Callable Library (C API)"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertCapi_Symbols.html#ConversionNoteSymbolicConstantsCapi" title="Symbolic constants: numbering changed"/>
+    </entry>
+    <entry keyword="symbolic constants (C API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertCapi.html#ConversionNotesForAllUsers12510" title="Conversion notes for users of the Callable Library (C API)"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertCapi_Symbols.html#ConversionNoteSymbolicConstantsCapi" title="Symbolic constants: numbering changed"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newC_API.html#NewC_API12510" title="New features of the Callable Library (C API)"/>
+    </entry>
+    <entry keyword="threads (C API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertCapi_ThreadsCallbacksParallel.html#ConversionNotesCapiThreadsCallbacksParallel" title="Callbacks, threads, and parallel execution"/>
+    </entry>
+    <entry keyword="callbacks (C API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertCapi_ThreadsCallbacksParallel.html#ConversionNotesCapiThreadsCallbacksParallel" title="Callbacks, threads, and parallel execution"/>
+    </entry>
+    <entry keyword="parallel execution (C API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertCapi_ThreadsCallbacksParallel.html#ConversionNotesCapiThreadsCallbacksParallel" title="Callbacks, threads, and parallel execution"/>
+    </entry>
+    <entry keyword="deprecated features">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertSolnPoolFilter.html#ConversionNoteDeprecatedRemovedSolnPoolFilter12510" title="Deprecated features removed:solution pool filtering"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertAsyncNotValid.html#ConversionNoteDeprecatedRemovedAsyncNotValid12510" title="Invalid asynchronous routines for the remote object"/>
+    </entry>
+    <entry keyword="removed features">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertSolnPoolFilter.html#ConversionNoteDeprecatedRemovedSolnPoolFilter12510" title="Deprecated features removed:solution pool filtering"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertAsyncNotValid.html#ConversionNoteDeprecatedRemovedAsyncNotValid12510" title="Invalid asynchronous routines for the remote object"/>
+    </entry>
+    <entry keyword="solution pool">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertSolnPoolFilter.html#ConversionNoteDeprecatedRemovedSolnPoolFilter12510" title="Deprecated features removed:solution pool filtering"/>
+    </entry>
+    <entry keyword="CPXqpindefcertificate">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertQPindefCertif.html#ConversionNotesQPindefCertif12510" title="Documentation of CPXqpindefcertificate and CPXXqpindefcertificate changed"/>
+    </entry>
+    <entry keyword="CPXXqpindefcertificate">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertQPindefCertif.html#ConversionNotesQPindefCertif12510" title="Documentation of CPXqpindefcertificate and CPXXqpindefcertificate changed"/>
+    </entry>
+    <entry keyword="conversion note: asynchronous arguments">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertArgsAsyncJoin.html#ConversionNoteArgsAsyncJoin12510" title="Changes in asynchronous and join routines for the remote object"/>
+    </entry>
+    <entry keyword="conversion note: join arguments">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertArgsAsyncJoin.html#ConversionNoteArgsAsyncJoin12510" title="Changes in asynchronous and join routines for the remote object"/>
+    </entry>
+    <entry keyword="MPI worker">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertMPIworker.html#ConversionNoteMPIworker12510" title="Changes in MPI for the remote object worker"/>
+    </entry>
+    <entry keyword="MPI semantics">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertMPIworker.html#ConversionNoteMPIworker12510" title="Changes in MPI for the remote object worker"/>
+    </entry>
+    <entry keyword="MPI multi-threading">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertMPIworker.html#ConversionNoteMPIworker12510" title="Changes in MPI for the remote object worker"/>
+    </entry>
+    <entry keyword="conversion notes (C++ API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertCppAPI.html#ConversionNotesCpp12510" title="Conversion notes for users of the Concert C++ API"/>
+    </entry>
+    <entry keyword="threads">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertCppAPI_ThreadsCallbacksParallel.html#ConversionNotesCppThreadsCallbacksParallel" title="Callbacks, threads, and parallel execution"/>
+    </entry>
+    <entry keyword="callbacks">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertCppAPI_ThreadsCallbacksParallel.html#ConversionNotesCppThreadsCallbacksParallel" title="Callbacks, threads, and parallel execution"/>
+    </entry>
+    <entry keyword="parallel execution">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertCppAPI_ThreadsCallbacksParallel.html#ConversionNotesCppThreadsCallbacksParallel" title="Callbacks, threads, and parallel execution"/>
+    </entry>
+    <entry keyword="conversion notes (Java API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertJavaApi.html#ConversionNotesJavaAPI12510" title="Conversion notes for users of the Concert Java API"/>
+    </entry>
+    <entry keyword="conversion notes (.NET API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/convertDotNETApi.html#ConversionNotesDotNETAPI12510" title="Conversion notes for users of the Concert .NET API"/>
+    </entry>
+    <entry keyword="new features">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newIntro.html#NewFeaturesForAllUsers12510" title="New features for all users"/>
+    </entry>
+    <entry keyword="new parameters">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newParameters.html#NewFeaturesParameters12510" title="New Parameters for all users"/>
+    </entry>
+    <entry keyword="lift and project cuts">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newParameters.html#NewFeaturesParameters12510" title="New Parameters for all users"/>
+    </entry>
+    <entry keyword="cuts, lift and project">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newParameters.html#NewFeaturesParameters12510" title="New Parameters for all users"/>
+    </entry>
+    <entry keyword="remote object">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newRemoteObject.html#NewRemoteObject12510" title="New features of the remote object"/>
+    </entry>
+    <entry keyword="remote object (C++ API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newRemoteObject.html#NewRemoteObject12510" title="New features of the remote object"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newCpp_API.html#NewCpp_API12510" title="New features of the Concert C++ API"/>
+    </entry>
+    <entry keyword="remote object (Java API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newRemoteObject.html#NewRemoteObject12510" title="New features of the remote object"/>
+    </entry>
+    <entry keyword="remote object on Solaris">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newRemoteObject.html#NewRemoteObject12510" title="New features of the remote object"/>
+    </entry>
+    <entry keyword="Solaris users">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newRemoteObject.html#NewRemoteObject12510" title="New features of the remote object"/>
+    </entry>
+    <entry keyword="Ultra Sparc users">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newRemoteObject.html#NewRemoteObject12510" title="New features of the remote object"/>
+    </entry>
+    <entry keyword="new features (C API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newC_API.html#NewC_API12510" title="New features of the Callable Library (C API)"/>
+    </entry>
+    <entry keyword="new features (C++ API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newCpp_API.html#NewCpp_API12510" title="New features of the Concert C++ API"/>
+    </entry>
+    <entry keyword="parameter hierarchy (C++ API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newCpp_API.html#NewCpp_API12510" title="New features of the Concert C++ API"/>
+    </entry>
+    <entry keyword="new features (Java API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newJava_API.html#NewJava_API12510" title="New features of the Concert Java API"/>
+    </entry>
+    <entry keyword="new features (.NET API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newdotNET_API.html#NewdotNET_API12510" title="New features of the Concert .NET API"/>
+    </entry>
+    <entry keyword="new features (Python API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes1251/newPython_API.html#NewPython_API12510" title="New features of the Python API"/>
+    </entry>
+  </entry>
+  <entry keyword="release notes CPLEX V12.5">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/home.html#ReleaseNotesForCPLEXV12.5" title="Release notes for CPLEX Optimizers V12.5"/>
+    <entry keyword="conversion notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertIntro.html#ConversionNotesForAllUsers" title="Conversion notes for all users"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertExcelDeprecated.html#ExcelConnectorDeprecated" title="Excel connector deprecated"/>
+    </entry>
+    <entry keyword="parameters changed">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+    <entry keyword="QCP dual values">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertQCPduals.html#ConversionNoteQCPduals" title="Accessing SOCP and QCP duals has changed"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newQCPdual.html#QCPdual" title="QCP dual values and reduced costs"/>
+    </entry>
+    <entry keyword="SOCP dual values">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertQCPduals.html#ConversionNoteQCPduals" title="Accessing SOCP and QCP duals has changed"/>
+    </entry>
+    <entry keyword="compressed files">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertZip.html#ConversionNoteZipFiles" title="Compressed file conversion note for all users"/>
+    </entry>
+    <entry keyword="internal names">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertNames.html#NamesAndFileFormats" title="Names and file formats"/>
+    </entry>
+    <entry keyword="file formats">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertNames.html#NamesAndFileFormats" title="Names and file formats"/>
+    </entry>
+    <entry keyword="logs">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertNames.html#NamesAndFileFormats" title="Names and file formats"/>
+    </entry>
+    <entry keyword="unlimited threads">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertUnlimThreads.html#UnlimitedThreads" title="Getting the number of cores"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newUnlimThreads.html#UnlimitedThreads" title="Unlimited threads and getting the number of cores"/>
+    </entry>
+    <entry keyword="number of cores">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertUnlimThreads.html#UnlimitedThreads" title="Getting the number of cores"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newUnlimThreads.html#UnlimitedThreads" title="Unlimited threads and getting the number of cores"/>
+    </entry>
+    <entry keyword="new features">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newIntro.html#NewFeaturesForAllUsers" title="New features for all users"/>
+    </entry>
+    <entry keyword="new parameters">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newParameters.html#NewParameters" title="New parameters"/>
+    </entry>
+    <entry keyword="remote object">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newRemoteObjDistribParallel.html#RemoteObjDistribParallel" title="CPLEX remote object for distributed parallel optimization"/>
+    </entry>
+    <entry keyword="distributed parallel algorithms">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newRemoteObjDistribParallel.html#RemoteObjDistribParallel" title="CPLEX remote object for distributed parallel optimization"/>
+    </entry>
+    <entry keyword="QCP reduced costs">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newQCPdual.html#QCPdual" title="QCP dual values and reduced costs"/>
+    </entry>
+    <entry keyword="deterministic time">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newDetTime.html#DetTime" title="Deterministic time"/>
+    </entry>
+    <entry keyword="time stamps">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newDetTime.html#DetTime" title="Deterministic time"/>
+    </entry>
+    <entry keyword="callbacks">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newUsrDataAtNodesCB.html#UsrDataAtNodesCB" title="Callbacks can store user data at nodes"/>
+    </entry>
+    <entry keyword="user data at nodes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newUsrDataAtNodesCB.html#UsrDataAtNodesCB" title="Callbacks can store user data at nodes"/>
+    </entry>
+    <entry keyword="Interactive Optimizer from command line">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newInteractiveCmdLine.html#NewFeaturesOfTheInteractiveOptimizer" title="New features of the Interactive Optimizer"/>
+    </entry>
+    <entry keyword="Callable Library (C API) new features">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newC_API.html#NewFeaturesForCapiUsers" title="New features for users of the Callable Library (C API)"/>
+    </entry>
+    <entry keyword="C++ API new features">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newCpp_API.html#NewFeaturesForCppAPIUsers" title="New features for users of the C++ API"/>
+    </entry>
+    <entry keyword="Java API new features">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newJava_API.html#NewFeaturesForJavaAPIUsers" title="New features for users of the Java API"/>
+    </entry>
+    <entry keyword=".NET API new features">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newdotNET_API.html#NewFeaturesForDotNETAPIUsers" title="New features for users of the .NET API"/>
+    </entry>
+    <entry keyword="Python API new features">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newPython_API.html#NewFeaturesForPythonAPIUsers" title="New features for users of the Python API"/>
+    </entry>
+  </entry>
+  <entry keyword="Excel connector">
+    <entry keyword="deprecated">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertExcelDeprecated.html#ExcelConnectorDeprecated" title="Excel connector deprecated"/>
+    </entry>
+  </entry>
+  <entry keyword="TuningDisplay">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="TuningMeasure">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="TuningRepeat">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="TuningTiLim">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="TiLim">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="DetTiLim">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="CPX_PARAM_SCRIND">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="CPX_PARAM_TILIM">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="CPX_PARAM_DETTILIM">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="CPX_PARAM_TUNINGTILIM">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="CPX_PARAM_TUNINGREPEAT">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="CPX_PARAM_TUNINGMEASURE">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="CPX_PARAM_TUNINGDISPLAY">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="CPX_PARAM_MIPDISPLAY">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="MIPDisplay">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertParameters.html#changedParameters" title="Changed behavior of parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="SOCP dual values">
+    <entry keyword="release notes CPLEX V12.5">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertQCPduals.html#ConversionNoteQCPduals" title="Accessing SOCP and QCP duals has changed"/>
+    </entry>
+  </entry>
+  <entry keyword="QCP dual values">
+    <entry keyword="release notes CPLEX V12.5">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertQCPduals.html#ConversionNoteQCPduals" title="Accessing SOCP and QCP duals has changed"/>
+    </entry>
+  </entry>
+  <entry keyword="cores, number of">
+    <entry keyword="release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertUnlimThreads.html#UnlimitedThreads" title="Getting the number of cores"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newUnlimThreads.html#UnlimitedThreads" title="Unlimited threads and getting the number of cores"/>
+    </entry>
+  </entry>
+  <entry keyword="thread">
+    <entry keyword="release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertUnlimThreads.html#UnlimitedThreads" title="Getting the number of cores"/>
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newUnlimThreads.html#UnlimitedThreads" title="Unlimited threads and getting the number of cores"/>
+    </entry>
+  </entry>
+  <entry keyword="release notes">
+    <entry keyword="Callable Library (C API) changes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertC_API.html#ChangesInTheCallableLibraryCAPI" title="Changes in the Callable Library (C API)"/>
+    </entry>
+    <entry keyword="CPLEX V12.2">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_1.html#YLF8tDMZ" title="Release notes for CPLEX V12.2"/>
+    </entry>
+  </entry>
+  <entry keyword="cut">
+    <entry keyword="adding (release notes V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertJava_API.html#ChangesInTheJavaAPI" title="Changes in the Java API"/>
+    </entry>
+    <entry keyword="adding (release notes)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertdotNET_API.html#ChangesInTheDotNETAPI" title="Changes in the .NET API"/>
+    </entry>
+  </entry>
+  <entry keyword="adding">
+    <entry keyword="cuts (release notes V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertJava_API.html#ChangesInTheJavaAPI" title="Changes in the Java API"/>
+    </entry>
+    <entry keyword="cuts (release notes)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertdotNET_API.html#ChangesInTheDotNETAPI" title="Changes in the .NET API"/>
+    </entry>
+  </entry>
+  <entry keyword="user data">
+    <entry keyword="Java API (release notes V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertJava_API.html#ChangesInTheJavaAPI" title="Changes in the Java API"/>
+    </entry>
+    <entry keyword=".NET API (release notes V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/convertdotNET_API.html#ChangesInTheDotNETAPI" title="Changes in the .NET API"/>
+    </entry>
+  </entry>
+  <entry keyword="ProbeDetTime">
+    <entry keyword="release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newParameters.html#NewParameters" title="New parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="PolishAfterDetTime">
+    <entry keyword="release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newParameters.html#NewParameters" title="New parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="TuningDetTiLim">
+    <entry keyword="release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newParameters.html#NewParameters" title="New parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="RandomSeed">
+    <entry keyword="release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newParameters.html#NewParameters" title="New parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="CPX_PARAM_PROBEDETTIME">
+    <entry keyword="release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newParameters.html#NewParameters" title="New parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="CPX_PARAM_POLISHAFTERDETTIME">
+    <entry keyword="release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newParameters.html#NewParameters" title="New parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="CPX_PARAM_TUNINGDETTILIM">
+    <entry keyword="release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newParameters.html#NewParameters" title="New parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="CPX_PARAM_RANDOMSEED">
+    <entry keyword="release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newParameters.html#NewParameters" title="New parameters"/>
+    </entry>
+  </entry>
+  <entry keyword="remote object">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newRemoteObjDistribParallel.html#RemoteObjDistribParallel" title="CPLEX remote object for distributed parallel optimization"/>
+    </entry>
+  </entry>
+  <entry keyword="distributed parallel algorithm">
+    <entry keyword="release notes (V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newRemoteObjDistribParallel.html#RemoteObjDistribParallel" title="CPLEX remote object for distributed parallel optimization"/>
+    </entry>
+  </entry>
+  <entry keyword="quadratically constrained program (QCP)">
+    <entry keyword="release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newQCPdual.html#QCPdual" title="QCP dual values and reduced costs"/>
+    </entry>
+  </entry>
+  <entry keyword="dual value">
+    <entry keyword="in QCP (release notes V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newQCPdual.html#QCPdual" title="QCP dual values and reduced costs"/>
+    </entry>
+  </entry>
+  <entry keyword="reduced cost">
+    <entry keyword="in QCP (release notes V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newQCPdual.html#QCPdual" title="QCP dual values and reduced costs"/>
+    </entry>
+  </entry>
+  <entry keyword="determinism">
+    <entry keyword="time stamps for (release notes V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newDetTime.html#DetTime" title="Deterministic time"/>
+    </entry>
+    <entry keyword="barrier optimizer and">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes120/relnotescplex12_10.html#WoM1ayTY" title="New feature: deterministic parallel barrier algorithm"/>
+    </entry>
+  </entry>
+  <entry keyword="callbacks">
+    <entry keyword="user data at nodes (release notes V12.5)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes125/newUsrDataAtNodesCB.html#UsrDataAtNodesCB" title="Callbacks can store user data at nodes"/>
+    </entry>
+  </entry>
+  <entry keyword="release notes CPLEX V12.4">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotescplex124.html#CDQUWnlh" title="Release notes for CPLEX V12.4"/>
+  </entry>
+  <entry keyword="release notes CPLEX V12.3">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_1.html#kqxhsC1L" title="Release notes for CPLEX V12.3"/>
+  </entry>
+  <entry keyword="QP">
+    <entry keyword="nonconvex">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_2.html#Release_notes.uss_relnotescplex.1009061" title="Announcements"/>
+    </entry>
+    <entry keyword="indefinite">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_2.html#Release_notes.uss_relnotescplex.1009061" title="Announcements"/>
+    </entry>
+    <entry keyword="kappa quality report">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_18.html#Release_notes.uss_relnotescplex.1034648" title="Quality report: kappa for QP"/>
+    </entry>
+  </entry>
+  <entry keyword="solution status">
+    <entry keyword="indefinite QP">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_2.html#Release_notes.uss_relnotescplex.1009061" title="Announcements"/>
+    </entry>
+    <entry keyword="nonconvex QP">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_2.html#Release_notes.uss_relnotescplex.1009061" title="Announcements"/>
+    </entry>
+  </entry>
+  <entry keyword="positive semi-definite">
+    <entry keyword="non">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_2.html#Release_notes.uss_relnotescplex.1009061" title="Announcements"/>
+    </entry>
+  </entry>
+  <entry keyword="Karush-Kuhn-Tucker condition">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_2.html#Release_notes.uss_relnotescplex.1009061" title="Announcements"/>
+  </entry>
+  <entry keyword="nonzeros">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_2.html#Release_notes.uss_relnotescplex.1009061" title="Announcements"/>
+  </entry>
+  <entry keyword="MIP incumbent">
+    <entry keyword="writing to file">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_2.html#Release_notes.uss_relnotescplex.1009061" title="Announcements"/>
+    </entry>
+  </entry>
+  <entry keyword="writing">
+    <entry keyword="MIP incumbent to file">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_2.html#Release_notes.uss_relnotescplex.1009061" title="Announcements"/>
+    </entry>
+  </entry>
+  <entry keyword="globalization">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_2.html#Release_notes.uss_relnotescplex.1009061" title="Announcements"/>
+  </entry>
+  <entry keyword="encoding">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_2.html#Release_notes.uss_relnotescplex.1009061" title="Announcements"/>
+  </entry>
+  <entry keyword="parallel">
+    <entry keyword="threads">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_5.html#descriptiveTopic1300266816163" title="Simplified threading and parallel search"/>
+    </entry>
+  </entry>
+  <entry keyword="parallelism">
+    <entry keyword="threads and">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_5.html#descriptiveTopic1300266816163" title="Simplified threading and parallel search"/>
+    </entry>
+  </entry>
+  <entry keyword="incumbent callback">
+    <entry keyword="node solutions">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+    <entry keyword="heuristic solutions">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+  </entry>
+  <entry keyword="lazy constraint">
+    <entry keyword="presolve parameters and">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_6.html#Release_notes.uss_relnotescplex.1031924" title="Changes in callbacks"/>
+    </entry>
+  </entry>
+  <entry keyword="string comparison">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_7.html#descriptiveTopic1301384634880" title="String comparisons: impact of encoding on existing applications"/>
+  </entry>
+  <entry keyword="kappa">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_16.html#descriptiveTopic1268401353564" title="MIP kappa "/>
+    <entry keyword="QP and">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_18.html#Release_notes.uss_relnotescplex.1034648" title="Quality report: kappa for QP"/>
+    </entry>
+  </entry>
+  <entry keyword="Benders decomposition (examples)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_22.html#descriptiveTopic1302692434232" title="New example: Benders decomposition using lazy constraint and user cut callbacks"/>
+  </entry>
+  <entry keyword="example">
+    <entry keyword="Benders decomposition">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes123/releasenotescplex123_22.html#descriptiveTopic1302692434232" title="New example: Benders decomposition using lazy constraint and user cut callbacks"/>
+    </entry>
+  </entry>
+  <entry keyword="licensing change">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_5.html#descriptiveTopic1270554696075" title="Changes in licensing"/>
+  </entry>
+  <entry keyword="ILOG License Manager (ILM)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_5.html#descriptiveTopic1270554696075" title="Changes in licensing"/>
+  </entry>
+  <entry keyword="ClockType (release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_6.html#descriptiveTopic1268401226990" title="Changes in existing parameters"/>
+  </entry>
+  <entry keyword="CPX_PARAM_CLOCKTYPE (release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_6.html#descriptiveTopic1268401226990" title="Changes in existing parameters"/>
+  </entry>
+  <entry keyword="concurrent optimizer (release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_8.html#descriptiveTopic1272530118718" title="Changes in behavior of LP concurrent optimizer"/>
+  </entry>
+  <entry keyword="thread (release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_8.html#descriptiveTopic1272530118718" title="Changes in behavior of LP concurrent optimizer"/>
+  </entry>
+  <entry keyword="memory emphasis (release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_8.html#descriptiveTopic1272530118718" title="Changes in behavior of LP concurrent optimizer"/>
+  </entry>
+  <entry keyword="deterministic search (release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_8.html#descriptiveTopic1272530118718" title="Changes in behavior of LP concurrent optimizer"/>
+  </entry>
+  <entry keyword="CPXlpopt (release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_8.html#descriptiveTopic1272530118718" title="Changes in behavior of LP concurrent optimizer"/>
+  </entry>
+  <entry keyword="CPX_PARAM_LPMETHOD (release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_8.html#descriptiveTopic1272530118718" title="Changes in behavior of LP concurrent optimizer"/>
+  </entry>
+  <entry keyword="CPX_PARAM_QPMETHOD (release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_8.html#descriptiveTopic1272530118718" title="Changes in behavior of LP concurrent optimizer"/>
+  </entry>
+  <entry keyword="CPX_PARAM_STARTALG (release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_8.html#descriptiveTopic1272530118718" title="Changes in behavior of LP concurrent optimizer"/>
+  </entry>
+  <entry keyword="RootAlg (release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_8.html#descriptiveTopic1272530118718" title="Changes in behavior of LP concurrent optimizer"/>
+  </entry>
+  <entry keyword="quality metrics (Python API, release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_9.html#descriptiveTopic1272870730751" title="Conversion note for Python users"/>
+  </entry>
+  <entry keyword="Python users">
+    <entry keyword="conversion note">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_9.html#descriptiveTopic1272870730751" title="Conversion note for Python users"/>
+    </entry>
+  </entry>
+  <entry keyword="solve method (Excel connector, release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_10.html#descriptiveTopic1269694878943" title="Conversion notes for Excel connector users"/>
+  </entry>
+  <entry keyword="Excel users">
+    <entry keyword="conversion note">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_10.html#descriptiveTopic1269694878943" title="Conversion notes for Excel connector users"/>
+    </entry>
+  </entry>
+  <entry keyword="MATLAB users">
+    <entry keyword="conversion notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_11.html#descriptiveTopic1269694896099" title="Conversion notes for MATLAB users"/>
+    </entry>
+    <entry keyword="new functions">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_14.html#descriptiveTopic1268665353161" title="MATLAB new features"/>
+    </entry>
+  </entry>
+  <entry keyword="Microsoft Solver Foundation (MSF) interface">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_15.html#descriptiveTopic1268401440671" title="MSF interface"/>
+  </entry>
+  <entry keyword="condition number">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_16.html#descriptiveTopic1268401353564" title="MIP kappa "/>
+  </entry>
+  <entry keyword="MIP kappa">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_16.html#descriptiveTopic1268401353564" title="MIP kappa "/>
+  </entry>
+  <entry keyword="MIPKappaStats (release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_17.html#descriptiveTopic1268401336315" title="New parameters"/>
+  </entry>
+  <entry keyword="CPX_PARAM_MIPKAPPASTATS (release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_17.html#descriptiveTopic1268401336315" title="New parameters"/>
+  </entry>
+  <entry keyword="RootThreads (release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_17.html#descriptiveTopic1268401336315" title="New parameters"/>
+  </entry>
+  <entry keyword="CPX_PARAM_ROOTTHREADS (release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_17.html#descriptiveTopic1268401336315" title="New parameters"/>
+  </entry>
+  <entry keyword="reporting function">
+    <entry keyword="histograms of nonzero counts (Python API)">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_18.html#descriptiveTopic1269416709168" title="New reporting features in Python API of CPLEX"/>
+    </entry>
+  </entry>
+  <entry keyword="histogram (Python API, release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_18.html#descriptiveTopic1269416709168" title="New reporting features in Python API of CPLEX"/>
+  </entry>
+  <entry keyword="nonzero count (Python API, release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_18.html#descriptiveTopic1269416709168" title="New reporting features in Python API of CPLEX"/>
+  </entry>
+  <entry keyword="callback (Python API, release notes)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes122/releasenotescplex122_19.html#descriptiveTopic1268665666058" title="Additional documentation of the Python API"/>
+  </entry>
+  <entry keyword="port changes">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes120/relnotescplex12_4.html#descriptiveTopic1236348361031" title="Conversion notes for all users: port changes"/>
+  </entry>
+  <entry keyword="deprecated methods">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes120/relnotescplex12_5.html#descriptiveTopic1236284088699" title="Conversion notes for Concert Technology users: deprecated methods"/>
+  </entry>
+  <entry keyword="CPLEX connector for The MathWorks MATLAB">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes120/relnotescplex12_6.html#Release_notes.uss_relnotescplex.1034648" title="New feature: CPLEX connector for The MathWorks MATLAB"/>
+  </entry>
+  <entry keyword="Python API for CPLEX">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes120/relnotescplex12_7.html#descriptiveTopic1233916735369" title="New feature: CPLEX Python API"/>
+  </entry>
+  <entry keyword="multi-commodity flow (MCF) cuts">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes120/relnotescplex12_8.html#descriptiveTopic1236005326548" title="New feature: multi-commodity flow (MCF) cuts"/>
+  </entry>
+  <entry keyword="new error code">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes120/relnotescplex12_9.html#descriptiveTopic1237565519250" title="New feature for Java or .NET users: piecewise linear numeric expression"/>
+  </entry>
+  <entry keyword="CPXERR_ILL_DEFINED_PWL">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes120/relnotescplex12_9.html#descriptiveTopic1237565519250" title="New feature for Java or .NET users: piecewise linear numeric expression"/>
+  </entry>
+  <entry keyword="piecewise linear numeric expression (PWL)">
+    <topic href="CPLEX/ReleaseNotes/topics/releasenotes120/relnotescplex12_9.html#descriptiveTopic1237565519250" title="New feature for Java or .NET users: piecewise linear numeric expression"/>
+  </entry>
+  <entry keyword="barrier optimizer">
+    <entry keyword="determinism and">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes120/relnotescplex12_10.html#WoM1ayTY" title="New feature: deterministic parallel barrier algorithm"/>
+    </entry>
+  </entry>
+  <entry keyword="PVU licensing">
+    <topic href="Optimization_Studio/topics/COS_license_metrics.html#dhdjccvt" title="License metrics"/>
+  </entry>
+  <entry keyword="licensing requirements for CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/topics/COS_license_metrics.html#dhdjccvt" title="License metrics"/>
+  </entry>
+  <entry keyword="Installing CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/topics/COS_installing.html#installinginanotherlanguage" title="Installing CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="Installing CPLEX Optimization Studio in another language">
+    <topic href="Optimization_Studio/topics/COS_installinginanotherlanguage.html#installinginanotherlanguage" title="Installing in another language"/>
+  </entry>
+  <entry keyword="Installation">
+    <entry keyword="silent installation">
+      <topic href="Optimization_Studio/topics/td_silent_install.html#Xf69ISoU" title="Silent installation of CPLEX Optimization Studio"/>
+    </entry>
+    <entry keyword="uninstalling">
+      <topic href="Optimization_Studio/topics/td_uninstall.html#rkrP97qB" title="Uninstalling CPLEX Optimization Studio"/>
+    </entry>
+  </entry>
+  <entry keyword="Silent installation">
+    <topic href="Optimization_Studio/topics/td_silent_install.html#Xf69ISoU" title="Silent installation of CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="Uninstall">
+    <topic href="Optimization_Studio/topics/td_uninstall.html#rkrP97qB" title="Uninstalling CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="Remove application">
+    <topic href="Optimization_Studio/topics/td_uninstall.html#rkrP97qB" title="Uninstalling CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="IBM Information Center">
+    <entry keyword="Accessibility">
+      <topic href="Optimization_Studio/topics/COS_infocenter_accessibility.html#descriptiveTopic1305108843934" title="Accessibility in the online IBM Knowledge Center documentation"/>
+    </entry>
+  </entry>
+  <entry keyword="Accessibility">
+    <topic href="Optimization_Studio/topics/COS_infocenter_accessibility.html#descriptiveTopic1305108843934" title="Accessibility in the online IBM Knowledge Center documentation"/>
+    <topic href="Optimization_Studio/topics/COS_accessibility.html#descriptiveTopic1305109356245" title="CPLEX Optimization Studio accessibility"/>
+    <entry keyword="keyboard shortcuts">
+      <topic href="Optimization_Studio/topics/COS_accessibility.html#descriptiveTopic1305109356245" title="CPLEX Optimization Studio accessibility"/>
+    </entry>
+  </entry>
+</index>

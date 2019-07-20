@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2017" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2017" />
+<meta name="security" content="public" />
+<meta name="Robots" content="index,follow" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="New features in CPLEX V12.7.1" />
+<meta name="abstract" content="These release notes highlight new features in IBM ILOG CPLEX V12.7.1. Please review these notes before using IBM ILOG CPLEX V12.7.1." />
+<meta name="Description" content="These release notes highlight new features in IBM ILOG CPLEX V12.7.1. Please review these notes before using IBM ILOG CPLEX V12.7.1." />
+<meta name="DC.Relation" scheme="URI" content="../../../../CPLEX/ReleaseNotes/topics/releasenotes1271/home.html" />
+<meta name="DC.Relation" scheme="URI" content="../../../../CPLEX/ReleaseNotes/topics/releasenotes1271/home.html" />
+<meta name="DC.Date" scheme="iso8601" content="2017-03-17" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="CPLEXReleaseNotesV1271new" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="../../../.././ibmdita.css" />
+<link rel="stylesheet" type="text/css" href="../../../.././swg_info_common_opti.css" />
+<link rel="Start" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes1271/home.html" />
+<link rel="Start" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes1271/home.html" />
+<title>New features in CPLEX V12.7.1</title>
+</head>
+<body id="CPLEXReleaseNotesV1271new"><div role="main">
+<h1 class="title topictitle1">New features in CPLEX V12.7.1 </h1>
+<div class="body"><p class="shortdesc">These release notes highlight new features
+in IBM ILOG CPLEX V12.7.1. Please review
+these notes before using IBM ILOG CPLEX V12.7.1.</p>
+<div class="section"><h2 class="title sectiontitle">New parameters of CPLEX</h2> 
+ 
+<p class="p">CPLEX V12.7.1 offers a new parameter to manage sifting 
+from simplex optimization. For more detail, see 
+<a class="xref" href="../../../Parameters/topics/SiftSimplex.html" title="Turns on or off sifting from simplex optimization.">sifting from simplex switch</a> 
+in the reference manual <em class="ph i">Parameters of CPLEX</em>.</p>
+</div>
+<div class="section"><h2 class="title sectiontitle">Interactive Optimizer and new command line options</h2> 
+ 
+<div class="p">When you invoke CPLEX (whether from the command line or from a file of commands), 
+CPLEX V12.7.1 offers a new option 
+that keeps an open session of the Interactive Optimizer active when this new option 
+is used in conjunction with other existing options. For example, the existing option 
+-f specifies a filename to read, and the following sample tells CPLEX to keep the session open 
+for further activity after reading the specified file:
+<pre class="pre codeblock"><code> 
+cplex -i -f myfile </code></pre>
+ 
+For more detail about this option, see the topic 
+<a class="xref" href="../../../InteractiveOptimizer/topics/useCmdsFileFromOS.html" title="The Interactive Optimizer accepts a file or double-quoted commands from your operating system.">Using Interactive Optimizer commands from your operating system</a> 
+in the online manual of the Interactive Optimizer.</div>
+</div>
+<div class="section"><h2 class="title sectiontitle">Better documentation of error codes about Benders decomposition</h2> 
+ 
+Documentation of the error codes
+<a class="xref" href="../../../../refcallablelibrary/macros/CPXERR_NO_DECOMPOSITION.html" title="2000 No Benders decomposition available">CPXERR_NO_DECOMPOSITION</a> 
+and 
+<a class="xref" href="../../../../refcallablelibrary/macros/CPXERR_BAD_DECOMPOSITION.html" title="2002 Invalid Benders decomposition">CPXERR_BAD_DECOMPOSITION</a> 
+(introduced in CPLEX V12.7.0) has been improved to distinguish more clearly between 
+a non-existent decomposition and an invalid decomposition of a model for Benders algorithm.</div>
+<div class="section"><h2 class="title sectiontitle">Improved examples for Benders decomposition</h2> 
+ 
+<p class="p">Examples showing how to use Benders algorithm in your own applications have been improved in 
+all application programming interfaces (APIs) to illustrate use of annotations to specify a 
+decomposition:</p>
+ 
+<ul class="ul"><li class="li">In the <strong class="ph b">Callable Library (C API)</strong>, see <samp class="ph codeph">benders.c</samp> and <samp class="ph codeph">xbenders.c</samp>.</li>
+<li class="li">In the <strong class="ph b">C++ API</strong>, see <samp class="ph codeph">ilobenders.cpp</samp>.</li>
+<li class="li">In the <strong class="ph b">Java API</strong>, see <samp class="ph codeph">Benders.java</samp>.</li>
+<li class="li">In the <strong class="ph b">.NET API</strong>, see <samp class="ph codeph">Benders.cs</samp>.</li>
+<li class="li">In the <strong class="ph b">Python API</strong>, see <samp class="ph codeph">benders.py</samp>.</li>
+</ul>
+ 
+<p class="p">Reference documentation for elements supporting annotations for a Benders decomposition of a model 
+has also been improved in these respects:</p>
+ 
+<ul class="ul"><li class="li">In the <strong class="ph b">Callable Library (C API)</strong>, see the constants declared as 
+<a class="xref" href="../../../../refcallablelibrary/macros/CPX_BENDERS_ANNOTATION.html" title="The name of the Benders annotation">CPX_BENDERS_ANNOTATION</a> and 
+<a class="xref" href="../../../../refcallablelibrary/macros/CPX_BENDERS_MASTERVALUE.html" title="Default value for the Benders master partition">CPX_BENDERS_MASTERVALUE</a>. </li>
+<li class="li">Likewise, in the <strong class="ph b">C++ API</strong>, see the constants declared in <samp class="ph codeph">cpxconst.h</samp> as 
+<samp class="ph codeph">CPX_BENDERS_ANNOTATION</samp> and <samp class="ph codeph">CPX_BENDERS_MASTERVALUE</samp>.</li>
+<li class="li">In the reference manual of the <strong class="ph b">Java API</strong>, see <samp class="ph codeph">IloCplex.CPX_BENDERS_ANNOTATION</samp> as 
+well as <samp class="ph codeph"> IloCplex.CPX_BENDERS_MASTERVALUE</samp>.</li>
+<li class="li">In the reference manual of the <strong class="ph b">.NET API</strong>, see <samp class="ph codeph">Cplex.CPX_BENDERS_ANNOTATION</samp> as 
+well as <samp class="ph codeph"> Cplex.CPX_BENDERS_MASTERVALUE</samp>.</li>
+<li class="li">In the reference manual of the <strong class="ph b">Python API</strong>, see <samp class="ph codeph">Cplex.long_annotations.benders_annotation</samp> 
+as well as <samp class="ph codeph">Cplex.long_annotations.benders_mastervalue</samp>.</li>
+</ul>
+</div>
+<div class="section"><h2 class="title sectiontitle">Improved examples of PWL</h2> 
+ 
+<p class="p">CPLEX V12.7.1 offers more examples illustrating piecewise linear (PWL) constraints: </p>
+ 
+<ul class="ul"><li class="li">In the Callable Library (<strong class="ph b">C API</strong>) see <samp class="ph codeph">transport.c</samp> and <samp class="ph codeph">xtransport.c</samp>.</li>
+<li class="li">In the <strong class="ph b">C++ API</strong>, the existing example of PWL transport.cpp has been renamed as <samp class="ph codeph">ilotransport.cpp</samp>.</li>
+<li class="li">In the <strong class="ph b">Java API</strong>, see the existing example of PWL <samp class="ph codeph">Transport.java</samp>.</li>
+<li class="li">In the <strong class="ph b">.NET API</strong>, see the existing example of PWL <samp class="ph codeph">Transport.cs</samp>.</li>
+<li class="li">In the <strong class="ph b">Python API</strong>, see the existing example of PWL <samp class="ph codeph">transport.py</samp>.</li>
+</ul>
+</div>
+</div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../../../../CPLEX/ReleaseNotes/topics/releasenotes1271/home.html" title="These release notes highlight improvements and new features in IBM ILOG CPLEX V12.7.1. Please review these notes before using IBM ILOG CPLEX V12.7.1.">Release notes for CPLEX V12.7.1</a></div>
+</div>
+</div></div></body>
+</html>
